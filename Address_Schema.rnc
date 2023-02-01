@@ -1,21 +1,26 @@
 start = address
-address = element address { speaker, speech }
-speaker = element speaker {party, text }
-party = attribute party {"D" | "R"}
+address = element address { president, term, party, introduction, speech }
+introduction = element introduction { text }
+term = attribute term { text }
+president = attribute president { text }
+party = attribute party { "D" | "R" }
+# The way presidents are introduced before inaugural addresses varies drastically. 
+# Therefore, attributes are more useful than trying to markup that information in the introduction.
 speech = element speech { paragraph+ }
 paragraph =
     element paragraph {
-        mixed { (war | peace | economy | jobs | religion | democracy | immigration | race | unity)* }
+        mixed {
+            (war | peace | economy | jobs | religion | democracy | immigration | race | unity)*
+        }
     }
 war = element war { text }
-peace = element peace {text}
+peace = element peace { text }
 economy = element economy { text }
 jobs = element jobs { text }
 religion = element religion { text }
-democracy = element democracy {text}
-immigration = element immigration {text}
-race = element race {text}
-unity = element unity {text}
-
+democracy = element democracy { text }
+immigration = element immigration { text }
+race = element race { text }
+unity = element unity { text }
 # Add tags into the repeatable or group (be sure to add its element line below) as necessary.
 # The goal is to have as few tags as possible while maintaining some differentiation and specificity.
