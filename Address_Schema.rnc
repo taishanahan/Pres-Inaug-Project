@@ -1,6 +1,7 @@
 start = address
 address = element address { president, term, party, introduction, speech }
-introduction = element introduction { text }
+introduction = element introduction { mixed {date*} }
+date = element date {text}
 term = attribute term { text }
 president = attribute president { text }
 party = attribute party { "D" | "R" }

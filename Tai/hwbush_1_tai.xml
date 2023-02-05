@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/Users/taishanahan/Desktop/Pres-Inaug-Project/Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="George H.W. Bush" term="1" party="R">
-    <introduction>Mr. FORD. Ladies and gentlemen, the President of the United States.</introduction>
+    <introduction>George Bush Inaugural Address Friday, <date>January 20, 1989</date></introduction>
 
     <speech>
         <paragraph>Mr. Chief Justice, Mr. President, Vice President QuAYLE, Senator MITCHELL,

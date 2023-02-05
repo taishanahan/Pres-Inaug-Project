@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/Users/taishanahan/Desktop/Pres-Inaug-Project/Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="George W. Bush" term="1" party="R">
-    <introduction>Mr. MCCONNELL. Ladies and gentlemen, the President of the United States, George W.
-        Bush.</introduction>
+    <introduction>George W. Bush First Inaugural Address Saturday, <date>January 20, 2001</date></introduction>
 
     <speech>
         <paragraph>President BUSH. Thank you all. Chief Justice Rehnquist, President Carter,
