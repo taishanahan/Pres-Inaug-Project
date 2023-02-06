@@ -11,7 +11,7 @@ speech = element speech { paragraph+ }
 paragraph =
     element paragraph {
         mixed {
-            (war | peace | economy | jobs | religion | democracy | immigration | race | unity)*
+            (war | peace | economy | jobs | religion | democracy | immigration | race | unity | education | public_health | party_ties | criminal_justice | congress)*
         }
     }
 war = element war { text }
@@ -23,5 +23,10 @@ democracy = element democracy { text }
 immigration = element immigration { text }
 race = element race { text }
 unity = element unity { text }
+education = element education {text}
+public_health = element public_health {text}
+party_ties = element party_ties {text}
+criminal_justice = element criminal_justice {text}
+congress = element congress {text}
 # Add tags into the repeatable or group (be sure to add its element line below) as necessary.
 # The goal is to have as few tags as possible while maintaining some differentiation and specificity.
