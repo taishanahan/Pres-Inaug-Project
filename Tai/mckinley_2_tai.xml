@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/Users/taishanahan/Desktop/Pres-Inaug-Project/Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="William McKinley" term="2" party="R">
-    <introduction>William McKinley Second Inaugural Address Monday, March 4, 1901</introduction>
+    <introduction>William McKinley Second Inaugural Address Monday, <date>March 4, 1901</date></introduction>
     <speech>
         <paragraph>My Fellow-Citizens:</paragraph>
 
