@@ -16,8 +16,13 @@ paragraph =
     }
 war = element war { text }
 peace = element peace { text }
-economy = element economy { text }
-jobs = element jobs { text }
+economy = element economy { tone, text }
+jobs = element jobs { tone, text }
+tone = attribute tone {"P" | "N" }
+# Economy for large-scale references to the country's economic performance (positive or negative)
+# Jobs for appealing to micro-level ideas of economci strength, typically through "new jobs"
+# It can be assumed that positive = the economy is currently doing well; negative = economy is not doing well currently but will in the future
+# No President will speak negatively about the economy without promising future change, so this still counts as negative
 religion = element religion { text }
 democracy = element democracy { text }
 immigration = element immigration { text }
