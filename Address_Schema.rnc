@@ -1,7 +1,10 @@
 start = address
 address = element address { president, term, party, introduction, speech }
-introduction = element introduction { mixed {date*} }
-date = element date {text}
+introduction =
+    element introduction {
+        mixed { date* }
+    }
+date = element date { text }
 term = attribute term { text }
 president = attribute president { text }
 party = attribute party { "D" | "R" }
@@ -11,27 +14,47 @@ speech = element speech { paragraph+ }
 paragraph =
     element paragraph {
         mixed {
-            (war | peace | economy | jobs | religion | democracy | immigration | race | unity | education | public_health | party_ties | criminal_justice | congress)*
+            (war
+             | peace
+             | economy
+             | jobs
+             | religion
+             | democracy
+             | immigration
+             | race
+             | unity
+             | education
+             | public_health
+             | pred
+             | criminal_justice
+             | congress)*
         }
     }
 war = element war { text }
 peace = element peace { text }
 economy = element economy { tone, text }
 jobs = element jobs { tone, text }
-tone = attribute tone {"P" | "N" }
 # Economy for large-scale references to the country's economic performance (positive or negative)
 # Jobs for appealing to micro-level ideas of economci strength, typically through "new jobs"
-# It can be assumed that positive = the economy is currently doing well; negative = economy is not doing well currently but will in the future
-# No President will speak negatively about the economy without promising future change, so this still counts as negative
+# Positive "P" = the economy is currently doing well; negative "N" = economy is not doing well currently but will in the future
+# No president will speak negatively about the economy without promising future change, so this still counts as negative
 religion = element religion { text }
 democracy = element democracy { text }
-immigration = element immigration { text }
+immigration = element immigration { tone, text }
+# Positive "P" tone on immigration would be encouraging more, negative "N" would be arguing for less
 race = element race { text }
-unity = element unity { text }
-education = element education {text}
-public_health = element public_health {text}
-party_ties = element party_ties {text}
-criminal_justice = element criminal_justice {text}
-congress = element congress {text}
+unity = element unity { tone, text }
+# P = unity; N = division
+education = element education { tone, text }
+public_health = element public_health { tone, text }
+pred = element pred { tone, text }
+# "pred" for Predecessor
+# Positive = speaking highly of predecessor; Negative = criticizing predecessor
+criminal_justice = element criminal_justice { tone, text }
+congress = element congress { tone, text }
+tone = attribute tone { "P" | "N" }
+# Negative tones can be assumed to come with promises for future changes to what they are criticizing or calling out
+# Tone refers only to how they reference the CURRENT state of the country
+#
 # Add tags into the repeatable or group (be sure to add its element line below) as necessary.
 # The goal is to have as few tags as possible while maintaining some differentiation and specificity.
