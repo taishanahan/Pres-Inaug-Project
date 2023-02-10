@@ -27,10 +27,12 @@ paragraph =
              | public_health
              | pred
              | criminal_justice
-             | congress)*
+             | congress
+             | tax)*
         }
     }
 war = element war { text }
+# Includes issues of defense, even if not under a formal declaration of war
 peace = element peace { text }
 economy = element economy { tone, text }
 jobs = element jobs { tone, text }
@@ -51,10 +53,12 @@ pred = element pred { tone, text }
 # "pred" for Predecessor
 # Positive = speaking highly of predecessor; Negative = criticizing predecessor
 criminal_justice = element criminal_justice { tone, text }
-congress = element congress { tone, text }
+congress = element congress { tone?, text }
+tax = element tax { tone?, text }
+# Postive = new taxes, Negative = cut taxes
 tone = attribute tone { "P" | "N" }
 # Negative tones can be assumed to come with promises for future changes to what they are criticizing or calling out
 # Tone refers only to how they reference the CURRENT state of the country
-#
+# 
 # Add tags into the repeatable or group (be sure to add its element line below) as necessary.
 # The goal is to have as few tags as possible while maintaining some differentiation and specificity.

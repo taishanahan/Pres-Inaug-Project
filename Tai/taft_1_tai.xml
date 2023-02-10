@@ -10,10 +10,10 @@
             which he is about to enter, or he is lacking in a proper sense of the obligation which
             the oath imposes.</paragraph>
 
-        <paragraph>The office of an inaugural address is to give a summary outline of the main
+        <paragraph><pred tone="P">The office of an inaugural address is to give a summary outline of the main
             policies of the new administration, so far as they can be anticipated. I have had the
             honor to be one of the advisers of my distinguished predecessor, and, as such, to hold
-            up his hands in the reforms he has initiated. I should be untrue to myself, to my
+            up his hands in the reforms he has initiated.</pred> I should be untrue to myself, to my
             promises, and to the declarations of the party platform upon which I was elected to
             office, if I did not make the maintenance and enforcement of those reforms a most
             important feature of my administration. They were directed to the suppression of the
@@ -38,10 +38,10 @@
             more rapid and certain enforcement of the laws affecting interstate railroads and
             industrial combinations.</paragraph>
 
-        <paragraph>I hope to be able to submit at the first regular session of the incoming
+        <paragraph><congress>I hope to be able to submit at the first regular session of the incoming
             Congress, in December next, definite suggestions in respect to the needed amendments to
             the antitrust and the interstate commerce law and the changes required in the executive
-            departments concerned in their enforcement.</paragraph>
+            departments concerned in their enforcement.</congress></paragraph>
 
         <paragraph>It is believed that with the changes to be recommended American business can be
             assured of that measure of stability and certainty in respect to those things that may
@@ -58,7 +58,7 @@
             business as in the clinching of the reforms which properly bear the name of my
             predecessor.</paragraph>
 
-        <paragraph>A matter of most pressing importance is the revision of the tariff. In accordance
+        <paragraph><tax tone="P">A matter of most pressing importance is the revision of the tariff. In accordance
             with the promises of the platform upon which I was elected, I shall call Congress into
             extra session to meet on the 15th day of March, in order that consideration may be at
             once given to a bill revising the Dingley Act. This should secure an adequate revenue
@@ -70,7 +70,7 @@
             equitably requires such discrimination. It is thought that there has been such a change
             in conditions since the enactment of the Dingley Act, drafted on a similarly protective
             principle, that the measure of the tariff above stated will permit the reduction of
-            rates in certain schedules and will require the advancement of few, if any.</paragraph>
+            rates in certain schedules and will require the advancement of few, if any.</tax></paragraph>
 
         <paragraph>The proposal to revise the tariff made in such an authoritative way as to lead
             the business community to count upon it necessarily halts all those branches of business
@@ -86,7 +86,7 @@
             as a suggestion only, for the course to be taken by Congress, upon the call of the
             Executive, is wholly within its discretion.</paragraph>
 
-        <paragraph>In the mailing of a tariff bill the prime motive is taxation and the securing
+        <paragraph><tax tone="P">In the mailing of a tariff bill the prime motive is taxation and the securing
             thereby of a revenue. Due largely to the business depression which followed the
             financial panic of 1907, the revenue from customs and other sources has decreased to
             such an extent that the expenditures for the current fiscal year will exceed the
@@ -95,7 +95,7 @@
             to be produced by it and so arrange the duties as to secure an adequate income. Should
             it be impossible to do so by import duties, new kinds of taxation must be adopted, and
             among these I recommend a graduated inheritance tax as correct in principle and as
-            certain and easy of collection.</paragraph>
+            certain and easy of collection.</tax></paragraph>
 
         <paragraph>The obligation on the part of those responsible for the expenditures made to
             carry on the Government, to be as economical as possible, and to make the burden of
@@ -133,22 +133,22 @@
             plans for the enterprise have been approved and determined upon, should not be provided
             for in the same way.</paragraph>
 
-        <paragraph>Then, too, there are expenditures of Government absolutely necessary if our
+        <paragraph><peace>Then, too, there are expenditures of Government absolutely necessary if our
             country is to maintain its proper place among the nations of the world, and is to
             exercise its proper influence in defense of its own trade interests in the maintenance
             of traditional American policy against the colonization of European monarchies in this
             hemisphere, and in the promotion of peace and international morality. I refer to the
             cost of maintaining a proper army, a proper navy, and suitable fortifications upon the
-            mainland of the United States and in its dependencies.</paragraph>
+            mainland of the United States and in its dependencies.</peace></paragraph>
 
-        <paragraph>We should have an army so organized and so officered as to be capable in time of
+        <paragraph><war>We should have an army so organized and so officered as to be capable in time of
             emergency, in cooperation with the national militia and under the provisions of a proper
             national volunteer law, rapidly to expand into a force sufficient to resist all probable
             invasion from abroad and to furnish a respectable expeditionary force if necessary in
             the maintenance of our traditional American policy which bears the name of President
-            Monroe.</paragraph>
+            Monroe.</war></paragraph>
 
-        <paragraph>Our fortifications are yet in a state of only partial completeness, and the
+        <paragraph><war>Our fortifications are yet in a state of only partial completeness, and the
             number of men to man them is insufficient. In a few years however, the usual annual
             appropriations for our coast defenses, both on the mainland and in the dependencies,
             will make them sufficient to resist all direct attack, and by that time we may hope that
@@ -156,9 +156,9 @@
             from Europe and Asia of course reduces the necessity for maintaining under arms a great
             army, but it does not take away the requirement of mere prudence--that we should have an
             army sufficiently large and so constituted as to form a nucleus out of which a suitable
-            force can quickly grow.</paragraph>
+            force can quickly grow.</war></paragraph>
 
-        <paragraph>What has been said of the army may be affirmed in even a more emphatic way of the
+        <paragraph><war>What has been said of the army may be affirmed in even a more emphatic way of the
             navy. A modern navy can not be improvised. It must be built and in existence when the
             emergency arises which calls for its use and operation. My distinguished predecessor has
             in many speeches and messages set out with great force and striking language the
@@ -167,9 +167,9 @@
             the reasons which he has presented in favor of the policy of maintaining a strong navy
             as the best conservator of our peace with other nations, and the best means of securing
             respect for the assertion of our rights, the defense of our interests, and the exercise
-            of our influence in international matters.</paragraph>
+            of our influence in international matters.</war></paragraph>
 
-        <paragraph>Our international policy is always to promote peace. We shall enter into any war
+        <paragraph><peace>Our international policy is always to promote peace. We shall enter into any war
             with a full consciousness of the awful consequences that it always entails, whether
             successful or not, and we, of course, shall make every effort consistent with national
             honor and the highest national interest to avoid a resort to arms. We favor every
@@ -179,9 +179,9 @@
             become foolish idealists if we did not realize that, with all the nations of the world
             armed and prepared for war, we must be ourselves in a similar condition, in order to
             prevent other nations from taking advantage of us and of our inability to defend our
-            interests and assert our rights with a strong hand.</paragraph>
+            interests and assert our rights with a strong hand.</peace></paragraph>
 
-        <paragraph>In the international controversies that are likely to arise in the Orient growing
+        <paragraph><war>In the international controversies that are likely to arise in the Orient growing
             out of the question of the open door and other issues the United States can maintain her
             interests intact and can secure respect for her just demands. She will not be able to do
             so, however, if it is understood that she never intends to back up her assertion of
@@ -189,26 +189,26 @@
             note. For these reasons the expenses of the army and navy and of coast defenses should
             always be considered as something which the Government must pay for, and they should not
             be cut off through mere consideration of economy. Our Government is able to afford a
-            suitable army and a suitable navy. It may maintain them without the slightest danger to
+            suitable army and a suitable navy.</war><tax tone="P">It may maintain them without the slightest danger to
             the Republic or the cause of free institutions, and fear of additional taxation ought
-            not to change a proper policy in this regard.</paragraph>
+            not to change a proper policy in this regard.</tax></paragraph>
 
         <paragraph>The policy of the United States in the Spanish war and since has given it a
             position of influence among the nations that it never had before, and should be
             constantly exerted to securing to its bona fide citizens, whether native or naturalized,
             respect for them as such in foreign countries. We should make every effort to prevent
             humiliating and degrading prohibition against any of our citizens wishing temporarily to
-            sojourn in foreign countries because of race or religion.</paragraph>
+            sojourn in foreign countries because of <race>race</race>or<religion>religion</religion>.</paragraph>
 
-        <paragraph>The admission of Asiatic immigrants who cannot be amalgamated with our population
+        <paragraph><immigration tone="P">The admission of Asiatic immigrants who cannot be amalgamated with our population
             has been made the subject either of prohibitory clauses in our treaties and statutes or
             of strict administrative regulation secured by diplomatic negotiation. I sincerely hope
             that we may continue to minimize the evils likely to arise from such immigration without
-            unnecessary friction and by mutual concessions between self-respecting governments.
-            Meantime we must take every precaution to prevent, or failing that, to punish outbursts
+            unnecessary friction and by mutual concessions between self-respecting governments.</immigration>
+            <race>Meantime we must take every precaution to prevent, or failing that, to punish outbursts
             of race feeling among our people against foreigners of whatever nationality who have by
             our grant a treaty right to pursue lawful business here and to be protected against
-            lawless assault or injury.</paragraph>
+            lawless assault or injury.</race></paragraph>
 
         <paragraph>This leads me to point out a serious defect in the present federal jurisdiction,
             which ought to be remedied at once. Having assured to other countries by treaty the
@@ -227,15 +227,15 @@
             carried out by proper proceedings instituted by the Executive in the courts of the
             National Government.</paragraph>
 
-        <paragraph>One of the reforms to be carried out during the incoming administration is a
+        <paragraph><economy tone="N">One of the reforms to be carried out during the incoming administration is a
             change of our monetary and banking laws, so as to secure greater elasticity in the forms
             of currency available for trade and to prevent the limitations of law from operating to
             increase the embarrassment of a financial panic. The monetary commission, lately
             appointed, is giving full consideration to existing conditions and to all proposed
             remedies, and will doubtless suggest one that will meet the requirements of business and
-            of public interest.</paragraph>
+            of public interest.</economy></paragraph>
 
-        <paragraph>We may hope that the report will embody neither the narrow dew of those who
+        <paragraph><economy tone="N">We may hope that the report will embody neither the narrow dew of those who
             believe that the sole purpose of the new system should be to secure a large return on
             banking capital or of those who would have greater expansion of currency with little
             regard to provisions for its immediate redemption or ultimate security. There is no
@@ -244,18 +244,18 @@
             currency on business and of business on currency, have wisely extended their
             investigations in European banking and monetary methods. The information that they have
             derived from such experts as they have found abroad will undoubtedly be found helpful in
-            the solution of the difficult problem they have in hand.</paragraph>
+            the solution of the difficult problem they have in hand.</economy></paragraph>
 
-        <paragraph>The incoming Congress should promptly fulfill the promise of the Republican
+        <paragraph><congress>The incoming Congress should promptly fulfill the promise of the Republican
             platform and pass a proper postal savings bank bill. It will not be unwise or excessive
             paternalism. The promise to repay by the Government will furnish an inducement to
             savings deposits which private enterprise can not supply and at such a low rate of
             interest as not to withdraw custom from existing banks. It will substantially increase
             the funds available for investment as capital in useful enterprises. It will furnish
             absolute security which makes the proposed scheme of government guaranty of deposits so
-            alluring, without its pernicious results.</paragraph>
+            alluring, without its pernicious results.</congress></paragraph>
 
-        <paragraph>I sincerely hope that the incoming Congress will be alive, as it should be, to
+        <paragraph><congress>I sincerely hope that the incoming Congress will be alive, as it should be, to
             the importance of our foreign trade and of encouraging it in every way feasible. The
             possibility of increasing this trade in the Orient, in the Philippines, and in South
             America are known to everyone who has given the matter attention. The direct effect of
@@ -265,7 +265,7 @@
             brought to the attention of Congress by my predecessor and by Mr. Root before and after
             his noteworthy visit to that continent, and I sincerely hope that Congress may be
             induced to see the wisdom of a tentative effort to establish such lines by the use of
-            mail subsidies.</paragraph>
+            mail subsidies.</congress></paragraph>
 
         <paragraph>The importance of the part which the Departments of Agriculture and of Commerce
             and Labor may play in ridding the markets of Europe of prohibitions and discriminations
@@ -317,16 +317,16 @@
             be expected under American auspices. The work which we are doing there redounds to our
             credit as a nation.</paragraph>
 
-        <paragraph>I look forward with hope to increasing the already good feeling between the South
+        <paragraph><unity tone="P">I look forward with hope to increasing the already good feeling between the South
             and the other sections of the country. My chief purpose is not to effect a change in the
             electoral vote of the Southern States. That is a secondary consideration. What I look
             forward to is an increase in the tolerance of political views of all kinds and their
             advocacy throughout the South, and the existence of a respectable political opposition
             in every State; even more than this, to an increased feeling on the part of all the
             people in the South that this Government is their Government, and that its officers in
-            their states are their officers.</paragraph>
+            their states are their officers.</unity></paragraph>
 
-        <paragraph>The consideration of this question can not, however, be complete and full without
+        <paragraph><race>The consideration of this question can not, however, be complete and full without
             reference to the negro race, its progress and its present condition. The thirteenth
             amendment secured them freedom; the fourteenth amendment due process of law, protection
             of property, and the pursuit of happiness; and the fifteenth amendment attempted to
@@ -345,9 +345,9 @@
             Southern white citizens take in the welfare of the negroes has increased. The colored
             men must base their hope on the results of their own industry, self-restraint, thrift,
             and business success, as well as upon the aid and comfort and sympathy which they may
-            receive from their white neighbors of the South.</paragraph>
+            receive from their white neighbors of the South.</race></paragraph>
 
-        <paragraph>There was a time when Northerners who sympathized with the negro in his necessary
+        <paragraph><race>There was a time when Northerners who sympathized with the negro in his necessary
             struggle for better conditions sought to give him the suffrage as a protection to
             enforce its exercise against the prevailing sentiment of the South. The movement proved
             to be a failure. What remains is the fifteenth amendment to the Constitution and the
@@ -366,9 +366,9 @@
             when its statistics are reviewed, is marvelous, and it furnishes every reason to hope
             that in the next twenty-five years a still greater improvement in his condition as a
             productive member of society, on the farm, and in the shop, and in other occupations may
-            come.</paragraph>
+            come.</race></paragraph>
 
-        <paragraph>The negroes are now Americans. Their ancestors came here years ago against their
+        <paragraph><race>The negroes are now Americans. Their ancestors came here years ago against their
             will, and this is their only country and their only flag. They have shown themselves
             anxious to live for it and to die for it. Encountering the race feeling against them,
             subjected at times to cruel injustice growing out of it, they may well have our profound
@@ -376,9 +376,9 @@
             making their path as smooth and easy as we can. Any recognition of their distinguished
             men, any appointment to office from among their number, is properly taken as an
             encouragement and an appreciation of their progress, and this just policy should be
-            pursued when suitable occasion offers.</paragraph>
+            pursued when suitable occasion offers.</race></paragraph>
 
-        <paragraph>But it may well admit of doubt whether, in the case of any race, an appointment
+        <paragraph><race>But it may well admit of doubt whether, in the case of any race, an appointment
             of one of their number to a local office in a community in which the race feeling is so
             widespread and acute as to interfere with the ease and facility with which the local
             government business can be done by the appointee is of sufficient benefit by way of
@@ -387,9 +387,9 @@
             negro race by appointments, must exercise a careful discretion not thereby to do it more
             harm than good. On the other hand, we must be careful not to encourage the mere pretense
             of race feeling manufactured in the interest of individual political
-            ambition.</paragraph>
+            ambition.</race></paragraph>
 
-        <paragraph>Personally, I have not the slightest race prejudice or feeling, and recognition
+        <paragraph><race>Personally, I have not the slightest race prejudice or feeling, and recognition
             of its existence only awakens in my heart a deeper sympathy for those who have to bear
             it or suffer from it, and I question the wisdom of a policy which is likely to increase
             it. Meantime, if nothing is done to prevent it, a better feeling between the negroes and
@@ -398,12 +398,12 @@
             industrial and intellectual progress of the negro. The exercise of political franchises
             by those of this race who are intelligent and well to do will be acquiesced in, and the
             right to vote will be withheld only from the ignorant and irresponsible of both
-            races.</paragraph>
+            races.</race></paragraph>
 
-        <paragraph>There is one other matter to which I shall refer. It was made the subject of
+        <paragraph><pred tone="P">There is one other matter to which I shall refer. It was made the subject of
             great controversy during the election and calls for at least a passing reference now. My
             distinguished predecessor has given much attention to the cause of labor, with whose
-            struggle for better things he has shown the sincerest sympathy. At his instance Congress
+            struggle for better things he has shown the sincerest sympathy.</pred> At his instance Congress
             has passed the bill fixing the liability of interstate carriers to their employees for
             injury sustained in the course of employment, abolishing the rule of fellow-servant and
             the common-law rule as to contributory negligence, and substituting therefor the
