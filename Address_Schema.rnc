@@ -31,7 +31,7 @@ paragraph =
              | tax)*
         }
     }
-war = element war { text }
+war = element war { tone, text }
 # Includes issues of defense, even if not under a formal declaration of war
 peace = element peace { text }
 economy = element economy { tone, text }
