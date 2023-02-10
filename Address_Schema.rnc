@@ -32,6 +32,7 @@ paragraph =
         }
     }
 war = element war { text }
+# Includes issues of defense, even if not under a formal declaration of war
 peace = element peace { text }
 economy = element economy { tone, text }
 jobs = element jobs { tone, text }
