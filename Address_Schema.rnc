@@ -23,14 +23,12 @@ paragraph =
              | race
              | unity
              | education
-             | public_health
              | pred
              | criminal_justice
              | congress
              | tax
              | diplomacy
              | infrastructure
-             | guns
              | regulation
              | trade)*
         }
