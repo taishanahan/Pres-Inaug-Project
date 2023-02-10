@@ -15,7 +15,6 @@ paragraph =
     element paragraph {
         mixed {
             (war
-             | peace
              | economy
              | jobs
              | religion
@@ -28,12 +27,16 @@ paragraph =
              | pred
              | criminal_justice
              | congress
-             | tax)*
+             | tax
+             | diplomacy
+             | infrastructure
+             | guns
+             | regulation
+             | trade)*
         }
     }
 war = element war { tone, text }
 # Includes issues of defense, even if not under a formal declaration of war
-peace = element peace { text }
 economy = element economy { tone, text }
 jobs = element jobs { tone, text }
 # Economy for large-scale references to the country's economic performance (positive or negative)
@@ -55,6 +58,11 @@ pred = element pred { tone, text }
 criminal_justice = element criminal_justice { tone, text }
 congress = element congress { tone?, text }
 tax = element tax { tone?, text }
+diplomacy = element diplomacy {text}
+infrastructure = element infrastructure {text}
+guns = element guns {text}
+regulation = element regulation {text}
+trade = element trade {text}
 # Postive = new taxes, Negative = cut taxes
 tone = attribute tone { "P" | "N" }
 # Negative tones can be assumed to come with promises for future changes to what they are criticizing or calling out
