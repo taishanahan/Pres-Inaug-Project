@@ -30,6 +30,7 @@ paragraph =
              | diplomacy
              | infrastructure
              | regulation
+             | public_health
              | trade)*
         }
     }
