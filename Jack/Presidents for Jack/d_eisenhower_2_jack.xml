@@ -7,7 +7,7 @@
             1957</date> THE PRICE OF PEACE</introduction>
     <speech>
         <paragraph> Mr. Chairman, Mr. Vice President, Mr. Chief Justice, Mr. Speaker, members of my
-            family and friends, my countrymen, and the friends of my country, wherever they may be,
+            family and friends, my countrymen, and thea friends of my country, wherever they may be,
             we meet again, as upon a like moment four years ago, and again you have witnessed my
             solemn oath of service to you.</paragraph>
 
@@ -56,8 +56,8 @@
 
         <paragraph><unity tone="N">No nation, however old or great, escapes this tempest of change
                 and turmoil</unity>. Some, impoverished by the recent World War, seek to restore
-            their means of livelihood. In the heart of Europe, Germany still stands tragically
-            divided. So is the whole continent divided. And so, too, is all the world.</paragraph>
+            their means of livelihood. <war tone="N">In the heart of Europe, Germany still stands tragically
+            divided. So is the whole continent divided. And so, too, is all the world.</war></paragraph>
 
         <paragraph><!-- needs to add war refrenece on lines 30, 20, 62, not sure abt 72 and many others, not sure if schema is good as I had plenty of errors when it added --></paragraph>
 
@@ -66,9 +66,9 @@
 
         <paragraph>The designs of that power, dark in purpose, are clear in practice. It strives to
             seal forever the fate of those it has enslaved. It strives to break the ties that unite
-            the free. And it strives to capture—to exploit for its own greater power—all forces of
+            the free. <war tone="N">And it strives to capture—to exploit for its own greater power—all forces of
             change in the world, especially the needs of the hungry and the hopes of the
-            oppressed.</paragraph>
+            oppressed.</war></paragraph>
 
         <paragraph>Yet the world of International Communism has itself been shaken by a fierce and
             mighty force: <unity tone="P">the readiness of men who love freedom to pledge their
@@ -81,22 +81,22 @@
             fortunate be our lot—know that we can never turn our backs to them.</paragraph>
 
         <paragraph>We look upon this shaken earth, and we declare our firm and fixed
-                purpose—<peace>the building of a peace with justice in a world where moral law
-                prevails.</peace></paragraph>
+                purpose—<unity tone="P">the building of a peace with justice in a world where moral law
+                prevails.</unity></paragraph>
 
         <paragraph>The building of such a peace is a bold and solemn purpose. To proclaim it is
             easy. To serve it will be hard. And to attain it, we must be aware of its full
             meaning—and ready to pay its full price. <unity tone="P"> We know clearly what we seek,
                 and why.</unity></paragraph>
 
-        <paragraph><peace>We seek peace, knowing that peace is the climate of freedom. And now, as
+        <paragraph><unity tone="P">We seek peace, knowing that peace is the climate of freedom. And now, as
                 in no other age, we seek it because we have been warned, by the power of modern
                 weapons, that peace may be the only climate possible for human life
-            itself.</peace></paragraph>
+            itself.</unity></paragraph>
 
-        <paragraph>Y<peace>et this peace we seek cannot be born of fear alone: it must be rooted in
+        <paragraph>Y<unity tone="P">et this peace we seek cannot be born of fear alone: it must be rooted in
                 the lives of nations. There must be justice, sensed and shared by all peoples, for,
-                without justice the world can know only a tense and unstable truce. </peace>There
+                without justice the world can know only a tense and unstable truce. </unity>There
             must be law, steadily invoked and respected by all nations, for without law, the world
             promises only such meager justice as the pity of the strong upon the weak. But the law
             of which we speak, comprehending the values of freedom, affirms the equality of all
@@ -105,11 +105,11 @@
         <paragraph>Splendid as can be the blessings of such a peace, high will be its cost: in toil
             patiently sustained, in help honorably given, in sacrifice calmly borne.</paragraph>
 
-        <paragraph><peace>We are called to meet the price of this peace.</peace></paragraph>
+        <paragraph><unity tone="P">We are called to meet the price of this peace.</unity></paragraph>
 
-        <paragraph>To counter the threat of those who seek to rule by force, we must pay the costs
+        <paragraph><war tone="P">To counter the threat of those who seek to rule by force, we must pay the costs
             of our own needed military strength, and help to build the security of
-            others.</paragraph>
+            others</war>.</paragraph>
 
         <paragraph><unity tone="P">We must use our skills and knowledge and, at times, our
                 substance, to help others rise from misery, however far the scene of suffering may
@@ -118,15 +118,15 @@
             rise at last the flames of conflict.</paragraph>
 
         <paragraph>We recognize and accept our own deep involvement in the destiny of men
-            everywhere. <peace>We are accordingly pledged to honor, and to strive to fortify, the
-                authority of the United Nations</peace>. For in that body rests the best hope of our
+            everywhere. <unity tone="P">We are accordingly pledged to honor, and to strive to fortify, the
+                authority of the United Nations</unity>. For in that body rests the best hope of our
             age for the assertion of that law by which all nations may live in dignity.</paragraph>
 
         <paragraph>And, beyond this general resolve, we are called to act a responsible role in the
             world's great concerns or conflicts—whether they touch upon the affairs of a vast
             region, the fate of an island in the Pacific, or the use of a canal in the Middle East.
-            Only in respecting the hopes and cultures of others will we practice the equality of all
-            nations. Only as we show willingness and wisdom in giving counsel—in receiving
+            <democracy>Only in respecting the hopes and cultures of others will we practice the equality of all
+            nations.</democracy> Only as we show willingness and wisdom in giving counsel—in receiving
             counsel—and in sharing burdens, will we wisely perform the work of peace.</paragraph>
 
         <paragraph>For one truth must rule all we think and all we do. No people can live to itself
@@ -155,22 +155,22 @@
             sell our own. Sovereignty is never bartered among freemen.</paragraph>
 
         <paragraph>We honor the aspirations of those nations which, now captive, long for freedom.
-            We seek neither their military alliance nor any artificial imitation of our society. And
+            <war tone="N">We seek neither their military alliance nor any artificial imitation of our society. And
             they can know the warmth of the welcome that awaits them when, as must be, they join
-            again the ranks of freedom.</paragraph>
+            again the ranks of freedom.</war></paragraph>
 
         <paragraph><unity tone="P">We honor, no less in this divided world than in a less tormented
                 time, the people of Russia</unity>.<education tone="P"> We do not dread, rather do
                 we welcome, their progress in education and industry.</education> We wish them
             success in their demands for more intellectual freedom, greater security before their
-            own laws, fuller enjoyment of the rewards of their own toil. <peace>For as such things
+            own laws, fuller enjoyment of the rewards of their own toil. <unity tone="P">For as such things
                 come to pass, the more certain will be the coming of that day when our peoples may
-                freely meet in friendship.</peace></paragraph>
+                freely meet in friendship.</unity></paragraph>
 
-        <paragraph>So we voice our hope and our belief that we can help to heal this divided world.
+        <paragraph><war tone="P">So we voice our hope and our belief that we can help to heal this divided world.
             Thus may the nations cease to live in trembling before the menace of force. Thus may the
             weight of fear and the weight of arms be taken from the burdened shoulders of
-            mankind.</paragraph>
+            mankind</war>.</paragraph>
 
         <paragraph>This, nothing less, is the labor to which we are called and our strength
             dedicated.</paragraph>
