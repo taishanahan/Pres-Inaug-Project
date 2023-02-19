@@ -9,34 +9,34 @@
             of our Nation impels. This is preeminently the time to speak the truth, the whole truth,
             frankly and boldly. Nor need we shrink from honestly facing conditions in our country
             today. This great Nation will endure as it has endured, will revive and will prosper.
-            So, first of all, let me assert my firm belief that the only thing we have to fear is
+            <unity tone="N">So, first of all, let me assert my firm belief that the only thing we have to fear is
             fear itself—nameless, unreasoning, unjustified terror which paralyzes needed efforts to
             convert retreat into advance. In every dark hour of our national life a leadership of
             frankness and vigor has met with that understanding and support of the people themselves
             which is essential to victory. I am convinced that you will again give that support to
-            leadership in these critical days.</paragraph>
+            leadership in these critical days.</unity></paragraph>
 
         <paragraph>In such a spirit on my part and on yours we face our common difficulties. They
             concern, thank God, only material things. Values have shrunken to fantastic levels;
-            taxes have risen; our ability to pay has fallen; government of all kinds is faced by
-            serious curtailment of income; the means of exchange are frozen in the currents of
-            trade; the withered leaves of industrial enterprise lie on every side; farmers find no
+            <tax>taxes have risen</tax>; <economy tone="N">our ability to pay has fallen; government of all kinds is faced by
+                serious curtailment of income</economy>; <trade>the means of exchange are frozen in the currents of
+            trade</trade>; <economy tone="N">the withered leaves of industrial enterprise lie on every side; farmers find no
             markets for their produce; the savings of many years in thousands of families are
-            gone.</paragraph>
+            gone.</economy></paragraph>
 
-        <paragraph>More important, a host of unemployed citizens face the grim problem of existence,
+        <paragraph>More important, <jobs tone="N">a host of unemployed citizens face the grim problem of existence</jobs>,
             and an equally great number toil with little return. Only a foolish optimist can deny
             the dark realities of the moment.</paragraph>
 
         <paragraph>Yet our distress comes from no failure of substance. We are stricken by no plague
-            of locusts. Compared with the perils which our forefathers conquered because they
+            of locusts. <unity tone="P">Compared with the perils which our forefathers conquered because they
             believed and were not afraid, we have still much to be thankful for. Nature still offers
-            her bounty and human efforts have multiplied it. Plenty is at our doorstep, but a
+            her bounty and human efforts have multiplied it.</unity> Plenty is at our doorstep, but a
             generous use of it languishes in the very sight of the supply. Primarily this is because
             the rulers of the exchange of mankind's goods have failed, through their own
             stubbornness and their own incompetence, have admitted their failure, and abdicated.
-            Practices of the unscrupulous money changers stand indicted in the court of public
-            opinion, rejected by the hearts and minds of men.</paragraph>
+            <criminal_justice tone="N">Practices of the unscrupulous money changers stand indicted in the court of public
+                opinion, rejected by the hearts and minds of men.</criminal_justice></paragraph>
 
         <paragraph>True they have tried, but their efforts have been cast in the pattern of an
             outworn tradition. Faced by failure of credit they have proposed only the lending of
