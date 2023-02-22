@@ -1,0 +1,35 @@
+body {
+    background-color: lightskyblue;
+    border: solid crimson;
+    border-width: thick;
+}
+hr {
+    color: crimson;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+.topnav {
+    text-align: right;
+}
+nav {
+    text-align: center;
+    font-family: cursive;
+}
+h2 {
+    text-align: left;
+    font-family: cursive;
+    color: white;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 1500px;
+    height: 600px;
+}
+p {
+    font-family: cursive;
+    color: black;
+}
