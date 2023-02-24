@@ -17,20 +17,36 @@ h1 {
 .topnav {
     text-align: right;
 }
-nav {
+ul {
     display: flex;
     text-align: center;
     font-family: sans-serif;
     flex-direction: row;
     justify-content: space-around;
     background: white;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-a {
-    display: inline-block;
+li a {
+    display: block;
     margin: 5px;
     padding: 10px;
     color: midnightblue;
     align-items: stretch;
+    width: 150px;
+    border: solid midnightblue;
+    border-radius: 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background: midnightblue;
+    color: white;
+}
+.active {
+    background: midnightblue;
+    color: white;
 }
 h2 {
     text-align: center;
