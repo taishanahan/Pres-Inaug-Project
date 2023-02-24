@@ -1,35 +1,76 @@
 body {
-    background-color: lightskyblue;
-    border: solid crimson;
+    background-color: aliceblue;
+    border: solid firebrick;
     border-width: thick;
+    border-radius: 20px;
 }
 hr {
     color: crimson;
 }
 h1 {
     text-align: center;
-    font-family: cursive;
-    color: white;
+    font-family: sans-serif;
+    color: midnightblue;
+    font-size: 45px;
+    margin: 10px;
 }
 .topnav {
     text-align: right;
 }
 nav {
+    display: flex;
     text-align: center;
-    font-family: cursive;
+    font-family: sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+}
+a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    color: midnightblue;
+    align-items: stretch;
 }
 h2 {
-    text-align: left;
-    font-family: cursive;
-    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    color: midnightblue;
+    font-size: 30px;
+    margin: 2px;
 }
 img {
     display: block;
     margin: 0 auto;
-    width: 1500px;
-    height: 600px;
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 p {
-    font-family: cursive;
+    font-family: sans-serif;
     color: black;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+}
+.item {
+    display: inline-block;
+    background: white;
+    padding: 15px;
+    margin: 30px;
+    border: firebrick;
+    border-style: outset;
+    border-radius: 15px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.row {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
 }
