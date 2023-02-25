@@ -34,6 +34,7 @@ ul {
     border-top: solid firebrick;
     border-bottom: solid firebrick;
     overflow: auto;
+    border-width: 3px;
 }
 li a {
     display: block;
@@ -61,12 +62,14 @@ h2 {
     font-size: 30px;
     margin: 2px;
 }
-img {
+.house {
     display: block;
     margin: 0 auto;
     width: 100%;
     height: auto;
     text-align: center;
+    border-bottom: solid firebrick;
+    border-width: 5px;
 }
 p {
     font-family: sans-serif;
@@ -82,9 +85,9 @@ section {
     background: white;
     padding: 15px;
     margin: 30px;
-    border: firebrick;
-    border-style: outset;
+    border: solid firebrick;
     border-radius: 15px;
+    border-width: 3px;
 }
 .container {
     display: flex;
