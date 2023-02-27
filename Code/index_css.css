@@ -74,6 +74,7 @@ h2 {
 p {
     font-family: sans-serif;
     color: black;
+    font-size: 17px;
 }
 section {
     display: flex;
