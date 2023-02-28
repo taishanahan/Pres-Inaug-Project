@@ -5,9 +5,9 @@
     <introduction><date>Wednesday, January 20, 1965</date></introduction>
     
     <speech><paragraph>My fellow countrymen, on this occasion, the oath I have taken before you and before
-        God is not mine alone, but ours together. We are one nation and one people. Our fate as a
+        God is not mine alone, but ours together. We are one nation and one people. <unity tone="P">Our fate as a
         nation and our future as a people rest not upon one citizen, but upon all
-        citizens.</paragraph>
+        citizens.</unity></paragraph>
     
     <paragraph>This is the majesty and the meaning of this moment.</paragraph>
     
@@ -24,7 +24,7 @@
     <paragraph>Our destiny in the midst of change will rest on the unchanged character of our
         people, and on their faith.</paragraph> 
         
-        <paragraph>THE AMERICAN COVENANT 
+        <paragraph>
         
         They came here—the
         exile and the stranger, brave but frightened—to find a place where a man could be his own
@@ -32,7 +32,7 @@
         union, it was meant one day to inspire the hopes of all mankind; and it binds us still. If
         we keep its terms, we shall flourish.</democracy></paragraph> 
         
-        <paragraph>JUSTICE AND CHANGE 
+        <paragraph>
             First,
         justice was the promise that all who made the journey would share in the fruits of the
         land.</paragraph>
@@ -54,7 +54,7 @@
         color is not mine," or "His beliefs are strange and different," in that moment he betrays
         America, though his forebears created this Nation</unity>.</paragraph> 
     
-        <paragraph>LIBERTY AND CHANGE
+        <paragraph>
     
         Liberty was the second article of our covenant. It was self-government. It was
         our Bill of Rights. But it was more. America would be a place where each man could be proud
@@ -70,10 +70,10 @@
         people no stranger is outside our hope.</paragraph>
     
     <paragraph>Change has brought new meaning to that old mission. We can never again stand aside,
-        prideful in isolation. Terrific dangers and troubles that we once called "foreign" now
+        prideful in isolation. <war tone="N">Terrific dangers and troubles that we once called "foreign" now
         constantly live among us. If American lives must end, and American treasure be spilled, in
         countries we barely know, that is the price that change has demanded of conviction and of
-        our enduring covenant.</paragraph>
+        our enduring covenant.</war></paragraph>
     
     <paragraph>Think of our world as it looks from the rocket that is heading toward Mars. It is
         like a child's globe, hanging in space, the continents stuck to its side like colored maps.
@@ -94,7 +94,7 @@
         finding new purpose for ourselves. Without this, we shall become a nation of
         strangers.</unity></paragraph> 
     
-        <paragraph> UNION AND CHANGE 
+        <paragraph>
     
     The third article was union. To those who
         were small and few against the wilderness, the success of liberty demanded the strength of
@@ -114,7 +114,7 @@
         progress without strife, to achieve change without hatred—not without difference of opinion,
         but without the deep and abiding divisions which scar the union for generations.</unity></paragraph>
     
-        <paragraph> THE AMERICAN BELIEF 
+        <paragraph>
             
             Under this covenant of justice, liberty, and union we have become
         a nation—prosperous, great, and mighty. And we have kept our freedom. But we have no promise
@@ -154,8 +154,8 @@
         world, I will repeat today what I said on that sorrowful day in November 1963: "I will lead
         and I will do the best I can."</paragraph>
     
-    <paragraph>But you must look within your own hearts to the old promises and to the old dream.
-        They will lead you best of all.</paragraph>
+    <paragraph><unity tone="P">But you must look within your own hearts to the old promises and to the old dream.
+        They will lead you best of all.</unity></paragraph>
     
     <paragraph>For myself, I ask only, in the words of an ancient leader: "Give me now wisdom and
         knowledge, that I may go out and come in before this people: for who can judge this thy

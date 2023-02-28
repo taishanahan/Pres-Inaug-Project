@@ -4,7 +4,7 @@
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Dwight D. Eisnhower" term="2" party="R">
     <introduction>Dwight D. Eisenhower Second Inaugural Address Monday, <date>January 21,
-            1957</date> THE PRICE OF PEACE</introduction>
+            1957</date></introduction>
     <speech>
         <paragraph> Mr. Chairman, Mr. Vice President, Mr. Chief Justice, Mr. Speaker, members of my
             family and friends, my countrymen, and thea friends of my country, wherever they may be,
@@ -27,9 +27,9 @@
         <paragraph>May we, in our dealings with all peoples of the earth, ever speak truth and serve
             justice.</paragraph>
 
-        <paragraph>And so shall America—in the sight of all men of good will—prove true to the
+        <paragraph><war tone="P">And so shall America—in the sight of all men of good will—prove true to the
             honorable purposes that bind and rule us as a people in all this time of trial through
-            which we pass.</paragraph>
+            which we pass.</war></paragraph>
 
         <paragraph>We live in a land of plenty, but <unity tone="N">rarely has this earth known such
                 peril as today.</unity></paragraph>
@@ -58,8 +58,6 @@
                 and turmoil</unity>. Some, impoverished by the recent World War, seek to restore
             their means of livelihood. <war tone="N">In the heart of Europe, Germany still stands tragically
             divided. So is the whole continent divided. And so, too, is all the world.</war></paragraph>
-
-        <paragraph><!-- needs to add war refrenece on lines 30, 20, 62, not sure abt 72 and many others, not sure if schema is good as I had plenty of errors when it added --></paragraph>
 
         <paragraph><unity tone="N">The divisive force is International Communism and the power that
                 it controls.</unity></paragraph>
@@ -122,9 +120,9 @@
                 authority of the United Nations</unity>. For in that body rests the best hope of our
             age for the assertion of that law by which all nations may live in dignity.</paragraph>
 
-        <paragraph>And, beyond this general resolve, we are called to act a responsible role in the
+        <paragraph><war tone="P">And, beyond this general resolve, we are called to act a responsible role in the
             world's great concerns or conflicts—whether they touch upon the affairs of a vast
-            region, the fate of an island in the Pacific, or the use of a canal in the Middle East.
+            region, the fate of an island in the Pacific, or the use of a canal in the Middle East.</war>
             <democracy>Only in respecting the hopes and cultures of others will we practice the equality of all
             nations.</democracy> Only as we show willingness and wisdom in giving counsel—in receiving
             counsel—and in sharing burdens, will we wisely perform the work of peace.</paragraph>
