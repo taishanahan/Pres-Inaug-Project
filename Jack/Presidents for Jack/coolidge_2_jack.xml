@@ -19,9 +19,9 @@
             and we appear to be entering an era of prosperity which is gradually reaching into every
             part of the Nation.</economy> Realizing that we can not live unto ourselves alone, we have
             contributed of our resources and our counsel to the relief of the suffering and the
-            settlement of the disputes among the European nations. Because of what America is and
+            settlement of the disputes among the European nations. <unity tone="P">Because of what America is and
             what America has done, a firmer courage, a higher hope, inspires the heart of all
-            humanity.</paragraph>
+            humanity.</unity></paragraph>
         
         <paragraph>These results have not occurred by mere chance. They have been secured by a
             constant and enlightened effort marked by many sacrifices and extending over many
@@ -47,15 +47,15 @@
             continent until it passed down the golden slope to the Pacific. We made freedom a
             birthright.</democracy> We extended our domain over distant islands in order to safeguard our own
             interests and accepted the consequent obligation to bestow justice and liberty upon less
-            favored peoples. In the defense of our own ideals and in the general cause of liberty we
+            favored peoples. <war tone="P">In the defense of our own ideals and in the general cause of liberty we
             entered the Great War. When victory had been fully secured, we withdrew to our own
-            shores unrecompensed save in the consciousness of duty done.</paragraph>
+            shores unrecompensed save in the consciousness of duty done.</war></paragraph>
         
         <paragraph>Throughout all these experiences we have enlarged our freedom, we have
             strengthened our independence. We have been, and propose to be, more and more American.
-            We believe that we can best serve our own country and most successfully discharge our
+            <unity tone="P">We believe that we can best serve our own country and most successfully discharge our
             obligations to humanity by continuing to be openly and candidly, in tensely and
-            scrupulously, American. If we have any heritage, it has been that. If we have any
+            scrupulously, American. If we have any heritage, it has been that.</unity> If we have any
             destiny, we have found it in that direction.</paragraph>
         
         <paragraph>But if we wish to continue to be distinctively American, we must continue to make
@@ -67,32 +67,32 @@
             It will be well not to be too much disturbed by the thought of either isolation or
             entanglement of pacifists and militarists. The physical configuration of the earth has
             separated us from all of the Old World, but the common brotherhood of man, the highest
-            law of all our being, has united us by inseparable bonds with all humanity. Our country
+            law of all our being, has united us by inseparable bonds with all humanity. <war tone="P">Our country
             represents nothing but peaceful intentions toward all the earth, but it ought not to
             fail to maintain such a military force as comports with the dignity and security of a
             great people. It ought to be a balanced force, intensely modern, capable of defense by
             sea and land, beneath the surface and in the air. But it should be so conducted that all
             the world may see in it, not a menace, but an instrument of security and
-            peace.</paragraph>
+            peace.</war></paragraph>
         
         <paragraph><war tone="P">This Nation believes thoroughly in an honorable peace under which the rights of
             its citizens are to be everywhere protected. It has never found that the necessary
             enjoyment of such a peace could be maintained only by a great and threatening array of
             arms.</war> In common with other nations, it is now more determined than ever to promote peace
             through friendliness and good will, through mutual understandings and mutual
-            forbearance. We have never practiced the policy of competitive armaments. We have
+            forbearance. We have never practiced the policy of competitive armaments. <war tone="P">We have
             recently committed ourselves by covenants with the other great nations to a limitation
             of our sea power. As one result of this, our Navy ranks larger, in comparison, than it
-            ever did before. Removing the burden of expense and jealousy, which must always accrue
+            ever did before.</war> Removing the burden of expense and jealousy, which must always accrue
             from a keen rivalry, is one of the most effective methods of diminishing that
             unreasonable hysteria and misunderstanding which are the most potent means of fomenting
             war. This policy represents a new departure in the world. It is a thought, an ideal,
             which has led to an entirely new line of action. It will not be easy to maintain. Some
             never moved from their old positions, some are constantly slipping back to the old ways
             of thought and the old action of seizing a musket and relying on force. America has
-            taken the lead in this new direction, and that lead America must continue to hold. If we
+            taken the lead in this new direction, and that lead America must continue to hold. <democracy>If we
             expect others to rely on our fairness and justice we must show that we rely on their
-            fairness and justice.</paragraph>
+            fairness and justice.</democracy></paragraph>
         
         <paragraph>If we are to judge by past experience, there is much to be hoped for in
             international relations from frequent conferences and consultations. We have before us
@@ -140,10 +140,10 @@
             adequate. One of the greatest dangers to peace lies in the economic pressure to which
             people find themselves subjected. One of the most practical things to be done in the
             world is to seek arrangements under which such pressure may be removed, so that
-            opportunity may be renewed and hope may be revived. There must be some assurance that
+            opportunity may be renewed and hope may be revived. <war tone="P">There must be some assurance that
             effort and endeavor will be followed by success and prosperity. In the making and
             financing of such adjustments there is not only an opportunity, but a real duty, for
-            America to respond with her counsel and her resources. <jobs tone="N">Conditions must be provided under
+            America to respond with her counsel and her resources.</war> <jobs tone="N">Conditions must be provided under
             which people can make a living and work out of their difficulties.</jobs> But there is another
             element, more important than all, without which there can not be the slightest hope of a
             permanent peace. That element lies in the heart of humanity. Unless the desire for peace
@@ -186,9 +186,9 @@
         <paragraph>When the country has bestowed its confidence upon a party by making it a majority
             in the Congress, it has a right to expect such unity of action as will make the party
             majority an effective instrument of government. This Administration has come into power
-            with a very clear and definite mandate from the people. The expression of the popular
+            with a very clear and definite mandate from the people. <unity tone="P">The expression of the popular
             will in favor of maintaining our constitutional guarantees was overwhelming and
-            decisive. There was a manifestation of such faith in the integrity of the courts that we
+            decisive.</unity> There was a manifestation of such faith in the integrity of the courts that we
             can consider that issue rejected for some time to come. Likewise, the policy of public
             ownership of railroads and certain electric utilities met with unmistakable defeat. The
             people declared that they wanted their rights to have not a political but a judicial
@@ -204,13 +204,13 @@
             definition. <tax>Not only those who are now making their tax returns, but those who meet the
             enhanced cost of existence in their monthly bills, know by hard experience what this
             great burden is and what it does.</tax> No matter what others may want, these people want a
-            drastic economy. They are opposed to waste. They know that extravagance lengthens the
+            drastic economy. They are opposed to waste. <tax>They know that extravagance lengthens the
             hours and diminishes the rewards of their labor. I favor the policy of economy, not
             because I wish to save money, but because I wish to save people. The men and women of
             this country who toil are the ones who bear the cost of the Government. Every dollar
             that we carelessly waste means that their life will be so much the more meager. Every
             dollar that we prudently save means that their life will be so much the more abundant.
-            Economy is idealism in its most practical form.</paragraph>
+            Economy is idealism in its most practical form.</tax></paragraph>
         <paragraph><tax>If extravagance were not reflected in taxation, and through taxation both
             directly and indirectly injuriously affecting the people, it would not be of so much
             consequence.</tax> The wisest and soundest method of solving our tax problem is through
@@ -235,10 +235,10 @@
             can not finance the country, we can not improve social conditions, through any system of
             injustice, even if we attempt to inflict it upon the rich.</tax> Those who suffer the most
             harm will be the poor. This country believes in prosperity. It is absurd to suppose that
-            it is envious of those who are already prosperous. The wise and correct course to follow
+            it is envious of those who are already prosperous. <tax>The wise and correct course to follow
             in taxation and all other economic legislation is not to destroy those who have already
             secured success but to create conditions under which every one will have a better chance
-            to be successful. The verdict of the country has been given on this question. That
+            to be successful.</tax> The verdict of the country has been given on this question. That
             verdict stands. We shall do well to heed it.</paragraph>
         <paragraph>These questions involve moral issues. We need not concern ourselves much about
             the rights of property if we will faithfully observe the rights of persons. Under our
@@ -275,12 +275,12 @@
             following the path of civilization, but are displaying the traits of ignorance, of
             servitude, of savagery, and treading the way that leads back to the jungle.</paragraph>
         <paragraph>The essence of a republic is representative government. Our Congress represents
-            the people and the States. In all legislative affairs it is the natural collaborator
+            the people and the States. <democracy>In all legislative affairs it is the natural collaborator
             with the President. In spite of all the criticism which often falls to its lot, I do not
             hesitate to say that there is no more independent and effective legislative body in the
             world. It is, and should be, jealous of its prerogative. I welcome its cooperation, and
             expect to share with it not only the responsibility, but the credit, for our common
-            effort to secure beneficial legislation.</paragraph>
+            effort to secure beneficial legislation.</democracy></paragraph>
         <paragraph>These are some of the principles which America represents. We have not by any
             means put them fully into practice, but we have strongly signified our belief in them.
             The encouraging feature of our country is not that it has reached its destination, but
