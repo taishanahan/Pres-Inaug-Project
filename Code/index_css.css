@@ -100,3 +100,21 @@ section {
     width: 30%;
     padding: 10px;
 }
+.bio {
+    display: inline-block;
+    background: white;
+    padding: 15px;
+    margin: 30px;
+    border: solid firebrick;
+    border-radius: 15px;
+    border-width: 3px;
+}
+.timeline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.page-title {
+    font-size: 40px;
+    margin: 12px;
+}
