@@ -8,44 +8,47 @@
             Speaker WRIGHT, Senator DoLE, Congressman MICHEL, and fellow citizens, neighbors, and
             friends.</paragraph>
 
-        <paragraph>There is a man here who has earned a lasting place in our hearts-and in our
+        <paragraph>
+            <pred tone="P">There is a man here who has earned a lasting place in our hearts-and in our
             history. President Reagan, on behalf of our Nation, I thank you for the wonderful things
-            that you have done for America.</paragraph>
+            that you have done for America.</pred></paragraph>
 
-        <paragraph>I have just repeated, word for word, the oath taken by George Washington 200
+        <paragraph><unity tone="P">
+            I have just repeated, word for word, the oath taken by George Washington 200
             years ago; and the Bible on which I placed my hand is the Bible on which he placed
-            his.</paragraph>
+            his.</unity></paragraph>
 
-        <paragraph>It is right that the memory of Washington be with us today, not only because this
-            is our Bicentennial Inauguration, but because Washington remains the Father of our
-            country. And he would, I think, be gladdened by this day, for today is the concrete
-            expres- form of government is better. We sion of a stunning fact: our continuity don't
-            have to wrest justice from the these 200 years since our Government began. </paragraph>
+        <paragraph><unity tone="P">It is right that the memory of Washington be with
+            us today, not only because this is our Bicentennial Inauguration, but
+            because Washington remains the Father of our Country. And he would, I
+            think, be gladdened by this day; for today is the concrete expression
+            of a stunning fact: our continuity these 200 years since our government
+            began.</unity></paragraph>
 
-        <paragraph>We meet on democracy's front porch, a good place to talk as neighbors and as
+        <paragraph><unity tone="P">We meet on democracy's front porch, a good place to talk as neighbors and as
             friends. For this is a day when our Nation is made whole, when our differences for a
-            moment are suspended.</paragraph>
+            moment are suspended.</unity></paragraph>
 
-        <paragraph>And my first act as president is a prayer. I ask you to bow your
-            heads:</paragraph>
+        <paragraph><religion>And my first act as president is a prayer. I ask you to bow your
+            heads:</religion></paragraph>
 
-        <paragraph>Heavenly Father, we bow our heads and thank You for Your love. Accept our thanks
+        <paragraph><religion>Heavenly Father, we bow our heads and thank You for Your love. Accept our thanks
             for the peace that yields this day and the shared faith that makes its continuance
             likely. Male us strong to do Your work, willing to heed and hear Your will, and write on
             our hearts these words, "Use power to help people." For we are given power not to
             advance our own purposes, nor to make a great show in your name. There is but one jusr
-            use of power, and it is to serve people. Help us to remember it, Lord. Amen.</paragraph>
+            use of power, and it is to serve people. Help us to remember it, Lord. Amen.</religion></paragraph>
 
-        <paragraph>I come before you and assume the Presidenct at a moment rich with promise. We
-            live in a peaceful, prosperous time, but we can make it better. For a new breeze is
+        <paragraph><economy tone="P">I come before you and assume the Presidency at a moment rich with promise. We
+            live in a peaceful, prosperous time, but we can make it better.</economy> <democracy>For a new breeze is
             blowing, and a world refreshed by freedom seems reborn; for in a man's heart, if not in
-            fact, the day of the dictator is over.</paragraph>
+            fact, the day of the dictator is over.</democracy></paragraph>
 
-        <paragraph>The totalitarian era is passing, its old ideas blown away like leaves from an
-            ancient, lifeless tree.</paragraph>
+        <paragraph><democracy>The totalitarian era is passing, its old ideas blown away like leaves from an
+            ancient, lifeless tree.</democracy></paragraph>
 
-        <paragraph>A new breeze is blowing-and a nation refreshed by freedom stands ready to push
-            on: There is new ground to be broken, and new action to be taken.</paragraph>
+        <paragraph><democracy>A new breeze is blowing-and a nation refreshed by freedom stands ready to push
+            on: There is new ground to be broken, and new action to be taken.</democracy></paragraph>
 
         <paragraph>There are times when the future seems thick as a fog; you sit and wait, hoping
             the mists will lift and reveal the right path.</paragraph>
@@ -53,46 +56,46 @@
         <paragraph>But this is a time when the future seems a door you can walk right through-into a
             room called tomorrow.</paragraph>
 
-        <paragraph>Great nations of the world are moving toward democracy-through the door to
-            freedom.</paragraph>
+        <paragraph><democracy>Great nations of the world are moving toward democracy-through the door to
+            freedom.</democracy></paragraph>
 
-        <paragraph>Men and women of the world move towards free markets-through the door to
-            prosperity.</paragraph>
+        <paragraph><trade>Men and women of the world move towards free markets-through the door to
+            prosperity.</trade></paragraph>
 
-        <paragraph>The people of the world agitate for free expression and free thought-through the
-            door to the moral and intellectual satisfactions that only liberty allows.</paragraph>
+        <paragraph><democracy>The people of the world agitate for free expression and free thought-through the
+            door to the moral and intellectual satisfactions that only liberty allows.</democracy></paragraph>
 
-        <paragraph>We know what works: Freedom works. We know what's right: Freedom is right. We
+        <paragraph><democracy>We know what works: Freedom works. We know what's right: Freedom is right. We
             know how to secure a more just and prosperous life for man on Earth: through free
             markets, free speech, free elections, and the exercise of free will unhampered by the
-            state.</paragraph>
+            state.</democracy></paragraph>
 
-        <paragraph>For the first time in this century-for the firdt time in perhaps all history-man
+        <paragraph><democracy>For the first time in this century-for the firdt time in perhaps all history-man
             does not have to invent a system by which to live. We don't have to talk late into the
             night about which form of government is better. We don't have to wrestle justice from
-            the kings. We only have to summon it from within ourselves.</paragraph>
+            the kings. We only have to summon it from within ourselves.</democracy></paragraph>
 
         <paragraph>We must act on what we know. I take as my guide the hope of a saint: In crucial
             things, unity; in important things, diversity; in all things, generosity.</paragraph>
 
-        <paragraph>America today is a proud, free Nation, decent and civil-a place we cannot help
+        <paragraph><unity tone="P">America today is a proud, free Nation, decent and civil-a place we cannot help
             but love. We know in our hearts, not loudly and proudly, but as a simple fact, that this
             country has meaning beyond what we see, and that our strength is a force for
-            good.</paragraph>
+            good.</unity></paragraph>
 
         <paragraph>But have we changed as a nation even in our time? Are we enthralled with material
             things, less appreciative of the nobility of work and sacrifice?</paragraph>
 
-        <paragraph>My friends, we are not the sum of our possessions. They are not the measure of
+        <paragraph><unity tone="N">My friends, we are not the sum of our possessions. They are not the measure of
             our lives. In our hearts we know what matters. We cannot hope to leave our children a
             bigger car, a bigger bank account. We must hope to give them a sense of what it means to
             be a loyal friend, a loving parent, a citizen who leaves his home, his neighborhood, and
-            town better than he found it.</paragraph>
+            town better than he found it.</unity></paragraph>
 
-        <paragraph>What do we want the men and women who with with us to say when we are no longer
+        <paragraph><unity tone="N">What do we want the men and women who with with us to say when we are no longer
             there? That we were more driven to succeed than anyone around us? Or that we stopped to
             ask if a sick child had gotten better, and stayed a moment there to trade a word of
-            friendship?</paragraph>
+            friendship?</unity></paragraph>
 
         <paragraph>No president, no government, can teach us to remember what is best in what we
             are. But if the man you have chosen to lead this government can help make a difference;
@@ -107,54 +110,54 @@
         <paragraph>My friends, we have work to do.</paragraph>
 
         <paragraph>There are the homeless, lost and roaming; there are the children who have
-            nothing, no love, no normalcy; there are those who cannot free themselves of enslavement
+            nothing, no love, no normalcy; <criminal_justice tone="N">there are those who cannot free themselves of enslavement
             to whatever addiction-drugs, welfare, the demoralization that rules the slums. There is
-            crime to be conquered, the rough crime of the streets. There are young women to be
-            helped who are about tobecome mothers of children they can't care for and might not
-            love. They need our care, our guidance, and our education; though we bless them for
+            crime to be conquered, the rough crime of the streets.</criminal_justice> <education tone="N">There are young women to be
+            helped who are about to become mothers of children they can't care for and might not
+            love. They need our care, our guidance, and our education;</education> though we bless them for
             choosing life.</paragraph>
 
-        <paragraph>The old solution, the old way, was to think that public money alone could end
+        <paragraph><economy tone="N">The old solution, the old way, was to think that public money alone could end
             these problems. But we have learned that is not so. And in any case, our funds are low.
-            We have a deficit to bring down. We have more will than wallet; but will is what we
+            We have a deficit to bring down.</economy> <regulation>We have more will than wallet; but will is what we
             need. We will make the hard choices, looking at what we have and perhaps allocating it
-            differently, making our decisions based on honest need and prudent safety. And then we
-            will do the wisest thing of all: We will turn to the only resource we have that in times
-            of need always grows--the goodness and the courage of the American people.</paragraph>
+            differently, making our decisions based on honest need and prudent safety.</regulation> And then we
+            will do the wisest thing of all: <unity tone="P">We will turn to the only resource we have that in times
+            of need always grows--the goodness and the courage of the American people.</unity></paragraph>
 
-        <paragraph>I am speaking of a new engagement in the lives of others, a new activism,
+        <paragraph><unity tone="P">I am speaking of a new engagement in the lives of others, a new activism,
             hands-on and involved, that gets the job done. We must bring in the generations,
             harnessing the unused talent of the elderly and the unfocused energy of the young. For
             not only leadership is passed from generation to generation, but so is stewardship. And
-            the generation born after the Second World War has come of age.</paragraph>
+            the generation born after the Second World War has come of age.</unity></paragraph>
 
-        <paragraph>I have spoken of a thousand points of light, of all the community organizations
+        <paragraph><unity tone="P">I have spoken of a thousand points of light, of all the community organizations
             that are spread like stars throughout the Nation, doing good. We will work hand in hand,
             encouraging, sometimes leading, sometimes being led, rewarding. We will work on this in
             the White House, in the Cabinet agencies. I will go to the people and the programs that
             are the brighter points of light, and I will ask every member of my government to become
             involved. The old ideas are new again because they are not old, they are timeless: duty,
             sacrifice, commitment, and a patriotism that finds its expression in taking part and
-            pitching in.</paragraph>
+            pitching in.</unity></paragraph>
 
-        <paragraph>We need a new engagement, too, between the Executive and the Congress. The
-            challenges before us will be thrashed out with the House and the Senate. We must bring
-            the Federal budget into balance. And we must ensure that America stands before the world
+        <paragraph><congress>We need a new engagement, too, between the Executive and the Congress. The
+            challenges before us will be thrashed out with the House and the Senate.</congress> <economy tone="N">We must bring
+            the Federal budget into balance.</economy> <unity tone="N">And we must ensure that America stands before the world
             united, strong, at peace, and fiscally sound. But, of course, things may be difficult.
             We need compromise; we have had dissension. We need harmony; we have had a chorus of
-            discordant voices.</paragraph>
+            discordant voices.</unity></paragraph>
 
-        <paragraph>For Congress, too, has changed in our time. There has grown a certain
+        <paragraph><congress>For Congress, too, has changed in our time. There has grown a certain
             divisiveness. We have seen the hard looks and heard the statements in which not each
-            other's ideas are challenged, but each other's motives. And our great parties have too
+            other's ideas are challenged, but each other's motives.</congress> <unity tone="N">And our great parties have too
             often been far apart and untrusting of each other. It has been this way since Vietnam.
             That war cleaves us still. But, friends, that war began in earnest a quarter of a
             century ago; and surely the statute of limitations has been reached. This is a fact: The
             final lesson of Vietnam is that no great nation can long afford to be sundered by a
             memory. A new breeze is blowing, and the old bipartisanship must be made new
-            again.</paragraph>
+            again.</unity></paragraph>
 
-        <paragraph>To my friends--and yes, I do mean friends--in the loyal opposition--and yes, I
+        <paragraph><unity tone="N">To my friends--and yes, I do mean friends--in the loyal opposition--and yes, I
             mean loyal: I put out my hand. I am putting out my hand to you, Mr. Speaker. I am
             putting out my hand to you Mr. Majority Leader. For this is the thing: This is the age
             of the offered hand. We can't turn back clocks, and I don't want to. But when our
@@ -164,52 +167,52 @@
             this nation could live. Let us negotiate soon and hard. But in the end, let us produce.
             The American people await action. They didn't send us here to bicker. They ask us to
             rise above the merely partisan. "In crucial things, unity"--and this, my friends, is
-            crucial.</paragraph>
+            crucial.</unity></paragraph>
 
-        <paragraph>To the world, too, we offer new engagement and a renewed vow: We will stay strong
+        <paragraph><diplomacy>To the world, too, we offer new engagement and a renewed vow: We will stay strong
             to protect the peace. The "offered hand" is a reluctant fist; but once made, strong, and
             can be used with great effect. There are today Americans who are held against their will
             in foreign lands, and Americans who are unaccounted for. Assistance can be shown here,
             and will be long remembered. Good will begets good will. Good faith can be a spiral that
-            endlessly moves on.</paragraph>
+            endlessly moves on.</diplomacy></paragraph>
 
         <paragraph>Great nations like great men must keep their word. When America says something,
             America means it, whether a treaty or an agreement or a vow made on marble steps. We
             will always try to speak clearly, for candor is a compliment, but subtlety, too, is good
-            and has its place. While keeping our alliances and friendships around the world strong,
+            and has its place. <diplomacy>While keeping our alliances and friendships around the world strong,
             ever strong, we will continue the new closeness with the Soviet Union, consistent both
             with our security and with progress. One might say that our new relationship in part
             reflects the triumph of hope and strength over experience. But hope is good, and so are
-            strength and vigilance.</paragraph>
+            strength and vigilance.</diplomacy></paragraph>
 
-        <paragraph>Here today are tens of thousands of our citizens who feel the understandable
+        <paragraph><unity tone="P">Here today are tens of thousands of our citizens who feel the understandable
             satisfaction of those who have taken part in democracy and seen their hopes fulfilled.
             But my thoughts have been turning the past few days to those who would be watching at
             home, to an older fellow who will throw a salute by himself when the flag goes by, and
             the women who will tell her sons the words of the battle hymns. I don't mean this to be
             sentimental. I mean that on days like this, we remember that we are all part of a
-            continuum, inescapably connected by the ties that bind.</paragraph>
+            continuum, inescapably connected by the ties that bind.</unity></paragraph>
 
-        <paragraph>Our children are watching in schools throughout our great land. And to them I
+        <paragraph><democracy>Our children are watching in schools throughout our great land. And to them I
             say, thank you for watching democracy's big day. For democracy belongs to us all, and
             freedom is like a beautiful kite that can go higher and higher with the breeze. And to
             all I say: No matter what your circumstances or where you are, you are part of this day,
-            you are part of the life of our great nation.</paragraph>
+            you are part of the life of our great nation.</democracy></paragraph>
 
         <paragraph>A President is neither prince nor pope, and I don't seek a window on men's souls.
             In fact, I yearn for a greater tolerance, an easy-goingness about each other's attitudes
             and way of life.</paragraph>
 
-        <paragraph>There are few clear areas in which we as a society must rise up united and
+        <paragraph><criminal_justice tone="N">There are few clear areas in which we as a society must rise up united and
             express our intolerance. The most obvious now is drugs. And when that first cocaine was
             smuggled in on a ship, it may as well have been a deadly bacteria, so much has it hurt
             the body, the soul of our country. And there is much to be done and to be said, but take
-            my word for it: This scourge will stop.</paragraph>
+            my word for it: This scourge will stop.</criminal_justice></paragraph>
 
         <paragraph>And so, there is much to do; and tomorrow the work begins. I do not mistrust the
             future; I do not fear what is ahead. For our problems are large, but our heart is
-            larger. Our challenges are great, but our will is greater. And if our flaws are endless,
-            God's love is truly boundless.</paragraph>
+            larger. Our challenges are great, but our will is greater. <religion>And if our flaws are endless,
+            God's love is truly boundless.</religion></paragraph>
 
         <paragraph>Some see leadership as high drama, and the sound of trumpets calling, and
             sometimes it is that. But I see history as a book with many pages, and each day we fill
