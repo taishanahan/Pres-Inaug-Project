@@ -3,137 +3,137 @@
 <address president="Jimmy Carter" term="1" party="D">
     <introduction>Jimmy Carter Inaugural Address Thursday, <date>January 20, 1977</date></introduction>
     <speech>
-        <paragraph>FOR myself and for our Nation, I want to thank my predecessor for all he has done
-            to heal our land.</paragraph>
+        <paragraph><pred tone="P">FOR myself and for our Nation, I want to thank my predecessor for all he has done
+            to heal our land.</pred></paragraph>
 
-        <paragraph>In this outward and physical ceremony we attest once again to the inner and
+        <paragraph><religion>In this outward and physical ceremony we attest once again to the inner and
             spiritual strength of our Nation. As my high school teacher, Miss Julia Coleman, used to
             say: "We must adjust to changing times and still hold to unchanging
-            principles."</paragraph>
+            principles."</religion></paragraph>
 
-        <paragraph>Here before me is the Bible used in the inauguration of our first President, in
+        <paragraph><religion>Here before me is the Bible used in the inauguration of our first President, in
             1789, and I have just taken the oath of office on the Bible my mother gave me a few
-            years ago, opened to a timeless admonition from the ancient prophet Micah:</paragraph>
+            years ago, opened to a timeless admonition from the ancient prophet Micah:</religion></paragraph>
 
-        <paragraph>"He hath showed thee, O man, what is good; and what doth the Lord require of
+        <paragraph><religion>"He hath showed thee, O man, what is good; and what doth the Lord require of
             thee, but to do justly, and to love mercy, and to walk humbly with thy God." (Micah
-            6:8)</paragraph>
+            6:8)</religion></paragraph>
 
         <paragraph>This inauguration ceremony marks a new beginning, a new dedication within our
             Government, and a new spirit among us all. A President may sense and proclaim that new
             spirit, but only a people can provide it.</paragraph>
 
-        <paragraph>Two centuries ago our Nation's birth was a milestone in the long quest for
+        <paragraph><unity tone="N">Two centuries ago our Nation's birth was a milestone in the long quest for
             freedom, but the bold and brilliant dream which excited the founders of this Nation
             still awaits its consummation. I have no new dream to set forth today, but rather urge a
-            fresh faith in the old dream.</paragraph>
+            fresh faith in the old dream.</unity></paragraph>
 
-        <paragraph>Ours was the first society openly to define itself in terms of both spirituality
+        <paragraph><democracy>Ours was the first society openly to define itself in terms of both spirituality
             and of human liberty. It is that unique self-definition which has given us an
             exceptional appeal, but it also imposes on us a special obligation, to take on those
             moral duties which, when assumed, seem invariably to be in our own best
-            interests.</paragraph>
+            interests.</democracy></paragraph>
 
-        <paragraph>You have given me a great responsibility--to stay close to you, to be worthy of
+        <paragraph><unity tone="N">You have given me a great responsibility--to stay close to you, to be worthy of
             you, and to exemplify what you are. Let us create together a new national spirit of
             unity and trust. Your strength can compensate for my weakness, and your wisdom can help
-            to minimize my mistakes.</paragraph>
+            to minimize my mistakes.</unity></paragraph>
 
-        <paragraph>Let us learn together and laugh together and work together and pray together,
-            confident that in the end we will triumph together in the right.</paragraph>
+        <paragraph><unity tone="P">Let us learn together and laugh together and work together and pray together,
+            confident that in the end we will triumph together in the right.</unity></paragraph>
 
-        <paragraph>The American dream endures. We must once again have full faith in our
+        <paragraph><unity tone="P">The American dream endures. We must once again have full faith in our
             country--and in one another. I believe America can be better. We can be even stronger
-            than before.</paragraph>
+            than before.</unity></paragraph>
 
-        <paragraph>Let our recent mistakes bring a resurgent commitment to the basic principles of
-            our Nation, for we know that if we despise our own government we have no future. We
+        <paragraph><unity tone="N">Let our recent mistakes bring a resurgent commitment to the basic principles of
+            our Nation, for we know that if we despise our own government we have no future.</unity> <unity tone="P">We
             recall in special times when we have stood briefly, but magnificently, united. In those
-            times no prize was beyond our grasp.</paragraph>
+            times no prize was beyond our grasp.</unity></paragraph>
 
-        <paragraph>But we cannot dwell upon remembered glory. We cannot afford to drift. We reject
+        <paragraph><unity tone="N">But we cannot dwell upon remembered glory. We cannot afford to drift. We reject
             the prospect of failure or mediocrity or an inferior quality of life for any person. Our
-            Government must at the same time be both competent and compassionate.</paragraph>
+            Government must at the same time be both competent and compassionate.</unity></paragraph>
 
-        <paragraph>We have already found a high degree of personal liberty, and we are now
+        <paragraph><regulation>We have already found a high degree of personal liberty, and we are now
             struggling to enhance equality of opportunity. Our commitment to human rights must be
             absolute, our laws fair, our natural beauty preserved; the powerful must not persecute
-            the weak, and human dignity must be enhanced.</paragraph>
+            the weak, and human dignity must be enhanced.</regulation></paragraph>
 
-        <paragraph>We have learned that "more" is not necessarily "better," that even our great
+        <paragraph><unity tone="N">We have learned that "more" is not necessarily "better," that even our great
             Nation has its recognized limits, and that we can neither answer all questions nor solve
             all problems. We cannot afford to do everything, nor can we afford to lack boldness as
             we meet the future. So, together, in a spirit of individual sacrifice for the common
-            good, we must simply do our best.</paragraph>
+            good, we must simply do our best.</unity></paragraph>
 
-        <paragraph>Our Nation can be strong abroad only if it is strong at home. And we know that
+        <paragraph><democracy>Our Nation can be strong abroad only if it is strong at home. And we know that
             the best way to enhance freedom in other lands is to demonstrate here that our
-            democratic system is worthy of emulation.</paragraph>
+            democratic system is worthy of emulation.</democracy></paragraph>
 
-        <paragraph>To be true to ourselves, we must be true to others. We will not behave in foreign
+        <paragraph><diplomacy>To be true to ourselves, we must be true to others. We will not behave in foreign
             places so as to violate our rules and standards here at home, for we know that the trust
-            which our Nation earns is essential to our strength.</paragraph>
+            which our Nation earns is essential to our strength.</diplomacy></paragraph>
 
-        <paragraph>The world itself is now dominated by a new spirit. Peoples more numerous and more
+        <paragraph><unity tone="P">The world itself is now dominated by a new spirit. Peoples more numerous and more
             politically aware are craving and now demanding their place in the sun--not just for the
-            benefit of their own physical condition, but for basic human rights.</paragraph>
+            benefit of their own physical condition, but for basic human rights.</unity></paragraph>
 
-        <paragraph>The passion for freedom is on the rise. Tapping this new spirit, there can be no
+        <paragraph><diplomacy>The passion for freedom is on the rise. Tapping this new spirit, there can be no
             nobler nor more ambitious task for America to undertake on this day of a new beginning
-            than to help shape a just and peaceful world that is truly humane.</paragraph>
+            than to help shape a just and peaceful world that is truly humane.</diplomacy></paragraph>
 
-        <paragraph>We are a strong nation, and we will maintain strength so sufficient that it need
+        <paragraph><war tone="N">We are a strong nation, and we will maintain strength so sufficient that it need
             not be proven in combat--a quiet strength based not merely on the size of an arsenal,
-            but on the nobility of ideas.</paragraph>
+            but on the nobility of ideas.</war></paragraph>
 
-        <paragraph>We will be ever vigilant and never vulnerable, and we will fight our wars against
+        <paragraph><war tone="P">We will be ever vigilant and never vulnerable, and we will fight our wars against
             poverty, ignorance, and injustice--for those are the enemies against which our forces
-            can be honorably marshaled.</paragraph>
+            can be honorably marshaled.</war></paragraph>
 
-        <paragraph>We are a purely idealistic Nation, but let no one confuse our idealism with
-            weakness.</paragraph>
+        <paragraph><war tone="P">We are a purely idealistic Nation, but let no one confuse our idealism with
+            weakness.</war></paragraph>
 
-        <paragraph>Because we are free we can never be indifferent to the fate of freedom elsewhere.
+        <paragraph><war tone="P">Because we are free we can never be indifferent to the fate of freedom elsewhere.
             Our moral sense dictates a clearcut preference for these societies which share with us
             an abiding respect for individual human rights. We do not seek to intimidate, but it is
             clear that a world which others can dominate with impunity would be inhospitable to
-            decency and a threat to the well-being of all people.</paragraph>
+            decency and a threat to the well-being of all people.</war></paragraph>
 
-        <paragraph>The world is still engaged in a massive armaments race designed to ensure
+        <paragraph><war tone="N">The world is still engaged in a massive armaments race designed to ensure
             continuing equivalent strength among potential adversaries. We pledge perseverance and
             wisdom in our efforts to limit the world's armaments to those necessary for each
             nation's own domestic safety. And we will move this year a step toward ultimate
             goal--the elimination of all nuclear weapons from this Earth. We urge all other people
-            to join us, for success can mean life instead of death.</paragraph>
+            to join us, for success can mean life instead of death.</war></paragraph>
 
-        <paragraph>Within us, the people of the United States, there is evident a serious and
+        <paragraph><unity tone="P">Within us, the people of the United States, there is evident a serious and
             purposeful rekindling of confidence. And I join in the hope that when my time as your
-            President has ended, people might say this about our Nation:</paragraph>
+            President has ended, people might say this about our Nation:</unity></paragraph>
 
-        <paragraph>--that we had remembered the words of Micah and renewed our search for humility,
-            mercy, and justice;</paragraph>
+        <paragraph><religion>--that we had remembered the words of Micah and renewed our search for humility,
+            mercy, and justice;</religion></paragraph>
 
-        <paragraph>--that we had torn down the barriers that separated those of different race and
-            region and religion, and where there had been mistrust, built unity, with a respect for
-            diversity;</paragraph>
+        <paragraph><race>--that we had torn down the barriers that separated those of different race</race> and
+            region and <religion>religion</religion>, and <unity tone="P">where there had been mistrust, built unity, with a respect for
+            diversity;</unity></paragraph>
 
-        <paragraph>--that we had found productive work for those able to perform it;</paragraph>
+        <paragraph><jobs tone="P">--that we had found productive work for those able to perform it;</jobs></paragraph>
 
         <paragraph>--that we had strengthened the American family, which is the basis of our
             society;</paragraph>
 
-        <paragraph>--that we had ensured respect for the law, and equal treatment under the law, for
-            the weak and the powerful, for the rich and the poor;</paragraph>
+        <paragraph><criminal_justice tone="N">--that we had ensured respect for the law, and equal treatment under the law, for
+            the weak and the powerful, for the rich and the poor;</criminal_justice></paragraph>
 
-        <paragraph>--and that we had enabled our people to be proud of their own Government once
-            again.</paragraph>
+        <paragraph><unity tone="N">--and that we had enabled our people to be proud of their own Government once
+            again-.</unity></paragraph>
 
-        <paragraph>I would hope that the nations of the world might say that we had built a lasting
+        <paragraph><diplomacy>I would hope that the nations of the world might say that we had built a lasting
             peace, built not on weapons of war but on international policies which reflect our own
-            most precious values.</paragraph>
+            most precious values.</diplomacy></paragraph>
 
-        <paragraph>These are not just my goals, and they will not be my accomplishments, but the
+        <paragraph><unity tone="P">These are not just my goals, and they will not be my accomplishments, but the
             affirmation of our Nation's continuing moral strength and our belief in an undiminished,
-            ever-expanding American dream.</paragraph>
+            ever-expanding American dream.</unity></paragraph>
     </speech>
 </address>
