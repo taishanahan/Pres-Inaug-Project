@@ -76,7 +76,7 @@ p {
     color: black;
     font-size: 17px;
 }
-section {
+.home-section {
     display: flex;
     flex-direction: column;
     width: 66%;
@@ -108,13 +108,32 @@ section {
     border: solid firebrick;
     border-radius: 15px;
     border-width: 3px;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
 }
 .timeline {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 .page-title {
     font-size: 40px;
     margin: 12px;
+}
+ol {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.D {
+    color: midnightblue;
+    font-weight: bold;
+    font-size: 29px;
+}
+.R {
+    color: firebrick;
+    font-weight: bold;
+    font-size: 29px;
 }
