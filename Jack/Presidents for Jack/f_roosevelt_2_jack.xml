@@ -1,8 +1,9 @@
-
-
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
-<address president="Franklin D. Roosevelt" term="2" party="D"><introduction><date>Wednesday, January
-            20, 1937</date></introduction><speech><paragraph><congress>WHEN four years ago we met to
+<address president="Franklin D. Roosevelt" term="2" party="D">
+    <introduction>Wednesday, <date>January 20, 1937</date></introduction>
+    <speech>
+        <paragraph><congress>WHEN four years ago we met to
             inaugurate a President, the Republic, single-minded in anxiety, stood in spirit here. We
             dedicated ourselves to the fulfillment of a vision—to speed the time when there would be
             for all the people that security and peace essential to the pursuit of happiness.</congress> We of

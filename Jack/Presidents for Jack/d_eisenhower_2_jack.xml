@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Dwight D. Eisnhower" term="2" party="R">
     <introduction>Dwight D. Eisenhower Second Inaugural Address Monday, <date>January 21,
