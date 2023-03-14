@@ -14,8 +14,8 @@
                 have witnessed.</democracy></paragraph>
 
         <paragraph>At this second gathering, our duties are defined not by the words I use, but by
-            the history we have seen together. <war tone="N">For a half century, America defended
-                our own freedom by standing watch on distant borders. After the shipwreck of
+            the history we have seen together.<war tone="P">For a half century, America defended
+                our own freedom by standing watch on distant borders.</war> <war tone="N">After the shipwreck of
                 communism came years of relative quiet, years of repose, years of sabbatical—and
                 then there came a day of fire.</war></paragraph>
 
@@ -23,9 +23,9 @@
                 source. For as long as whole regions of the world simmer in resentment and
                 tyranny—prone to ideologies that feed hatred and excuse murder—violence will gather,
                 and multiply in destructive power, and cross the most defended borders, and raise a
-                mortal threat.</unity> There is only one force of history that can break the reign
+                mortal threat.</unity> <unity tone="P">There is only one force of history that can break the reign
             of hatred and resentment, and expose the pretensions of tyrants, and reward the hopes of
-            the decent and tolerant, and that is the force of human freedom.</paragraph>
+            the decent and tolerant, and that is the force of human freedom.</unity></paragraph>
 
         <paragraph><diplomacy>We are led, by events and common sense, to one conclusion: The
                 survival of liberty in our land increasingly depends on the success of liberty in
@@ -99,13 +99,13 @@
                 Lincoln did: "Those who deny freedom to others deserve it not for themselves; and,
                 under the rule of a just God, cannot long retain it."</democracy></paragraph>
 
-        <paragraph><diplomacy>The leaders of governments with long habits of control need to know:
-                To serve your people you must learn to trust them. Start on this journey of progress
-                and justice, and America will walk at your side.</diplomacy></paragraph>
+        <paragraph>The leaders of governments with long habits of control need to know:
+                To serve your people you must learn to trust them. <unity tone="P">Start on this journey of progress
+                and justice, and America will walk at your side.</unity></paragraph>
 
         <paragraph><diplomacy>And all the allies of the United States can know: we honor your
-                friendship, we rely on your counsel, and we depend on your help. Division among free
-                nations is a primary goal of freedom's enemies.</diplomacy>
+                friendship, we rely on your counsel, and we depend on your help.</diplomacy><unity tone="N"> Division among free
+                nations is a primary goal of freedom's enemies.</unity>
             <democracy>The concerted effort of free nations to promote democracy is a prelude to our
                 enemies' defeat.</democracy></paragraph>
 
