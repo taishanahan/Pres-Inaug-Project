@@ -17,7 +17,7 @@ h1 {
 .topnav {
     text-align: right;
 }
-ul {
+.nav-bar {
     display: flex;
     text-align: center;
     font-family: sans-serif;
@@ -151,4 +151,7 @@ ol {
     color: firebrick;
     font-weight: bold;
     font-size: 29px;
+}
+.info {
+    color: white;
 }
