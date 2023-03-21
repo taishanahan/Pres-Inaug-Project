@@ -2,10 +2,10 @@
 
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Lyndon Baines Johnson" term="2" party="D">
-    <introduction><date>Wednesday, January 20, 1965</date></introduction>
-    
-    <speech><paragraph>My fellow countrymen, on this occasion, the oath I have taken before you and before
-        God is not mine alone, but ours together. We are one nation and one people. <unity tone="P">Our fate as a
+  <introduction>Wednesday, <date>January 20, 1965</date></introduction>  
+  <speech>
+    <paragraph><unity tone="P">My fellow countrymen, on this occasion, the oath I have taken before you and before
+        God is not mine alone, but ours together. We are one nation and one people. Our fate as a
         nation and our future as a people rest not upon one citizen, but upon all
         citizens.</unity></paragraph>
     
@@ -24,39 +24,33 @@
     <paragraph>Our destiny in the midst of change will rest on the unchanged character of our
         people, and on their faith.</paragraph> 
         
-        <paragraph>
-        
-        They came here—the
+    <paragraph><unity tone="P">They came here—the
         exile and the stranger, brave but frightened—to find a place where a man could be his own
-        man. They made a covenant with this land. <democracy>Conceived in justice, written in liberty, bound in
+        man. They made a covenant with this land. Conceived in justice, written in liberty, bound in
         union, it was meant one day to inspire the hopes of all mankind; and it binds us still. If
-        we keep its terms, we shall flourish.</democracy></paragraph> 
+        we keep its terms, we shall flourish.</unity></paragraph> 
         
-        <paragraph>
-            First,
-        justice was the promise that all who made the journey would share in the fruits of the
+    <paragraph>First, justice was the promise that all who made the journey would share in the fruits of the
         land.</paragraph>
     
-    <paragraph><economy tone="P">In a land of great wealth, families must not live in hopeless poverty. In a land rich
-        in harvest, children just must not go hungry.</economy> <public_health tone="P">In a land of healing miracles, neighbors must
-        not suffer and die unattended.</public_health> <education tone="P">In a great land of learning and scholars, young people must
+    <paragraph><economy tone="N">In a land of great wealth, families must not live in hopeless poverty. In a land rich
+        in harvest, children just must not go hungry.</economy> <public_health tone="N">In a land of healing miracles, neighbors must
+        not suffer and die unattended.</public_health> <education tone="N">In a great land of learning and scholars, young people must
         be taught to read and write.</education></paragraph>
     
-    <paragraph>For the more than 30 years that I have served this Nation, I have believed that this
+    <paragraph><regulation>For the more than 30 years that I have served this Nation, I have believed that this
         injustice to our people, this waste of our resources, was our real enemy. For 30 years or
         more, with the resources I have had, I have vigilantly fought against it. I have learned,
-        and I know, that it will not surrender easily.</paragraph>
+        and I know, that it will not surrender easily.</regulation></paragraph>
     
     <paragraph>But change has given us new weapons. Before this generation of Americans is finished,
         this enemy will not only retreat—it will be conquered.</paragraph>
     
     <paragraph><unity tone="N">Justice requires us to remember that when any citizen denies his fellow, saying, "His
         color is not mine," or "His beliefs are strange and different," in that moment he betrays
-        America, though his forebears created this Nation</unity>.</paragraph> 
+        America, though his forebears created this Nation.</unity></paragraph> 
     
-        <paragraph>
-    
-        Liberty was the second article of our covenant. It was self-government. It was
+    <paragraph>Liberty was the second article of our covenant. It was self-government. It was
         our Bill of Rights. But it was more. America would be a place where each man could be proud
         to be himself: stretching his talents, rejoicing in his work, important in the life of his
         neighbors and his nation.</paragraph>
@@ -69,8 +63,8 @@
         And that is today our goal. Thus, if as a nation there is much outside our control, as a
         people no stranger is outside our hope.</paragraph>
     
-    <paragraph>Change has brought new meaning to that old mission. We can never again stand aside,
-        prideful in isolation. <war tone="N">Terrific dangers and troubles that we once called "foreign" now
+    <paragraph><war tone="P">Change has brought new meaning to that old mission. We can never again stand aside,
+        prideful in isolation. Terrific dangers and troubles that we once called "foreign" now
         constantly live among us. If American lives must end, and American treasure be spilled, in
         countries we barely know, that is the price that change has demanded of conviction and of
         our enduring covenant.</war></paragraph>
@@ -80,46 +74,42 @@
         We are all fellow passengers on a dot of earth. And each of us, in the span of time, has
         really only a moment among our companions.</paragraph>
     
-    <paragraph>How incredible it is that in this fragile existence, we should hate and destroy one
+    <paragraph><unity tone="N">How incredible it is that in this fragile existence, we should hate and destroy one
         another. There are possibilities enough for all who will abandon mastery over others to
         pursue mastery over nature. There is world enough for all to seek their happiness in their
-        own way.</paragraph>
+        own way.</unity></paragraph>
     
     <paragraph>Our Nation's course is abundantly clear. We aspire to nothing that belongs to others.
         We seek no dominion over our fellow man, but man's dominion over tyranny and
         misery.</paragraph>
     
-    <paragraph>But more is required.<unity tone="P"> Men want to be a part of a common enterprise—a cause greater
+    <paragraph><unity tone="P">But more is required. Men want to be a part of a common enterprise—a cause greater
         than themselves. Each of us must find a way to advance the purpose of the Nation, thus
         finding new purpose for ourselves. Without this, we shall become a nation of
         strangers.</unity></paragraph> 
     
-        <paragraph>
-    
-    The third article was union. To those who
+    <paragraph>The third article was union. To those who
         were small and few against the wilderness, the success of liberty demanded the strength of
         union. Two centuries of change have made this true again.</paragraph>
     
-    <paragraph>No longer need capitalist and worker, farmer and clerk, city and countryside,
-        struggle to divide our bounty. <unity tone="P">By working shoulder to shoulder, together we can increase the
-        bounty of all</unity>. <education tone="P">We have discovered that every child who learns</education>, <jobs tone="P">every man who finds work</jobs>,
-        <public_health tone="P">every sick body that is made whole</public_health>—<unity tone="P">like a candle added to an altar—brightens the hope of all
-        the faithful.</unity></paragraph>
+    <paragraph><unity tone="P">No longer need capitalist and worker, farmer and clerk, city and countryside,
+        struggle to divide our bounty. By working shoulder to shoulder, together we can increase the
+        bounty of all.</unity> <education tone="P">We have discovered that every child who learns</education>, <jobs tone="P">every man who finds work</jobs>,
+        <public_health tone="P">every sick body that is made whole</public_health>—like a candle added to an altar—brightens the hope of all
+        the faithful.</paragraph>
     
-    <paragraph>So let us reject any among us who seek to reopen old wounds and to rekindle old
-        hatreds. They stand in the way of a seeking nation.</paragraph>
+    <paragraph><unity tone="N">So let us reject any among us who seek to reopen old wounds and to rekindle old
+        hatreds. They stand in the way of a seeking nation.</unity></paragraph>
     
     <paragraph><unity tone="P">Let us now join reason to faith and action to experience, to transform our unity of
         interest into a unity of purpose. For the hour and the day and the time are here to achieve
         progress without strife, to achieve change without hatred—not without difference of opinion,
         but without the deep and abiding divisions which scar the union for generations.</unity></paragraph>
     
-        <paragraph>
-            
-            Under this covenant of justice, liberty, and union we have become
-        a nation—prosperous, great, and mighty. And we have kept our freedom. But we have no promise
+     <paragraph><economy tone="P">Under this covenant of justice, liberty, and union we have become
+        a nation—prosperous, great, and mighty.</economy> And we have kept our freedom. <religion>But we have no promise
         from God that our greatness will endure. We have been allowed by Him to seek greatness with
-        the sweat of our hands and the strength of our spirit.</paragraph>
+        the sweat of our hands and the strength of our spirit.</religion></paragraph>
     
     <paragraph>I do not believe that the Great Society is the ordered, changeless, and sterile
         battalion of the ants. It is the excitement of becoming—always becoming, trying, probing,
@@ -135,9 +125,9 @@
     <paragraph>If we succeed, it will not be because of what we have, but it will be because of what
         we are; not because of what we own, but, rather because of what we believe.</paragraph>
     
-    <paragraph>For we are a nation of believers. Underneath the clamor of building and the rush of
+    <paragraph><unity tone="P">For we are a nation of believers. Underneath the clamor of building and the rush of
         our day's pursuits, we are believers in justice and liberty and union, and in our own Union.
-        We believe that every man must someday be free. And we believe in ourselves.</paragraph>
+        We believe that every man must someday be free. And we believe in ourselves.</unity></paragraph>
     
     <paragraph>Our enemies have always made the same mistake. In my lifetime—in depression and in
         war—they have awaited our defeat. Each time, from the secret places of the American heart,
