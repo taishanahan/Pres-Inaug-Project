@@ -28,7 +28,7 @@
 
         <paragraph>More important, <jobs tone="N">a host of unemployed citizens face the grim
                 problem of existence</jobs>, and an equally great number toil with little return.
-            Only a foolish optimist can deny the dark realities of the moment.</paragraph>
+            <economy tone="N">Only a foolish optimist can deny the dark realities of the moment</economy>.</paragraph>
 
         <paragraph>Yet our distress comes from no failure of substance. We are stricken by no plague
             of locusts. <unity tone="P">Compared with the perils which our forefathers conquered
@@ -79,9 +79,9 @@
             greatly needed projects to stimulate and reorganize the use of our natural
             resources.</paragraph>
 
-        <paragraph>Hand in hand with this we must frankly recognize the overbalance of population in
+        <paragraph><infrastructure>Hand in hand with this we must frankly recognize the overbalance of population in
             our industrial centers and, by engaging on a national scale in a redistribution,
-            endeavor to provide a better use of the land for those best fitted for the land.
+            endeavor to provide a better use of the land for those best fitted for the land.</infrastructure>
                 <economy tone="N">The task can be helped by definite efforts to raise the values of
                 agricultural products and with this the power to purchase the output of our cities.
                 It can be helped by preventing realistically the tragedy of the growing loss through
