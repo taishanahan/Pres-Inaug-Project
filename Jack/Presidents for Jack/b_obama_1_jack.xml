@@ -1,5 +1,4 @@
-
-
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Barack Obama" term="2" party="D">
 
@@ -11,9 +10,9 @@
         <paragraph>My fellow citizens:</paragraph>
         
         <paragraph>I stand here today humbled by the task before us, grateful for the trust you have
-            bestowed, mindful of the sacrifices borne by our ancestors. I thank President Bush for
+            bestowed, mindful of the sacrifices borne by our ancestors. <pred tone="P">I thank President Bush for
             his service to our nation, as well as the generosity and cooperation he has shown
-            throughout this transition.</paragraph>
+            throughout this transition.</pred></paragraph>
         
         <paragraph><pred tone="P">Forty-four Americans have now taken the presidential oath. The words have been
             spoken during rising tides of prosperity and the still waters of peace. Yet, every so
@@ -24,12 +23,12 @@
         
         <paragraph>So it has been. So it must be with this generation of Americans.</paragraph>
         
-        <paragraph>That we are in the midst of crisis is now well understood. Our nation is at war,
-            against a far-reaching network of violence and hatred. <economy tone="P">Our economy is badly weakened, a
+        <paragraph>That we are in the midst of crisis is now well understood. <war tone="N">Our nation is at war,
+            against a far-reaching network of violence and hatred.</war> <economy tone="P">Our economy is badly weakened, a
             consequence of greed and irresponsibility on the part of some, but also our collective
             failure to make hard choices and prepare the nation for a new age. Homes have been lost;
-            jobs shed; businesses shuttered.</economy> Our health care is too costly; our schools fail too
-            many; and each day brings further evidence that the ways we use energy strengthen our
+            jobs shed; businesses shuttered.</economy> <public_health tone="N">Our health care is too costly</public_health>; <education tone="N">our schools fail too
+            many</education>; and each day brings further evidence that the ways we use energy strengthen our
             adversaries and threaten our planet.</paragraph>
         
         <paragraph>These are the indicators of crisis, subject to data and statistics. Less
@@ -37,9 +36,9 @@
             fear that America's decline is inevitable, and that the next generation must lower its
             sights.</paragraph>
         
-        <paragraph>Today I say to you that the challenges we face are real. They are serious and
-            they are many. They will not be met easily or in a short span of time. But know this,
-            America -- they will be met.</paragraph>
+        <paragraph><unity tone="N">Today I say to you that the challenges we face are real. They are serious and
+            they are many. They will not be met easily or in a short span of time.</unity> <unity tone="P">But know this,
+            America -- they will be met.</unity></paragraph>
         
         <paragraph><unity tone="P">On this day, we gather because we have chosen hope over fear, unity of purpose
             over conflict and discord.</unity></paragraph>
@@ -55,34 +54,34 @@
             deserve a chance to pursue their full measure of happiness.</paragraph>
         
         <paragraph><unity tone="P">In reaffirming the greatness of our nation, we understand that greatness is never
-            a given.</unity> It must be earned. Our journey has never been one of shortcuts or settling for
+            a given. It must be earned. Our journey has never been one of shortcuts or settling for
             less. It has not been the path for the faint-hearted -- for those who prefer leisure
             over work, or seek only the pleasures of riches and fame. Rather, it has been the
             risk-takers, the doers, the makers of things -- some celebrated but more often men and
             women obscure in their labor, who have carried us up the long, rugged path towards
-            prosperity and freedom.</paragraph>
+            prosperity and freedom.</unity></paragraph>
         
-        <paragraph>For us, they packed up their few worldly possessions and traveled across oceans
-            in search of a new life.</paragraph>
+        <paragraph><unity tone="P">For us, they packed up their few worldly possessions and traveled across oceans
+            in search of a new life.</unity></paragraph>
         
-        <paragraph>For us, they toiled in sweatshops and settled the West; endured the lash of the
-            whip and plowed the hard earth.</paragraph>
+        <paragraph><unity tone="P">For us, they toiled in sweatshops and settled the West; endured the lash of the
+            whip and plowed the hard earth.</unity></paragraph>
         
-        <paragraph>For us, they fought and died, in places like Concord and Gettysburg; Normandy and
-            Khe Sahn.</paragraph>
+        <paragraph><war tone="N">For us, they fought and died, in places like Concord and Gettysburg; Normandy and
+            Khe Sahn.</war></paragraph>
         
-        <paragraph>Time and again these men and women struggled and sacrificed and worked till their
+        <paragraph><unity tone="P">Time and again these men and women struggled and sacrificed and worked till their
             hands were raw so that we might live a better life. They saw America as bigger than the
             sum of our individual ambitions; greater than all the differences of birth or wealth or
-            faction.</paragraph>
+            faction.</unity></paragraph>
         
         <paragraph>This is the journey we continue today. <unity tone="P">We remain the most prosperous, powerful
             nation on Earth.</unity> <jobs tone="P">Our workers are no less productive than when this crisis began. Our
             minds are no less inventive, our goods and services no less needed than they were last
-            week or last month or last year.</jobs> Our capacity remains undiminished. But our time of
+            week or last month or last year.</jobs> <unity tone="P">Our capacity remains undiminished. But our time of
             standing pat, of protecting narrow interests and putting off unpleasant decisions --
             that time has surely passed. Starting today, we must pick ourselves up, dust ourselves
-            off, and begin again the work of remaking America.</paragraph>
+            off, and begin again the work of remaking America.</unity></paragraph>
         
         <paragraph><jobs tone="N">For everywhere we look, there is work to be done. The state of the economy calls
             for action, bold and swift, and we will act -- not only to create new jobs, but to lay a
@@ -108,39 +107,39 @@
             our business in the light of day -- because only then can we restore the vital trust
             between a people and their government.</paragraph>
         
-        <paragraph>Nor is the question before us whether the market is a force for good or ill. Its
+        <paragraph><economy tone="P">Nor is the question before us whether the market is a force for good or ill. Its
             power to generate wealth and expand freedom is unmatched, but this crisis has reminded
             us that without a watchful eye, the market can spin out of control -- and that a nation
-            cannot prosper long when it favors only the prosperous. <unity tone="P">The success of our economy has
+            cannot prosper long when it favors only the prosperous. The success of our economy has
             always depended not just on the size of our gross domestic product, but on the reach of
             our prosperity; on our ability to extend opportunity to every willing heart -- not out
-            of charity, but because it is the surest route to our common good.</unity></paragraph>
+            of charity, but because it is the surest route to our common good.</economy></paragraph>
         
         <paragraph>As for our common defense, we reject as false the choice between our safety and
             our ideals. Our founding fathers, faced with perils we can scarcely imagine, drafted a
             charter to assure the rule of law and the rights of man, a charter expanded by the blood
             of generations. Those ideals still light the world, and we will not give them up for
-            expedience's sake. And so to all other peoples and governments who are watching today,
+            expedience's sake. <diplomacy>And so to all other peoples and governments who are watching today,
             from the grandest capitals to the small village where my father was born: know that
             America is a friend of each nation and every man, woman, and child who seeks a future of
-            peace and dignity, and that we are ready to lead once more.</paragraph>
+            peace and dignity, and that we are ready to lead once more.</diplomacy></paragraph>
         
-        <paragraph>Recall that earlier generations faced down fascism and communism not just with
+        <paragraph><diplomacy>Recall that earlier generations faced down fascism and communism not just with
             missiles and tanks, but with sturdy alliances and enduring convictions. They understood
             that our power alone cannot protect us, nor does it entitle us to do as we please.
             Instead, they knew that our power grows through its prudent use; our security emanates
             from the justness of our cause, the force of our example, the tempering qualities of
-            humility and restraint.</paragraph>
+            humility and restraint.</diplomacy></paragraph>
         
-        <paragraph>We are the keepers of this legacy. Guided by these principles once more, we can
+        <paragraph><diplomacy>We are the keepers of this legacy. Guided by these principles once more, we can
             meet those new threats that demand even greater effort -- even greater cooperation and
             understanding between nations. We will begin to responsibly leave Iraq to its people,
-            and forge a hard-earned peace in Afghanistan. With old friends and former foes, we will
+            and forge a hard-earned peace in Afghanistan.</diplomacy> <war tone="P">With old friends and former foes, we will
             work tirelessly to lessen the nuclear threat, and roll back the specter of a warming
             planet. We will not apologize for our way of life, nor will we waver in its defense, and
             for those who seek to advance their aims by inducing terror and slaughtering innocents,
             we say to you now that our spirit is stronger and cannot be broken; you cannot outlast
-            us, and we will defeat you.</paragraph>
+            us, and we will defeat you.</war></paragraph>
         
         <paragraph>For we know that our patchwork heritage is a strength, not a weakness. <religion>We are a
             nation of Christians and Muslims, Jews and Hindus -- and non-believers. We are shaped by
@@ -151,38 +150,38 @@
             common humanity shall reveal itself; and that America must play its role in ushering in
             a new era of peace.</religion></paragraph>
         
-        <paragraph>To the Muslim world, we seek a new way forward, based on mutual interest and
+        <paragraph><diplomacy>To the Muslim world, we seek a new way forward, based on mutual interest and
             mutual respect. To those leaders around the globe who seek to sow conflict, or blame
             their society's ills on the West -- know that your people will judge you on what you can
             build, not what you destroy. To those who cling to power through corruption and deceit
             and the silencing of dissent, know that you are on the wrong side of history; but that
-            we will extend a hand if you are willing to unclench your fist.</paragraph>
+            we will extend a hand if you are willing to unclench your fist.</diplomacy></paragraph>
         
-        <paragraph>To the people of poor nations, we pledge to work alongside you to make your farms
+        <paragraph><diplomacy>To the people of poor nations, we pledge to work alongside you to make your farms
             flourish and let clean waters flow; to nourish starved bodies and feed hungry minds. And
             to those nations like ours that enjoy relative plenty, we say we can no longer afford
             indifference to suffering outside our borders; nor can we consume the world's resources
             without regard to effect. For the world has changed, and we must change with
-            it.</paragraph>
+            it.</diplomacy></paragraph>
         
-        <paragraph>As we consider the road that unfolds before us, we remember with humble gratitude
+        <paragraph><war tone="N">As we consider the road that unfolds before us, we remember with humble gratitude
             those brave Americans who, at this very hour, patrol far-off deserts and distant
             mountains. They have something to tell us today, just as the fallen heroes who lie in
             Arlington whisper through the ages. We honor them not only because they are guardians of
             our liberty, but because they embody the spirit of service; a willingness to find
             meaning in something greater than themselves. And yet, at this moment -- a moment that
             will define a generation -- it is precisely this spirit that must inhabit us
-            all.</paragraph>
+            all.</war></paragraph>
         
-        <paragraph>For as much as government can do and must do, it is ultimately the faith and
+        <paragraph><unity tone="P">For as much as government can do and must do, it is ultimately the faith and
             determination of the American people upon which this nation relies. It is the kindness
             to take in a stranger when the levees break, the selflessness of workers who would
             rather cut their hours than see a friend lose their job which sees us through our
-            darkest hours. <unity tone="P">It is the firefighter's courage to storm a stairway filled with smoke,
+            darkest hours. It is the firefighter's courage to storm a stairway filled with smoke,
             but also a parent's willingness to nurture a child, that finally decides our
             fate.</unity></paragraph>
         
-        <paragraph>Our challenges may be new. The instruments with which we meet them may be new.
+        <paragraph><unity tone="P">Our challenges may be new. The instruments with which we meet them may be new.
             But those values upon which our success depends -- hard work and honesty, courage and
             fair play, tolerance and curiosity, loyalty and patriotism -- these things are old.
             These things are true. They have been the quiet force of progress throughout our
@@ -191,12 +190,12 @@
             have duties to ourselves, our nation, and the world, duties that we do not grudgingly
             accept but rather seize gladly, firm in the knowledge that there is nothing so
             satisfying to the spirit, so defining of our character, than giving our all to a
-            difficult task.</paragraph>
+            difficult task.</unity></paragraph>
         
         <paragraph>This is the price and the promise of citizenship.</paragraph>
         
-        <paragraph>This is the source of our confidence -- the knowledge that God calls on us to
-            shape an uncertain destiny.</paragraph>
+        <paragraph>This is the source of our confidence -- <religion>the knowledge that God calls on us to
+            shape an uncertain destiny.</religion></paragraph>
         
         <paragraph><unity tone="P">This is the meaning of our liberty and our creed -- why men and women and
             children of every race and every faith can join in celebration across this magnificent
@@ -214,12 +213,12 @@
             but hope and virtue could survive...that the city and the country, alarmed at one common
             danger, came forth to meet (it)."</paragraph>
         
-        <paragraph>America, in the face of our common dangers, in this winter of our hardship, let
+        <paragraph><unity tone="P">America, in the face of our common dangers, in this winter of our hardship, let
             us remember these timeless words. With hope and virtue, let us brave once more the icy
             currents, and endure what storms may come. Let it be said by our children's children
             that when we were tested we refused to let this journey end, that we did not turn back
             nor did we falter; and with eyes fixed on the horizon and God's grace upon us, we
             carried forth that great gift of freedom and delivered it safely to future
-            generations.</paragraph>
+            generations.</unity></paragraph>
     </speech>
 </address>
