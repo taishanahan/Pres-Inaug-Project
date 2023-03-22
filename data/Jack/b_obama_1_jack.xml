@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Barack Obama" term="2" party="D">
-
     <introduction>
         <date>January 20, 2009</date>
     </introduction>
-
     <speech>
         <paragraph>My fellow citizens:</paragraph>
         
@@ -23,18 +21,18 @@
         
         <paragraph>So it has been. So it must be with this generation of Americans.</paragraph>
         
-        <paragraph>That we are in the midst of crisis is now well understood. <war tone="N">Our nation is at war,
-            against a far-reaching network of violence and hatred.</war> <economy tone="P">Our economy is badly weakened, a
+        <paragraph><war tone="N">That we are in the midst of crisis is now well understood. Our nation is at war,
+            against a far-reaching network of violence and hatred.</war> <economy tone="N">Our economy is badly weakened, a
             consequence of greed and irresponsibility on the part of some, but also our collective
             failure to make hard choices and prepare the nation for a new age. Homes have been lost;
             jobs shed; businesses shuttered.</economy> <public_health tone="N">Our health care is too costly</public_health>; <education tone="N">our schools fail too
-            many</education>; and each day brings further evidence that the ways we use energy strengthen our
+            many;</education> and each day brings further evidence that the ways we use energy strengthen our
             adversaries and threaten our planet.</paragraph>
         
-        <paragraph>These are the indicators of crisis, subject to data and statistics. Less
+        <paragraph><unity tone="N">These are the indicators of crisis, subject to data and statistics. Less
             measurable but no less profound is a sapping of confidence across our land -- a nagging
             fear that America's decline is inevitable, and that the next generation must lower its
-            sights.</paragraph>
+            sights.</unity></paragraph>
         
         <paragraph><unity tone="N">Today I say to you that the challenges we face are real. They are serious and
             they are many. They will not be met easily or in a short span of time.</unity> <unity tone="P">But know this,
@@ -43,9 +41,9 @@
         <paragraph><unity tone="P">On this day, we gather because we have chosen hope over fear, unity of purpose
             over conflict and discord.</unity></paragraph>
         
-        <paragraph>On this day, we come to proclaim an end to the petty grievances and false
+        <paragraph><unity tone="N">On this day, we come to proclaim an end to the petty grievances and false
             promises, the recriminations and worn out dogmas, that for far too long have strangled
-            our politics.</paragraph>
+            our politics.</unity></paragraph>
         
         <paragraph>We remain a young nation, but in the words of scripture, the time has come to set
             aside childish things. The time has come to reaffirm our enduring spirit; to choose our
@@ -75,7 +73,7 @@
             sum of our individual ambitions; greater than all the differences of birth or wealth or
             faction.</unity></paragraph>
         
-        <paragraph>This is the journey we continue today. <unity tone="P">We remain the most prosperous, powerful
+        <paragraph><unity tone="P">This is the journey we continue today. We remain the most prosperous, powerful
             nation on Earth.</unity> <jobs tone="P">Our workers are no less productive than when this crisis began. Our
             minds are no less inventive, our goods and services no less needed than they were last
             week or last month or last year.</jobs> <unity tone="P">Our capacity remains undiminished. But our time of
@@ -83,21 +81,21 @@
             that time has surely passed. Starting today, we must pick ourselves up, dust ourselves
             off, and begin again the work of remaking America.</unity></paragraph>
         
-        <paragraph><jobs tone="N">For everywhere we look, there is work to be done. The state of the economy calls
+        <paragraph><economy tone="N">For everywhere we look, there is work to be done. The state of the economy calls
             for action, bold and swift, and we will act -- not only to create new jobs, but to lay a
-            new foundation for growth.</jobs> <infrastructure>We will build the roads and bridges, the electric grids and
+            new foundation for growth.</economy> <infrastructure>We will build the roads and bridges, the electric grids and
             digital lines that feed our commerce and bind us together. We will restore science to
             its rightful place, and wield technology's wonders to raise health care's quality and
             lower its cost. We will harness the sun and the winds and the soil to fuel our cars and
-            run our factories. And we will transform our schools and colleges and universities to
-            meet the demands of a new age.</infrastructure> All this we can do. And all this we will do.</paragraph>
+            run our factories.</infrastructure> <education tone="N">And we will transform our schools and colleges and universities to
+            meet the demands of a new age.</education> All this we can do. And all this we will do.</paragraph>
         
         <paragraph>Now, there are some who question the scale of our ambitions -- who suggest that
             our system cannot tolerate too many big plans. Their memories are short. For they have
             forgotten what this country has already done; what free men and women can achieve when
             imagination is joined to common purpose, and necessity to courage.</paragraph>
         
-        <paragraph>What the cynics fail to understand is that the ground has shifted beneath them --
+        <paragraph><regulation>What the cynics fail to understand is that the ground has shifted beneath them --
             that the stale political arguments that have consumed us for so long no longer apply.
             The question we ask today is not whether our government is too big or too small, but
             whether it works -- whether it helps families find jobs at a decent wage, care they can
@@ -105,9 +103,9 @@
             forward. Where the answer is no, programs will end. And those of us who manage the
             public's dollars will be held to account -- to spend wisely, reform bad habits, and do
             our business in the light of day -- because only then can we restore the vital trust
-            between a people and their government.</paragraph>
+            between a people and their government.</regulation></paragraph>
         
-        <paragraph><economy tone="P">Nor is the question before us whether the market is a force for good or ill. Its
+        <paragraph><economy tone="N">Nor is the question before us whether the market is a force for good or ill. Its
             power to generate wealth and expand freedom is unmatched, but this crisis has reminded
             us that without a watchful eye, the market can spin out of control -- and that a nation
             cannot prosper long when it favors only the prosperous. The success of our economy has
@@ -115,11 +113,11 @@
             our prosperity; on our ability to extend opportunity to every willing heart -- not out
             of charity, but because it is the surest route to our common good.</economy></paragraph>
         
-        <paragraph>As for our common defense, we reject as false the choice between our safety and
+        <paragraph><diplomacy>As for our common defense, we reject as false the choice between our safety and
             our ideals. Our founding fathers, faced with perils we can scarcely imagine, drafted a
             charter to assure the rule of law and the rights of man, a charter expanded by the blood
             of generations. Those ideals still light the world, and we will not give them up for
-            expedience's sake. <diplomacy>And so to all other peoples and governments who are watching today,
+            expedience's sake. And so to all other peoples and governments who are watching today,
             from the grandest capitals to the small village where my father was born: know that
             America is a friend of each nation and every man, woman, and child who seeks a future of
             peace and dignity, and that we are ready to lead once more.</diplomacy></paragraph>
@@ -142,13 +140,13 @@
             us, and we will defeat you.</war></paragraph>
         
         <paragraph>For we know that our patchwork heritage is a strength, not a weakness. <religion>We are a
-            nation of Christians and Muslims, Jews and Hindus -- and non-believers. We are shaped by
+            nation of Christians and Muslims, Jews and Hindus -- and non-believers.</religion> <race>We are shaped by
             every language and culture, drawn from every end of this Earth; and because we have
-            tasted the bitter swill of civil war and segregation, and emerged from that dark chapter
+            tasted the bitter swill of civil war and segregation,</race> <unity tone="P">and emerged from that dark chapter
             stronger and more united, we cannot help but believe that the old hatreds shall someday
             pass; that the lines of tribe shall soon dissolve; that as the world grows smaller, our
             common humanity shall reveal itself; and that America must play its role in ushering in
-            a new era of peace.</religion></paragraph>
+            a new era of peace.</unity></paragraph>
         
         <paragraph><diplomacy>To the Muslim world, we seek a new way forward, based on mutual interest and
             mutual respect. To those leaders around the globe who seek to sow conflict, or blame
@@ -164,7 +162,7 @@
             without regard to effect. For the world has changed, and we must change with
             it.</diplomacy></paragraph>
         
-        <paragraph><war tone="N">As we consider the road that unfolds before us, we remember with humble gratitude
+        <paragraph><war tone="P">As we consider the road that unfolds before us, we remember with humble gratitude
             those brave Americans who, at this very hour, patrol far-off deserts and distant
             mountains. They have something to tell us today, just as the fallen heroes who lie in
             Arlington whisper through the ages. We honor them not only because they are guardians of
@@ -194,11 +192,12 @@
         
         <paragraph>This is the price and the promise of citizenship.</paragraph>
         
-        <paragraph>This is the source of our confidence -- <religion>the knowledge that God calls on us to
+        <paragraph><religion>This is the source of our confidence -- the knowledge that God calls on us to
             shape an uncertain destiny.</religion></paragraph>
         
-        <paragraph><unity tone="P">This is the meaning of our liberty and our creed -- why men and women and
-            children of every race and every faith can join in celebration across this magnificent
+        <paragraph>This is the meaning of our liberty and our creed -- why men and women and
+            children of <race>every race</race> and <religion>every faith</religion> 
+            <unity tone="P">can join in celebration across this magnificent
             mall, and why a man whose father less than sixty years ago might not have been served at
             a local restaurant can now stand before you to take a most sacred oath.</unity></paragraph>
         
