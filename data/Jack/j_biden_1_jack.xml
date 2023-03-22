@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Joe Biden" term="1" party="D">
     <introduction><date>January 20, 2021</date></introduction>
-
     <speech>
         <paragraph>Chief Justice Roberts, Vice President Harris, Speaker Pelosi, Leader Schumer,
             Leader McConnell, Vice President Pence, distinguished guests, and my fellow
@@ -22,8 +21,8 @@
         <paragraph><democracy>Today, we celebrate the triumph not of a candidate, but of a cause, the cause of
             democracy.</democracy></paragraph>
 
-        <paragraph>The will of the people has been heard and the will of the people has been
-            heeded.</paragraph>
+        <paragraph><democracy>The will of the people has been heard and the will of the people has been
+            heeded.</democracy></paragraph>
 
         <paragraph><democracy>We have learned again that democracy is precious.</democracy></paragraph>
 
@@ -32,7 +31,7 @@
         <paragraph><democracy>And at this hour, my friends, democracy has
             prevailed.</democracy></paragraph>
 
-        <paragraph><unity tone="N">So now, on this hallowed ground where just days ago violence
+        <paragraph><unity tone="P">So now, on this hallowed ground where just days ago violence
                 sought to shake this Capitol’s very foundation, we come together as one nation,
                 under God, indivisible, to carry out the peaceful transfer of power as we have for
                 more than two centuries.</unity></paragraph>
@@ -81,10 +80,10 @@
         <paragraph><unity tone="N">Few periods in our nation’s history have been more challenging or difficult than
             the one we’re in now.</unity></paragraph>
 
-        <paragraph>A once-in-a-century virus silently stalks the country.</paragraph>
+        <paragraph><public_health tone="N">A once-in-a-century virus silently stalks the country.</public_health></paragraph>
 
-        <paragraph><war tone="N">It’s taken as many lives in one year as America lost in all of World War
-            II.</war></paragraph>
+        <paragraph><public_health tone="N">It’s taken as many lives in one year as America lost in all of World War
+            II.</public_health></paragraph>
 
         <paragraph><jobs tone="N">Millions of jobs have been lost.</jobs></paragraph>
 
@@ -96,8 +95,8 @@
         <paragraph>A cry for survival comes from the planet itself. A cry that can’t be any more
             desperate or any more clear.</paragraph>
 
-        <paragraph><war tone="N">And now, a rise in political extremism, white supremacy, domestic terrorism that
-            we must confront and we will defeat.</war></paragraph>
+        <paragraph><unity tone="N">And now, a rise in political extremism, white supremacy, domestic terrorism that
+            we must confront and we will defeat.</unity></paragraph>
 
         <paragraph><unity tone="N">To overcome these challenges – to restore the soul and to secure the future of
             America – requires more than words.</unity></paragraph>
@@ -128,11 +127,12 @@
 
         <paragraph><unity tone="P">Uniting to fight the common foes we face:</unity></paragraph>
 
-        <paragraph>Anger, resentment, hatred.</paragraph>
+        <paragraph><unity tone="N">Anger, resentment, hatred.</unity></paragraph>
 
-        <paragraph><war tone="N">Extremism, lawlessness, violence.</war></paragraph>
+        <paragraph><criminal_justice tone="N">Extremism, lawlessness, violence.</criminal_justice></paragraph>
 
-        <paragraph><jobs tone="N">Disease, joblessness, hopelessness.</jobs></paragraph>
+        <paragraph><public_health tone="N">Disease,</public_health> 
+            <jobs tone="N">joblessness, hopelessness.</jobs></paragraph>
 
         <paragraph><unity tone="P">With unity we can do great things. Important things.</unity></paragraph>
 
@@ -154,7 +154,7 @@
         <paragraph>We can make America, once again, the leading force for good in the
             world.</paragraph>
 
-        <paragraph>I know speaking of unity can sound to some like a foolish fantasy.</paragraph>
+        <paragraph><unity tone="N">I know speaking of unity can sound to some like a foolish fantasy.</unity></paragraph>
 
         <paragraph><unity tone="N">I know the forces that divide us are deep and they are real.</unity></paragraph>
 
@@ -168,9 +168,9 @@
 
         <paragraph>Victory is never assured.</paragraph>
 
-        <paragraph><war tone="P">Through the Civil War, the Great Depression, World War, 9/11,
+        <paragraph><unity tone="P">Through the Civil War, the Great Depression, World War, 9/11,
                 through struggle, sacrifice, and setbacks, our “better angels” have always
-                prevailed.</war></paragraph>
+                prevailed.</unity></paragraph>
 
         <paragraph><unity tone="P">In each of these moments, enough of us came together to carry all of us
             forward.</unity></paragraph>
@@ -179,13 +179,13 @@
 
         <paragraph>History, faith, and reason show the way, the way of unity.</paragraph>
 
-        <paragraph><diplomacy>We can see each other not as adversaries but as neighbors.</diplomacy></paragraph>
+        <paragraph><unity tone="P">We can see each other not as adversaries but as neighbors.</unity></paragraph>
 
-        <paragraph><diplomacy>We can treat each other with dignity and respect.</diplomacy></paragraph>
+        <paragraph><unity tone="P">We can treat each other with dignity and respect.</unity></paragraph>
 
-        <paragraph><diplomacy>We can join forces, stop the shouting, and lower the temperature.</diplomacy></paragraph>
+        <paragraph><unity tone="P">We can join forces, stop the shouting, and lower the temperature.</unity></paragraph>
 
-        <paragraph>For without unity, there is no peace, only bitterness and fury.</paragraph>
+        <paragraph><unity tone="N">For without unity, there is no peace, only bitterness and fury.</unity></paragraph>
 
         <paragraph>No progress, only exhausting outrage.</paragraph>
 
@@ -205,18 +205,18 @@
 
         <paragraph>All of us.</paragraph>
 
-        <paragraph>Let us listen to one another.</paragraph>
+        <paragraph><unity tone="P">Let us listen to one another.</unity></paragraph>
 
-        <paragraph>Hear one another. See one another.</paragraph>
+        <paragraph><unity tone="P">Hear one another. See one another.</unity></paragraph>
 
-        <paragraph>Show respect to one another.</paragraph>
+        <paragraph><unity tone="P">Show respect to one another.</unity></paragraph>
 
-        <paragraph>Politics need not be a raging fire destroying everything in its path.</paragraph>
+        <paragraph><unity tone="P">Politics need not be a raging fire destroying everything in its path.</unity></paragraph>
 
         <paragraph><war tone="N">Every disagreement doesn’t have to be a cause for total war.</war></paragraph>
 
-        <paragraph>And, we must reject a culture in which facts themselves are manipulated and even
-            manufactured.</paragraph>
+        <paragraph><unity tone="N">And, we must reject a culture in which facts themselves are manipulated and even
+            manufactured.</unity></paragraph>
 
         <paragraph><unity tone="P">My fellow Americans, we have to be different than this.</unity></paragraph>
 
@@ -231,8 +231,8 @@
 
         <paragraph><unity tone="P">Yet we endured and we prevailed.</unity></paragraph>
 
-        <paragraph>Here we stand looking out to the great Mall where Dr. King spoke of his
-            dream.</paragraph>
+        <paragraph><race>Here we stand looking out to the great Mall where Dr. King spoke of his
+            dream.</race></paragraph>
 
         <paragraph>Here we stand, where 108 years ago at another inaugural, thousands of protestors
             tried to block brave women from marching for the right to vote.</paragraph>
@@ -245,8 +245,8 @@
         <paragraph><war tone="N">Here we stand across the Potomac from Arlington National Cemetery, where heroes
             who gave the last full measure of devotion rest in eternal peace.</war></paragraph>
 
-        <paragraph><war tone="N">And here we stand, just days after a riotous mob thought they could use violence
-            to silence the will of the people</war>, <democracy>to stop the work of our democracy, and to drive us
+        <paragraph><unity tone="N">And here we stand, just days after a riotous mob thought they could use violence
+            to silence the will of the people</unity>, <democracy>to stop the work of our democracy, and to drive us
             from this sacred ground.</democracy></paragraph>
 
         <paragraph>That did not happen.</paragraph>
@@ -262,8 +262,8 @@
         <paragraph>To all those who supported our campaign I am humbled by the faith you have placed
             in us.</paragraph>
 
-        <paragraph>To all those who did not support us, let me say this: Hear me out as we move
-            forward. Take a measure of me and my heart.</paragraph>
+        <paragraph><unity tone="P">To all those who did not support us, let me say this: Hear me out as we move
+            forward. Take a measure of me and my heart.</unity></paragraph>
 
         <paragraph>And if you still disagree, so be it.</paragraph>
 
@@ -275,8 +275,8 @@
 
         <paragraph><unity tone="P">And I pledge this to you: I will be a President for all Americans.</unity></paragraph>
 
-        <paragraph>I will fight as hard for those who did not support me as for those who
-            did.</paragraph>
+        <paragraph><unity tone="P">I will fight as hard for those who did not support me as for those who
+            did.</unity></paragraph>
 
         <paragraph><religion>Many centuries ago, Saint Augustine, a saint of my church, wrote that a people
             was a multitude defined by the common objects of their love.</religion></paragraph>
@@ -312,17 +312,17 @@
         <paragraph>I understand that many Americans view the future with some fear and
             trepidation.</paragraph>
 
-        <paragraph><jobs tone="N">I understand they worry about their jobs</jobs>, about taking care of their families,
-            about what comes next.</paragraph>
+        <paragraph><jobs tone="N">I understand they worry about their jobs, about taking care of their families,
+            about what comes next.</jobs></paragraph>
 
         <paragraph>I get it.</paragraph>
 
-        <paragraph>But the answer is not to turn inward, to retreat into competing factions,
+        <paragraph><unity tone="N">But the answer is not to turn inward, to retreat into competing factions,
             distrusting those who don’t look like you do, or worship the way you do, or don’t get
-            their news from the same sources you do.</paragraph>
+            their news from the same sources you do.</unity></paragraph>
 
-        <paragraph>We must end this uncivil war that pits red against blue, rural versus urban,
-            conservative versus liberal.</paragraph>
+        <paragraph><unity tone="N">We must end this uncivil war that pits red against blue, rural versus urban,
+            conservative versus liberal.</unity></paragraph>
 
         <paragraph><unity tone="P">We can do this if we open our souls instead of hardening our
                 hearts.</unity></paragraph>
@@ -351,7 +351,7 @@
         <paragraph><public_health tone="N">We are entering what may well be the toughest and deadliest period of the
             virus.</public_health></paragraph>
 
-        <paragraph><public_health tone="P">We must set aside the politics and finally face this
+        <paragraph><public_health tone="N">We must set aside the politics and finally face this
                 pandemic as one nation</public_health>.</paragraph>
 
         <paragraph><religion>I promise you this: as the Bible says weeping may endure for a night but joy
@@ -368,8 +368,8 @@
 
         <paragraph>Not to meet yesterday’s challenges, but today’s and tomorrow’s.</paragraph>
 
-        <paragraph>We will lead not merely by the example of our power but by the power of our
-            example.</paragraph>
+        <paragraph><diplomacy>We will lead not merely by the example of our power but by the power of our
+            example.</diplomacy></paragraph>
 
         <paragraph><diplomacy>We will be a strong and trusted partner for peace, progress, and
             security.</diplomacy></paragraph>
@@ -380,14 +380,14 @@
             of silent prayer to remember all those we lost this past year to the
             pandemic.</public_health></paragraph>
 
-        <paragraph>To those 400,000 fellow Americans – mothers and fathers, husbands and wives, sons
-            and daughters, friends, neighbors, and co-workers.</paragraph>
+        <paragraph><public_health tone="N">To those 400,000 fellow Americans – mothers and fathers, husbands and wives, sons
+            and daughters, friends, neighbors, and co-workers.</public_health></paragraph>
 
         <paragraph>We will honor them by becoming the people and nation we know we can and should
             be.</paragraph>
 
-        <paragraph>Let us say a silent prayer for those who lost their lives, for those they left
-            behind, and for our country.</paragraph>
+        <paragraph><religion>Let us say a silent prayer for those who lost their lives, for those they left
+            behind, and for our country.</religion></paragraph>
 
         <paragraph>Amen.</paragraph>
 
@@ -397,7 +397,7 @@
 
         <paragraph><public_health tone="N">A raging virus.</public_health></paragraph>
 
-        <paragraph>Growing inequity.</paragraph>
+        <paragraph><economy tone="N">Growing inequity.</economy></paragraph>
 
         <paragraph><race>The sting of systemic racism.</race></paragraph>
 
