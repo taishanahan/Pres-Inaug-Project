@@ -164,3 +164,13 @@ a {
     height: 150px;
     border-radius: 25px;
 }
+button.next {
+    display: block;
+    margin-left: auto;
+    margin-right: 1%;
+}
+button.prev {
+    display: block;
+    margin-left: auto;
+    margin-left: 1%;
+}
