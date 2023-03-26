@@ -164,6 +164,12 @@ a {
     height: 150px;
     border-radius: 25px;
 }
+table, th, td {
+  border:1px solid black;
+}
+span.economy-P {
+    background-color: aliceblue;
+}
 button.next {
     display: block;
     margin-left: auto;
