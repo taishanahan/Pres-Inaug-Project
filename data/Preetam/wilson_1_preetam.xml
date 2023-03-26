@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Woodrow Wilson" term="1" party="D">
     <introduction>Woodrow Wilson First Inaugural Address Tuesday, <date>March 4,
         1913</date></introduction>

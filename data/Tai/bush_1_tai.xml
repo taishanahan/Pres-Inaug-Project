@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/Users/taishanahan/Desktop/Pres-Inaug-Project/Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="George W. Bush" term="1" party="R">
     <introduction>George W. Bush First Inaugural Address Saturday, <date>January 20,
         2001</date></introduction>

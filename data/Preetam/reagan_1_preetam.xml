@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Ronald Reagan" term="1" party="R">
     <introduction>Ronald Reagan First Inaugural Address Tuesday, <date>January 20,
         1981</date></introduction>

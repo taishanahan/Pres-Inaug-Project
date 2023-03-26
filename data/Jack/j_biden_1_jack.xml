@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Joe Biden" term="1" party="D">
-    <introduction><date>January 20, 2021</date></introduction>
+    <introduction>Joe Biden Inaugural Address Wednesday, <date>January 20, 2021</date></introduction>
     <speech>
         <paragraph>Chief Justice Roberts, Vice President Harris, Speaker Pelosi, Leader Schumer,
             Leader McConnell, Vice President Pence, distinguished guests, and my fellow

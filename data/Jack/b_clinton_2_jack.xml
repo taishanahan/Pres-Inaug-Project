@@ -1,6 +1,6 @@
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Bill Clinton" term="2" party="D">
-    <introduction>
+    <introduction> Bill Clinton Second Inaugural Address Monday, 
         <date>January 20, 1997</date>
     </introduction>
 <speech>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="George W. Bush" term="2" party="R">
     <introduction>George W. Bush Second Inaugural Address Thursday, <date>January 20,
         2005</date></introduction>

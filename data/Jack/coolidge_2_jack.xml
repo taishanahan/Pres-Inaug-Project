@@ -1,6 +1,6 @@
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Calvin Coolidge" term="2" party="D">
-    <introduction>
+    <introduction> Calvin Coolidge Inaugural Address Wednesday, 
         <date>March 4, 1925</date>
     </introduction>
     <speech>

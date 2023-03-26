@@ -2,7 +2,7 @@
 
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Lyndon Baines Johnson" term="2" party="D">
-  <introduction>Wednesday, <date>January 20, 1965</date></introduction>  
+  <introduction>Lyndon B. Johnson Inaugural Address Wednesday, <date>January 20, 1965</date></introduction>  
   <speech>
     <paragraph><unity tone="P">My fellow countrymen, on this occasion, the oath I have taken before you and before
         God is not mine alone, but ours together. We are one nation and one people. Our fate as a

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Franklin D. Roosevelt" term="4" party="D">
     <introduction>Franklin D. Roosevelt Fourth Inaugural Address Saturday, <date>January 20,
         1945</date></introduction>

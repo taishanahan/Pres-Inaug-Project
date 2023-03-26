@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Dwight D. Eisenhower" term="1" party="R">
     <introduction>Dwight D. Eisenhower First Inaugural Address Tuesday, <date>January 20,
             1953</date></introduction>

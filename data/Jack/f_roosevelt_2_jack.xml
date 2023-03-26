@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Franklin D. Roosevelt" term="2" party="D">
-    <introduction>Wednesday, <date>January 20, 1937</date></introduction>
+    <introduction>Franklin D. Roosevelt Second Inaugural Address Wednesday, <date>January 20, 1937</date></introduction>
     <speech>
         <paragraph><unity tone="P">WHEN four years ago we met to
             inaugurate a President, the Republic, single-minded in anxiety, stood in spirit here. We

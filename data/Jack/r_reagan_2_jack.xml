@@ -1,6 +1,6 @@
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Ronald Reagan" term="2" party="R">
-    <introduction><date>January 21, 1985</date></introduction>
+    <introduction>Ronald Reagan Second Inaugural Address Monday, <date>January 21, 1985</date></introduction>
     <speech>
         <paragraph>Senator Mathias, Chief Justice Burger, Vice President Bush, Speaker O'Neill,
             Senator Dole, Reverend Clergy, members of my family and friends, and my fellow

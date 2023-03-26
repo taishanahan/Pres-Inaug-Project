@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Barack Obama" term="2" party="D">
-    <introduction>
+    <introduction>Barack Obama First Inaugural Address Tuesday,  
         <date>January 20, 2009</date>
     </introduction>
     <speech>

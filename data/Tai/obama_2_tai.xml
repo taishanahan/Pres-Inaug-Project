@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Barack Obama" term="2" party="D">
-    <introduction>Mr. SCHUMER. Ladies and gentlemen, it is my great privilege and distinct honor to
-        introduce the 44th President of the United States of America, Barack H. Obama.</introduction>
+        <introduction>Barack Obama Second Inaugural Address Monday, <date>January 21,
+                2013</date></introduction>
     <speech>
         <paragraph>Thank you. Thank you so much. Vice President BIDEN, Mr. Chief Justice, Members of
             the U.S. Congress, distinguished guests, and fellow citizens, <democracy>each time we gather to

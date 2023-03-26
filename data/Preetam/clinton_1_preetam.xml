@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Bill Clinton" term="1" party="D">
     <introduction>Bill Clinton First Inaugural Address Wednesday, <date>January 21,
         1993</date></introduction>

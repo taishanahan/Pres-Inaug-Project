@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Donald Trump" term="1" party="R">
-    <introduction>Donald Trump First Inaugural Address Friday, <date>January
+    <introduction>Donald Trump Inaugural Address Friday, <date>January
         20,2017</date></introduction>
     <speech>
         <paragraph>Chief Justice Roberts, President Carter, President Clinton, Presi- dent Bush,

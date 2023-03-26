@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Address_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <address president="Richard Milhous Nixon" term="2" party="R">
     <introduction>Richard Milhous Nixon Second Inaugural Address Saturday, <date>January 20,
             1973</date></introduction>
