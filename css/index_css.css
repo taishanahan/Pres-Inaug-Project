@@ -180,3 +180,9 @@ button.prev {
     margin-left: auto;
     margin-left: 1%;
 }
+.bioR:hover {
+    background: darkred;
+}
+.bioD:hover {
+    background: #000A44;
+}
