@@ -31,24 +31,6 @@
         <h2>
             <xsl:apply-templates/>
         </h2>
-        <table>
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Search Elements</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><input type="checkbox" id="economy" onclick="highlight(this, 'economy-P', 'economy-N')"/> </td>
-                    <td>Economy</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" id="war" onclick="highlight(this, 'war-P', 'war-N')"/> </td>
-                    <td>War</td>
-                </tr>
-            </tbody>
-        </table>
     </xsl:template>
     <xsl:template match="paragraph">
         <p>
