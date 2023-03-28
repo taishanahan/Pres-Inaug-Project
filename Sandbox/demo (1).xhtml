@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>JSDemo</title>
+        <script src="demo-2.js"/> <!-- script element that points to JS file -->
+        <style> <!-- default highlighing for our spans -->
+            .lorem_ipsum
+            {
+                background-color: transparent;
+            }
+            .random_span
+            {
+                background-color: transparent;
+            }
+            .off
+            {
+                background-color: transparent; !important
+            }
+        </style>
+    </head>
+    <body>
+        <!-- elements we want to lorem_ipsum all have the same class name -->
+        <h1>What is <span class = "lorem_ipsum">Lorem Ipsum</span>?</h1>
+        <p><span class = "lorem_ipsum">Lorem Ipsum</span> is simply dummy text of the printing and <span class = "random_span">typesetting</span>
+            industry. <span class = "lorem_ipsum">Lorem Ipsum</span> has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived <span class = "random_span">not only five</span> centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the
+            1960s with the release of Letraset sheets containing <span class = "lorem_ipsum">Lorem Ipsum</span>
+            passages, and more recently with desktop publishing software like Aldus PageMaker
+            including versions of <span class = "lorem_ipsum">Lorem Ipsum</span>.</p>
+        <!--  checkbox list with labels -->
+        <label for="lorem_ipsum">Toggle lorem_ipsum</label>
+        <input type="checkbox" id="lorem_ipsum" name="Toggle lorem_ipsum"/> <!-- id (or name) should label spans to turn on and off -->
+        <label for="random_span">Toggle randomhighlight</label>
+        <input type="checkbox" id="random_span" name="Toggle randomhighlight"/>
+    </body>
+</html>
