@@ -15,7 +15,7 @@
                 <script type="text/javascript" src="../../js/presidents.js"/>
             </head>
             <body>
-                <xsl:comment>#include virtual="../../includes/menu_text_active.xhtml" </xsl:comment>
+                <xsl:comment>#include virtual="../includes/menu_text_active.xhtml" </xsl:comment>
                 <xsl:apply-templates/>
             </body>
         </html>
