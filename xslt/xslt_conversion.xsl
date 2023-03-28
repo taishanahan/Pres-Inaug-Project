@@ -15,14 +15,7 @@
                 <script type="text/javascript" src="../../js/presidents.js"/>
             </head>
             <body>
-                <h1>Themes of Inaugural Addresses</h1>
-                <ul class="nav-bar">
-                    <li><a href="../index.xhtml">HOME</a></li>
-                    <li><a href="../methods.xhtml">METHODS</a></li>
-                    <li><a class="active" href="../text.xhtml">TEXT</a></li>
-                    <li><a href="../results.xhtml">RESULTS</a></li>
-                    <li><a href="../conclusion.xhtml">CONCLUSION</a></li>
-                </ul>
+                <xsl:comment>#include virtual="../../includes/menu_text_active.xhtml" </xsl:comment>
                 <xsl:apply-templates/>
             </body>
         </html>
