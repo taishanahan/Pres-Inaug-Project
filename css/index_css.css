@@ -190,11 +190,3 @@ button.prev {
 .bioD:hover {
     background: #000A44;
 }
-p {
-    margin-right: 40px;
-    margin-left: 40px;
-    background: white;
-    padding: 20px;
-    font-family: sans-serif;
-    border-radius: 10px;
-}
