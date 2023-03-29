@@ -190,3 +190,6 @@ button.prev {
 .bioD:hover {
     background: #000A44;
 }
+p {
+    font-family: sans-serif;
+}
