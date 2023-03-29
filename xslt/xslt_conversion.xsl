@@ -14,7 +14,7 @@
                 <link rel="stylesheet" type="text/css" href="../../css/index_css.css"/> 
                 <script type="text/javascript" src="../../js/presidents.js"/>
             </head>
-            <body>
+            <body id="text">
                 <xsl:comment>#include virtual="../includes/menu_text_active.xhtml" </xsl:comment>
                 <xsl:apply-templates/>
             </body>
