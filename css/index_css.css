@@ -51,7 +51,11 @@ li a:hover {
     background: midnightblue;
     color: white;
 }
-.active {
+#home .home,
+#methods .methods,
+#text .text,
+#results .results,
+#conclusion .conclusion {
     background: midnightblue;
     color: white;
 }
