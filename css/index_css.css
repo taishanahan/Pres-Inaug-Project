@@ -99,7 +99,6 @@ h2 {
     background: firebrick;
     padding: 15px;
     margin: 30px;
-    border: solid white;
     border-radius: 25px;
     border-width: 3px;
     align-items: center;
@@ -111,7 +110,6 @@ h2 {
     background: midnightblue;
     padding: 15px;
     margin: 30px;
-    border: solid white;
     border-radius: 25px;
     border-width: 3px;
     align-items: center;
@@ -186,9 +184,11 @@ button.prev {
 }
 .bioR:hover {
     background: darkred;
+    box-shadow: 3px 3px 5px 3px #888888;
 }
 .bioD:hover {
     background: #000A44;
+    box-shadow: 3px 3px 5px 3px #888888;
 }
 p {
     font-family: sans-serif;
