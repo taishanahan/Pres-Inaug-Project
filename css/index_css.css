@@ -172,15 +172,10 @@ table, th, td {
 span.economy-P {
     background-color: aliceblue;
 }
-button.next {
+button.next, button.prev {
     display: block;
     margin-left: auto;
     margin-right: 1%;
-}
-button.prev {
-    display: block;
-    margin-left: auto;
-    margin-left: 1%;
 }
 .bioR:hover {
     background: darkred;
@@ -231,4 +226,40 @@ h3 {
 section .page-header {
     margin-top: 15px;
     font-size: 40px;
+}
+#buttons ul.textButtons {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.buttonPrev, .buttonNext {
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    border: solid midnightblue;
+    border-radius: 10px;
+    border-width: 2px;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.buttonPrev:hover, .buttonNext:hover {
+    background-color: midnightblue;
+    color: white;
+}
+button {
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    border: solid midnightblue;
+    border-radius: 10px;
+    border-width: 2px;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: midnightblue;
+    color: white;
 }
