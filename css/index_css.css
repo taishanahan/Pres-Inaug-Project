@@ -232,20 +232,31 @@ section .page-header {
     display: flex;
     flex-direction: row;
 }
-.buttonPrev, .buttonNext {
-    color: black;
-    background-color: white;
+ul.textButtons {
+    display: flex;
+    justify-content: space-around;
+    overflow: auto; 
+    text-align: center;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    border-width: 3px;
+}
+.textButtons li a {
+    display: block;
     font-family: sans-serif;
-    border: solid midnightblue;
-    border-radius: 10px;
-    border-width: 2px;
-    bottom: 0;
     padding: 10px;
     font-size: 20px;
     list-style-type: none;
+    bottom: 0;
+    background: white;
+    margin: 0;
+    width: auto;
+    flex-basis: auto;
+    width: 220px;
 }
-.buttonPrev:hover, .buttonNext:hover {
-    background-color: midnightblue;
+.textButtons li a:hover {
+    background: midnightblue;
     color: white;
 }
 button {
