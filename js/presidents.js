@@ -16,3 +16,36 @@ function highlight(item, positive, negative) {
         setBackgroundColor(negativeBox, 'aliceblue');
     }
 }
+
+function init() {
+    const checkboxes = document.getElementsByTagName("economy");
+    for (let i = 0, len = checkboxes.length; i < len; i++) {
+        checkboxes[i].addEventListener('click', changeContent, false)
+    }
+}
+
+
+
+function economyFunction() {
+  var checkBox = document.getElementById("economyBox");
+  var topics = document.getElementsByClassName("economy");
+  const checkboxes = document.getElementsByTagName("economy");
+  if (checkBox.checked == true){
+    for (var i = 0; i < topics.length; i++) {
+       setBackgroundColor(economyBox, 'blue');
+     }
+  } else {
+        for (var i = 0; i < topics.length; i++) {
+        setBackgroundColor(economyBox, 'red');
+        
+     }
+  }
+}
+
+
+
+
+
+
+
+
