@@ -30,18 +30,18 @@ function changeContent(e) {
     const thingToToggle = this.id; //thingToToggle = the id of the checkbox being clicked
     switch (thingToToggle) {
         case 'economy': { //matching with that id value
-            const economy = document.getElementsByClassName('economy'); //find the classname of the spans
+            const economy1 = document.getElementsByClassName('economy'); //find the classname of the spans
             //if the background color is already transparent, make it a color
-            if (economy[0].style.backgroundColor != "red") { 
-                for (let i = 0; i < economy.length; i++) {
-                    economy[i].style.backgroundColor = "red";
+            if (economy1[0].style.backgroundColor != "red") { 
+                for (let i = 0; i < economy1.length; i++) {
+                    economy1[i].style.backgroundColor = "red";
                 }
             }
             //if the background color is already a color, make it transparent
             else
             {
-                for (let i = 0; i < economy.length; i++) {
-                    economy[i].style.backgroundColor = "transparent";
+                for (let i = 0; i < economy1.length; i++) {
+                    economy1[i].style.backgroundColor = "transparent";
                 }
             }
         }
