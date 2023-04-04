@@ -21,27 +21,27 @@
 window.addEventListener('DOMContentLoaded', init);
 
 function init() {
-    const checkboxes = document.getElementsByTagName("economy");
-    for (let i = 0, len = economy.length; i < len; i++) {
+    const checkboxes = document.getElementsByTagName("input");
+    for (let i = 0, len = diplomacy.length; i < len; i++) {
         checkboxes[i].addEventListener('click', changeContent, false)
     }
 }
 function changeContent(e) {
     const thingToToggle = this.id; //thingToToggle = the id of the checkbox being clicked
     switch (thingToToggle) {
-        case 'economy': { //matching with that id value
-            const economy1 = document.getElementsByClassName('economy'); //find the classname of the spans
+        case 'diplomacy': { //matching with that id value
+            const diplomacy = document.getElementsByClassName('diplomacy'); //find the classname of the spans
             //if the background color is already transparent, make it a color
-            if (economy1[0].style.backgroundColor != "red") { 
-                for (let i = 0; i < economy1.length; i++) {
-                    economy1[i].style.backgroundColor = "red";
+            if (diplomacy[0].style.backgroundColor != "red") { 
+                for (let i = 0; i < diplomacy.length; i++) {
+                    diplomacy[i].style.backgroundColor = "red";
                 }
             }
             //if the background color is already a color, make it transparent
             else
             {
-                for (let i = 0; i < economy1.length; i++) {
-                    economy1[i].style.backgroundColor = "transparent";
+                for (let i = 0; i < diplomacy.length; i++) {
+                    diplomacy[i].style.backgroundColor = "transparent";
                 }
             }
         }
