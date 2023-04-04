@@ -19,20 +19,18 @@
 
 function init() {
     originalBackground = document.body.style.backgroundColor;
-    const checkboxes = document.getElementsByTagName("input");
-    for (let i = 0, len = checkboxes.length; i < len; i++) {
+    const checkboxes = document.getElementsByTagName("economy");
+    for (let i = 0, len = economy.length; i < len; i++) {
         checkboxes[i].addEventListener('click', changeContent, false)
     }
 }
-
-function toggleColor(){
-        case 'economy': {
-        var cultural = document.querySelectorAll('.economy');
-        for (var i = 0; i < economy.length; i++) {
-            economy[i].classList.toggle('on');
-        };
-        };
-}
+function changeContent(e) {
+    const economy = document.getElementsByClassName(this.id);
+    if (checkbox.checked == true) ;
+        setBackgroundColor: 'red';
+    if (checkbox.checked == false);
+        setBackgroundColor: 'green'}
+   
 
 
 
