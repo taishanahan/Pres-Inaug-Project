@@ -17,20 +17,38 @@
   //  }
 //}
 
+"use strict";
+window.addEventListener('DOMContentLoaded', init);
+
 function init() {
-    originalBackground = document.body.style.backgroundColor;
     const checkboxes = document.getElementsByTagName("economy");
     for (let i = 0, len = economy.length; i < len; i++) {
         checkboxes[i].addEventListener('click', changeContent, false)
     }
 }
 function changeContent(e) {
-    const economy = document.getElementsByClassName(this.id);
-    if (checkbox.checked == true) ;
-        setBackgroundColor: 'red';
-    if (checkbox.checked == false);
-        setBackgroundColor: 'green'}
-   
+    const thingToToggle = this.id; //thingToToggle = the id of the checkbox being clicked
+    switch (thingToToggle) {
+        case 'economy': { //matching with that id value
+            const economy = document.getElementsByClassName('economy'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (economy[0].style.backgroundColor != "red") { 
+                for (let i = 0; i < economy.length; i++) {
+                    economy[i].style.backgroundColor = "red";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < economy.length; i++) {
+                    economy[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
+        break;
+        
+    }
+}
 
 
 
