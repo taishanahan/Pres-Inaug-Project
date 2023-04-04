@@ -18,41 +18,13 @@ function init() {
     }
 }
 
-function changeContent(e) {
-    const thingToToggle = this.id; //thingToToggle = the id of the checkbox being clicked
-    switch (thingToToggle) {
-        case 'lorem_ipsum': { //matching with that id value
-            const loremipsums = document.getElementsByClassName('lorem_ipsum'); //find the classname of the spans
-            //if the background color is already transparent, make it a color
-            if (loremipsums[0].style.backgroundColor != "red") { 
-                for (let i = 0; i < loremipsums.length; i++) {
-                    loremipsums[i].style.backgroundColor = "red";
-                }
-            }
-            //if the background color is already a color, make it transparent
-            else
-            {
-                for (let i = 0; i < loremipsums.length; i++) {
-                    loremipsums[i].style.backgroundColor = "transparent";
-                }
-            }
+function toggleColor() {
+    var economy = this.value;
+     {
+        case 'economy': {
+        var economy = document.querySelectorAll('.economy');
+        for (var i = 0; i < economy.length; i++) {
+            economy[i].classList.toggle('on');
+        };
         }
-        break;
-        //same as above, but with another class for demonstration
-        case 'random_span': {
-            const random = document.getElementsByClassName('random_span');
-            if (random[0].style.backgroundColor != "blue") {
-                for (let i = 0; i < random.length; i++) {
-                    random[i].style.backgroundColor = "blue";
-                }
-            }
-            else
-            {
-                for (let i = 0; i < random.length; i++) {
-                    random[i].style.backgroundColor = "transparent";
-                }
-            }
-        }
-        break;
-    }
-}
+      window.onload = init();
