@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', init);
 
 function init() {
     const checkboxes = document.getElementsByTagName("input");
-    for (let i = 0, len = diplomacy.length; i < len; i++) {
+    for (let i = 0, len = checkboxes.length; i < len; i++) {
         checkboxes[i].addEventListener('click', changeContent, false)
     }
 }
@@ -46,7 +46,40 @@ function changeContent(e) {
             }
         }
         break;
-        
+        case 'democracy': { //matching with that id value
+            const democracy = document.getElementsByClassName('democracy'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (democracy[0].style.backgroundColor != "blue") { 
+                for (let i = 0; i < democracy.length; i++) {
+                    democracy[i].style.backgroundColor = "blue";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < democracy.length; i++) {
+                    democracy[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
+        break;
+         case 'pred-N': { //matching with that id value
+            const pred-N = document.getElementsByClassName('pred-N'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (pred-N[0].style.backgroundColor != "green") { 
+                for (let i = 0; i < pred-N.length; i++) {
+                    pred-N[i].style.backgroundColor = "green";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < pred-N.length; i++) {
+                    pred-N[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
+        break;
     }
 }
 
