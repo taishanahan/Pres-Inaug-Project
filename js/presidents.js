@@ -62,24 +62,22 @@ function changeContent(e) {
                 }
             }
         }
-        break;
-         case 'pred-N': { //matching with that id value
-            const pred-N = document.getElementsByClassName('pred-N'); //find the classname of the spans
+         case 'unity-N': { //matching with that id value
+            const unityN = document.getElementsByClassName('unity-N'); //find the classname of the spans
             //if the background color is already transparent, make it a color
-            if (pred-N[0].style.backgroundColor != "green") { 
-                for (let i = 0; i < pred-N.length; i++) {
-                    pred-N[i].style.backgroundColor = "green";
+            if (unityN[0].style.backgroundColor != "blue") { 
+                for (let i = 0; i < unityN.length; i++) {
+                    unityN[i].style.backgroundColor = "blue";
                 }
             }
             //if the background color is already a color, make it transparent
             else
             {
-                for (let i = 0; i < pred-N.length; i++) {
-                    pred-N[i].style.backgroundColor = "transparent";
+                for (let i = 0; i < unityN.length; i++) {
+                    unityN[i].style.backgroundColor = "transparent";
                 }
             }
         }
-        break;
     }
 }
 
