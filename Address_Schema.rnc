@@ -55,7 +55,7 @@ pred = element pred { tone, text }
 # "pred" for Predecessor
 # Positive = speaking highly of predecessor; Negative = criticizing predecessor
 criminal_justice = element criminal_justice { tone, text }
-congress = element congress { tone?, text }
+congress = element congress {text }
 tax = element tax { tone?, text }
 diplomacy = element diplomacy {text}
 infrastructure = element infrastructure {text}

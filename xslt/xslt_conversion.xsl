@@ -91,7 +91,7 @@
         </span>
     </xsl:template>
     <xsl:template match="congress">
-        <span class="congress-{@tone}">
+        <span class="congress">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
