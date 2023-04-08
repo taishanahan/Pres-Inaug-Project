@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     height="1500"
+     width="1500"
+     viewBox="-100, -650, 1500, 1500">
+   <line x1="0"
+         x2="0"
+         y1="-525"
+         y2="0"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="0"
+         x2="750"
+         y1="0"
+         y2="0"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="0"
+         x2="750"
+         y1="-50"
+         y2="-50"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-45" stroke="black">1</text>
+   <line x1="0"
+         x2="750"
+         y1="-100"
+         y2="-100"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-95" stroke="black">2</text>
+   <line x1="0"
+         x2="750"
+         y1="-150"
+         y2="-150"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-145" stroke="black">3</text>
+   <line x1="0"
+         x2="750"
+         y1="-200"
+         y2="-200"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-195" stroke="black">4</text>
+   <line x1="0"
+         x2="750"
+         y1="-250"
+         y2="-250"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-245" stroke="black">5</text>
+   <line x1="0"
+         x2="750"
+         y1="-300"
+         y2="-300"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-295" stroke="black">6</text>
+   <line x1="0"
+         x2="750"
+         y1="-350"
+         y2="-350"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-345" stroke="black">7</text>
+   <line x1="0"
+         x2="750"
+         y1="-400"
+         y2="-400"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-395" stroke="black">8</text>
+   <line x1="0"
+         x2="750"
+         y1="-450"
+         y2="-450"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-445" stroke="black">9</text>
+   <line x1="0"
+         x2="750"
+         y1="-500"
+         y2="-500"
+         stroke="grey"
+         stroke-linecap="square"
+         stroke-dasharray="10,10"/>
+   <text x="-25" y="-495" stroke="black">10</text>
+   <text x="-60"
+         y="-262.5"
+         stroke="black"
+         font-weight="bold"
+         writing-mode="tb"
+         text-anchor="middle">
+                Count
+            </text>
+   <text x="375"
+         y="60"
+         stroke="black"
+         font-weight="bold"
+         text-anchor="middle">
+                Theme
+            </text>
+   <text x="375"
+         y="-550"
+         stroke="black"
+         font-weight="bold"
+         font-size="large"
+         text-anchor="middle">William McKinley Other Themes Bar Graph (Term 2)
+            </text>
+   <rect height="50" width="50" x="25" y="-50" fill="red"/>
+   <text x="50" y="25" stroke="black" text-anchor="middle">
+                Religion
+            </text>
+   <rect height="150" width="50" x="115" y="-150" fill="red"/>
+   <text x="140" y="25" stroke="black" text-anchor="middle">
+                Democracy
+            </text>
+   <rect height="0" width="50" x="205" y="-0" fill="red"/>
+   <text x="230" y="25" stroke="black" text-anchor="middle">
+                Race
+            </text>
+   <rect height="0" width="50" x="295" y="-0" fill="red"/>
+   <text x="320" y="25" stroke="black" text-anchor="middle">
+                Congress
+            </text>
+   <rect height="200" width="50" x="385" y="-200" fill="red"/>
+   <text x="410" y="25" stroke="black" text-anchor="middle">
+                Diplomacy
+            </text>
+   <rect height="0" width="50" x="475" y="-0" fill="red"/>
+   <text x="490" y="25" stroke="black" text-anchor="middle">
+                Infra
+            </text>
+   <rect height="100" width="50" x="565" y="-100" fill="red"/>
+   <text x="590" y="25" stroke="black" text-anchor="middle">
+                Regulation
+            </text>
+   <rect height="50" width="50" x="655" y="-50" fill="red"/>
+   <text x="680" y="25" stroke="black" text-anchor="middle">
+                Trade
+            </text>
+</svg>
