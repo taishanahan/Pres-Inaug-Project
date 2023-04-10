@@ -1,21 +1,3 @@
-//function setBackgroundColor(box, color) {
-   // for (let item of box) {
-  //      item.style.backgroundColor = color;
- //   }
-//}
-
-//function highlight(item, positive, negative) {
- //   var checkbox = item; //document.getElementById(item.id);
-  //  var positiveBox = document.getElementsByClassName(positive);
- //   var negativeBox = document.getElementsByClassName(negative);
- //   if (checkbox.checked == true) {
- //       setBackgroundColor(positiveBox, 'yellow');
- //       setBackgroundColor(negativeBox, 'orange');
- //   } else {
- //       setBackgroundColor(positiveBox, 'aliceblue');
-    //    setBackgroundColor(negativeBox, 'aliceblue');
-  //  }
-//}
 
 "use strict";
 window.addEventListener('DOMContentLoaded', init);
@@ -338,8 +320,176 @@ function changeContent(e) {
                 }
             }
        }
-       
-       
+       break;
+        case 'tax-P': { //matching with that id value
+            const taxP = document.getElementsByClassName('tax-P'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (taxP[0].style.backgroundColor != "purple") { 
+                for (let i = 0; i < taxP.length; i++) {
+                    taxP[i].style.backgroundColor = "purple";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < taxP.length; i++) {
+                    educationP[i].style.backgroundColor = "transparent";
+                }
+            }
+       }
+       break;
+        case 'tax-N': { //matching with that id value
+            const taxN = document.getElementsByClassName('tax-N'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (taxN[0].style.backgroundColor != "purple") { 
+                for (let i = 0; i < taxN.length; i++) {
+                    taxN[i].style.backgroundColor = "purple";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < taxN.length; i++) {
+                    taxN[i].style.backgroundColor = "transparent";
+                }
+            }
+       }
+       break;
+        case 'public_health-P': { //matching with that id value
+            const public_healthP = document.getElementsByClassName('public_health-P'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (public_healthP[0].style.backgroundColor != "purple") { 
+                for (let i = 0; i < public_healthP.length; i++) {
+                    public_healthP[i].style.backgroundColor = "purple";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < public_healthP.length; i++) {
+                    educationP[i].style.backgroundColor = "transparent";
+                }
+            }
+       }
+       break;
+        case 'public_health-N': { //matching with that id value
+            const public_healthN = document.getElementsByClassName('public_health-N'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (public_healthN[0].style.backgroundColor != "purple") { 
+                for (let i = 0; i < public_healthN.length; i++) {
+                    public_healthN[i].style.backgroundColor = "purple";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < public_healthN.length; i++) {
+                    public_healthN[i].style.backgroundColor = "transparent";
+                }
+            }
+       }
+       break;
+        case 'religion': { //matching with that id value
+            const religion = document.getElementsByClassName('religion'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (religion[0].style.backgroundColor != "blue") { 
+                for (let i = 0; i < religion.length; i++) {
+                    religion[i].style.backgroundColor = "blue";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < religion.length; i++) {
+                    religion[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
+        break;
+        case 'race': { //matching with that id value
+            const race = document.getElementsByClassName('race'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (race[0].style.backgroundColor != "blue") { 
+                for (let i = 0; i < race.length; i++) {
+                    race[i].style.backgroundColor = "blue";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < race.length; i++) {
+                    race[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
+        break;
+        case 'infrastructure': { //matching with that id value
+            const infrastructure = document.getElementsByClassName('infrastructure'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (infrastructure[0].style.backgroundColor != "blue") { 
+                for (let i = 0; i < infrastructure.length; i++) {
+                    infrastructure[i].style.backgroundColor = "blue";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < infrastructure.length; i++) {
+                    infrastructure[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
+        break;
+        case 'regulation': { //matching with that id value
+            const regulation = document.getElementsByClassName('regulation'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (regulation[0].style.backgroundColor != "blue") { 
+                for (let i = 0; i < regulation.length; i++) {
+                    regulation[i].style.backgroundColor = "blue";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < regulation.length; i++) {
+                    regulation[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
+        break;
+        case 'trade': { //matching with that id value
+            const trade = document.getElementsByClassName('trade'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (trade[0].style.backgroundColor != "blue") { 
+                for (let i = 0; i < trade.length; i++) {
+                    trade[i].style.backgroundColor = "blue";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < trade.length; i++) {
+                    trade[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
+        break;
+        case 'congress': { //matching with that id value
+            const congress = document.getElementsByClassName('congress'); //find the classname of the spans
+            //if the background color is already transparent, make it a color
+            if (congress[0].style.backgroundColor != "blue") { 
+                for (let i = 0; i < congress.length; i++) {
+                    congress[i].style.backgroundColor = "blue";
+                }
+            }
+            //if the background color is already a color, make it transparent
+            else
+            {
+                for (let i = 0; i < congress.length; i++) {
+                    congress[i].style.backgroundColor = "transparent";
+                }
+            }
+        }
        
        }
     }
