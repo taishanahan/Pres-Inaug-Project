@@ -274,3 +274,32 @@ button:hover {
     background-color: midnightblue;
     color: white;
 }
+body#text {
+    display: flex;
+    flex-direction: column;
+}
+body#text h2 {
+    padding: 20px;
+}
+div.tog-text {
+    display: block;
+    display: flex;
+    flex-direction: row-reverse;
+}
+div.flex-container {
+    display: block;
+    align-items: stretch;
+}
+div#speech {
+    background: white;
+    border: solid firebrick;
+    padding: 20px;
+}
+div#js {
+    background: firebrick;
+    padding: 20px;
+    color: white;
+}
+ul li {
+    text-decoration: none;
+}
