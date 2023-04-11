@@ -51,7 +51,7 @@
         </span>
     </xsl:template>
     <xsl:template match="religion">
-        <span class="economy">
+        <span class="religion">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
