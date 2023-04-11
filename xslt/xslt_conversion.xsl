@@ -96,7 +96,7 @@
         </span>
     </xsl:template>
     <xsl:template match="tax">
-        <span class="tax-{@tone}">
+        <span class="tax">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
