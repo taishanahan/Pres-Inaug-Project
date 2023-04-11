@@ -292,14 +292,20 @@ div.flex-container {
 }
 div#speech {
     background: white;
-    border: solid firebrick;
+    border-top: solid firebrick;
+    border-bottom: solid firebrick;
+    border-width: thick;
     padding: 20px;
 }
 div#js {
     background: firebrick;
-    padding: 20px;
+    padding: 10px;
     color: white;
+    justify-content: left;
+    width: 300px;
 }
-ul li {
-    text-decoration: none;
+#js ul {
+    align-items: start;
+    margin-right: 30px;
+    width: 100%;
 }
