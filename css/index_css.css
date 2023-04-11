@@ -308,4 +308,8 @@ div#js {
     align-items: start;
     margin-right: 30px;
     width: 100%;
+    list-style-type: none;
+}
+#js ul li {
+    margin-bottom: 4px;
 }
