@@ -321,39 +321,23 @@ function changeContent(e) {
             }
        }
        break;
-        case 'tax-P': { //matching with that id value
-            const taxP = document.getElementsByClassName('tax-P'); //find the classname of the spans
+        case 'tax': { //matching with that id value
+            const tax = document.getElementsByClassName('tax'); //find the classname of the spans
             //if the background color is already transparent, make it a color
-            if (taxP[0].style.backgroundColor != "purple") { 
-                for (let i = 0; i < taxP.length; i++) {
-                    taxP[i].style.backgroundColor = "purple";
+            if (tax[0].style.backgroundColor != "purple") { 
+                for (let i = 0; i < tax.length; i++) {
+                    tax[i].style.backgroundColor = "purple";
                 }
             }
             //if the background color is already a color, make it transparent
             else
             {
-                for (let i = 0; i < taxP.length; i++) {
-                    educationP[i].style.backgroundColor = "transparent";
+                for (let i = 0; i < tax.length; i++) {
+                    tax[i].style.backgroundColor = "transparent";
                 }
             }
        }
-       break;
-        case 'tax-N': { //matching with that id value
-            const taxN = document.getElementsByClassName('tax-N'); //find the classname of the spans
-            //if the background color is already transparent, make it a color
-            if (taxN[0].style.backgroundColor != "purple") { 
-                for (let i = 0; i < taxN.length; i++) {
-                    taxN[i].style.backgroundColor = "purple";
-                }
-            }
-            //if the background color is already a color, make it transparent
-            else
-            {
-                for (let i = 0; i < taxN.length; i++) {
-                    taxN[i].style.backgroundColor = "transparent";
-                }
-            }
-       }
+      
        break;
         case 'public_health-P': { //matching with that id value
             const public_healthP = document.getElementsByClassName('public_health-P'); //find the classname of the spans
