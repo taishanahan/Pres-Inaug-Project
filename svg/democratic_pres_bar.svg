@@ -10,91 +10,91 @@
          stroke="black"
          stroke-linecap="square"/>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="0"
          y2="0"
          stroke="black"
          stroke-linecap="square"/>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-50"
          y2="-50"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-45" stroke="black">1</text>
+   <text x="-25" y="-45" stroke="black">10</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-100"
          y2="-100"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-95" stroke="black">2</text>
+   <text x="-25" y="-95" stroke="black">20</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-150"
          y2="-150"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-145" stroke="black">3</text>
+   <text x="-25" y="-145" stroke="black">30</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-200"
          y2="-200"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-195" stroke="black">4</text>
+   <text x="-25" y="-195" stroke="black">40</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-250"
          y2="-250"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-245" stroke="black">5</text>
+   <text x="-25" y="-245" stroke="black">50</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-300"
          y2="-300"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-295" stroke="black">6</text>
+   <text x="-25" y="-295" stroke="black">60</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-350"
          y2="-350"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-345" stroke="black">7</text>
+   <text x="-25" y="-345" stroke="black">70</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-400"
          y2="-400"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-395" stroke="black">8</text>
+   <text x="-25" y="-395" stroke="black">80</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-450"
          y2="-450"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-445" stroke="black">9</text>
+   <text x="-25" y="-445" stroke="black">90</text>
    <line x1="0"
-         x2="750"
+         x2="820"
          y1="-500"
          y2="-500"
          stroke="grey"
          stroke-linecap="square"
          stroke-dasharray="10,10"/>
-   <text x="-25" y="-495" stroke="black">10</text>
+   <text x="-25" y="-495" stroke="black">100</text>
    <text x="-60"
          y="-262.5"
          stroke="black"
@@ -103,50 +103,55 @@
          text-anchor="middle">
                 Count
             </text>
-   <text x="375"
+   <text x="410"
          y="60"
          stroke="black"
          font-weight="bold"
          text-anchor="middle">
                 Theme
             </text>
-   <text x="375"
+   <text x="410"
          y="-550"
          stroke="black"
          font-weight="bold"
          font-size="large"
-         text-anchor="middle">Barack Obama Other Themes Bar Graph (Term 2)
+         text-anchor="middle">
+                Democratic Presidents Other Themes Bar Graphs
             </text>
-   <rect height="0" width="50" x="25" y="-0" fill="blue"/>
+   <rect height="100" width="50" x="25" y="-100" fill="blue"/>
    <text x="50" y="25" stroke="black" text-anchor="middle">
                 Religion
             </text>
-   <rect height="100" width="50" x="115" y="-100" fill="blue"/>
+   <rect height="295" width="50" x="115" y="-295" fill="blue"/>
    <text x="140" y="25" stroke="black" text-anchor="middle">
                 Democracy
             </text>
-   <rect height="0" width="50" x="205" y="-0" fill="blue"/>
+   <rect height="55" width="50" x="205" y="-55" fill="blue"/>
    <text x="230" y="25" stroke="black" text-anchor="middle">
                 Race
             </text>
-   <rect height="0" width="50" x="295" y="-0" fill="blue"/>
+   <rect height="35" width="50" x="295" y="-35" fill="blue"/>
    <text x="320" y="25" stroke="black" text-anchor="middle">
                 Congress
             </text>
-   <rect height="50" width="50" x="385" y="-50" fill="blue"/>
+   <rect height="245" width="50" x="385" y="-245" fill="blue"/>
    <text x="410" y="25" stroke="black" text-anchor="middle">
                 Diplomacy
             </text>
-   <rect height="50" width="50" x="475" y="-50" fill="blue"/>
-   <text x="490" y="25" stroke="black" text-anchor="middle">
+   <rect height="30" width="50" x="475" y="-30" fill="blue"/>
+   <text x="500" y="25" stroke="black" text-anchor="middle">
                 Infra
             </text>
-   <rect height="250" width="50" x="565" y="-250" fill="blue"/>
+   <rect height="110" width="50" x="565" y="-110" fill="blue"/>
    <text x="590" y="25" stroke="black" text-anchor="middle">
                 Regulation
             </text>
-   <rect height="0" width="50" x="655" y="-0" fill="blue"/>
+   <rect height="25" width="50" x="655" y="-25" fill="blue"/>
    <text x="680" y="25" stroke="black" text-anchor="middle">
+                Trade
+            </text>
+   <rect height="10" width="50" x="745" y="-10" fill="blue"/>
+   <text x="770" y="25" stroke="black" text-anchor="middle">
                 Trade
             </text>
 </svg>
