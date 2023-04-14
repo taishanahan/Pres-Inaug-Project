@@ -79,7 +79,7 @@
             </text>
             <rect height="{$TAX * $multiple}" width="{$bar_width}" x="745" y="-{$TAX * $multiple}" fill="{$color}"/>
             <text x="770" y="25" stroke="black" text-anchor="middle">
-                Trade
+                Tax
             </text>
         </svg>
     </xsl:template>
