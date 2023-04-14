@@ -29,8 +29,8 @@
     <xsl:variable name="y2" as="xs:integer" select="-290"/>
     <xsl:variable name="bar_height" as="xs:integer" select="25"/>
     <xsl:variable name="multiple" as="xs:integer" select="2"/>
-    <xsl:variable name="positive_color" as="xs:string" select="'blue'"/>
-    <xsl:variable name="negative_color" as="xs:string" select="'red'"/>
+    <xsl:variable name="positive_color" as="xs:string" select="'green'"/>
+    <xsl:variable name="negative_color" as="xs:string" select="'orange'"/>
     <xsl:template match="/">
         <svg height="1500" width="1500" viewBox="-100, -650, 1500, 1500">
             <text x="{$x}" y="{$y1 - 25}" text-anchor="middle" font-weight="bold" font-size="large" stroke="black">
@@ -136,6 +136,14 @@
             <text x="{$x + 500}" y="-320" text-anchor="middle" stroke="black">
                 Criminal Justice
             </text>
+            <text x="{$x + 500}" y="-230" text-anchor="middle" stroke="black">
+                Positive
+            </text>
+            <rect x="{$x + 535}" y="-240" width="10" height="10" fill="green"/>
+            <text x="{$x + 500}" y="-200" text-anchor="middle" stroke="black">
+                Negative
+            </text>
+            <rect x="{$x + 535}" y="-210" width="10" height="10" fill="orange"/>
         </svg>
     </xsl:template>
 </xsl:stylesheet>
