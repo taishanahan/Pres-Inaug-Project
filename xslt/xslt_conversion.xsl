@@ -17,72 +17,10 @@
             <body id="text">
                 <xsl:comment>#include virtual="../includes/menu_text_active.xhtml" </xsl:comment>
                 <xsl:apply-templates/>
-                <div class="flex-container" id="js">
-                    <ul>                 
-                        <li><b>Unity</b><ul>
-                            <li class="buttons"><input type="checkbox" id="unity-P" name="unityP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="unity-N" name="unityN"
-                            />Negative<br/></li> </ul></li>                                    
-                        <li><b>Economy</b><ul>                
-                            <li class="buttons"><input type="checkbox" id="economy-P" name="economyP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="economy-N" name="economyN"
-                            />Negative<br/></li>
-                        </ul></li>                                  
-                        <li><b>War</b><ul>
-                            <li class="buttons"><input type="checkbox" id="war-P" name="warP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="war-N" name="warN"
-                            />Negative<br/></li>  </ul></li>                                    
-                        <li><b>Jobs</b><ul>
-                            <li class="buttons"><input type="checkbox" id="jobs-P" name="jobsP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="jobs-N" name="jobsN"
-                            />Negative<br/></li> </ul> </li>                                    
-                        <li><b>Immigration</b><ul>
-                            <li class="buttons"><input type="checkbox" id="immigration-P" name="immigrationP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="immigration-N" name="immigrationN"
-                            />Negative<br/></li>  </ul></li>                                    
-                        <li><b>Education</b><ul>
-                            <li class="buttons"><input type="checkbox" id="education-P" name="educationP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="education-N" name="educationN"
-                            />Negative<br/></li>  </ul></li>                                   
-                        <li><b>Predecessor</b><ul>
-                            <li class="buttons"><input type="checkbox" id="pred-P" name="predP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="pred-N" name="predN"
-                            />Negative<br/></li>  </ul></li>                                  
-                        <li><b>Criminal Justice</b><ul>
-                            <li class="buttons"><input type="checkbox" id="criminal_justice-P" name="criminal_justiceP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="criminal_justice-N" name="criminal_justiceN"
-                            />Negative<br/></li>   </ul></li>                 
-                        <li><b>Public Health</b><ul>
-                            <li class="buttons"><input type="checkbox" id="public_health-P" name="public_healthP"
-                            />Positive<br/></li>
-                            <li class="buttons"><input type="checkbox" id="public_health-N" name="public_healthN"
-                            />Negative<br/></li> </ul> </li>                                    
-                        <li class="buttons"><input type="checkbox" id="religion" name="religion"
-                        /><b>Religion</b><br/></li>
-                        <li class="buttons"><input type="checkbox" id="race" name="race"
-                        /><b>Race</b><br/></li>
-                        <li class="buttons"><input type="checkbox" id="infrastructure" name="infrastructure"
-                        /><b>Infrastructure</b><br/></li>
-                        <li class="buttons"><input type="checkbox" id="regulation" name="regulation"
-                        /><b>Regulation</b><br/></li>
-                        <li class="buttons"><input type="checkbox" id="trade" name="trade"
-                        /><b>Trade</b><br/></li>
-                        <li class="buttons"><input type="checkbox" id="congress" name="congress"
-                        /><b>Congress</b><br/></li>
-                        <li class="buttons"><input type="checkbox" id="diplomacy" name="diplomacy"
-                        /><b>Diplomacy</b><br/></li>
-                        <li class="buttons"><input type="checkbox" id="democracy" name="democracy"
-                        /><b>Democracy</b><br/></li>
-                        <li class="buttons"><input type="checkbox" id="tax" name="tax"
-                        /><b>Tax</b><br/></li>                 
+                <div id="buttons">
+                    <ul class="textButtons">
+                        <li><a href="obama_1.xhtml">Barack Obama</a></li>
+                        <li><a href="biden_1.xhtml">Joe Biden</a></li>
                     </ul>
                 </div>
             </body>
@@ -92,6 +30,82 @@
         <h2>
             <xsl:apply-templates/>
         </h2>
+    </xsl:template>
+    <xsl:template match="speech">
+        <div class="tog-text">
+        <div id="speech" class="flex-container">
+            <xsl:apply-templates/>
+        </div>
+            <div class="flex-container" id="js">
+                <h4>Themes:</h4>
+                <ul>                 
+                    <li><b>Unity</b><ul>
+                        <li class="buttons"><input type="checkbox" id="unity-P" name="unityP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="unity-N" name="unityN"
+                        />Negative<br/></li> </ul></li>                                    
+                    <li><b>Economy</b><ul>                
+                        <li class="buttons"><input type="checkbox" id="economy-P" name="economyP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="economy-N" name="economyN"
+                        />Negative<br/></li>
+                    </ul></li>                                  
+                    <li><b>War</b><ul>
+                        <li class="buttons"><input type="checkbox" id="war-P" name="warP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="war-N" name="warN"
+                        />Negative<br/></li>  </ul></li>                                    
+                    <li><b>Jobs</b><ul>
+                        <li class="buttons"><input type="checkbox" id="jobs-P" name="jobsP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="jobs-N" name="jobsN"
+                        />Negative<br/></li> </ul> </li>                                    
+                    <li><b>Immigration</b><ul>
+                        <li class="buttons"><input type="checkbox" id="immigration-P" name="immigrationP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="immigration-N" name="immigrationN"
+                        />Negative<br/></li>  </ul></li>                                    
+                    <li><b>Education</b><ul>
+                        <li class="buttons"><input type="checkbox" id="education-P" name="educationP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="education-N" name="educationN"
+                        />Negative<br/></li>  </ul></li>                                   
+                    <li><b>Predecessor</b><ul>
+                        <li class="buttons"><input type="checkbox" id="pred-P" name="predP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="pred-N" name="predN"
+                        />Negative<br/></li>  </ul></li>                                  
+                    <li><b>Criminal Justice</b><ul>
+                        <li class="buttons"><input type="checkbox" id="criminal_justice-P" name="criminal_justiceP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="criminal_justice-N" name="criminal_justiceN"
+                        />Negative<br/></li>   </ul></li>                 
+                    <li><b>Public Health</b><ul>
+                        <li class="buttons"><input type="checkbox" id="public_health-P" name="public_healthP"
+                        />Positive<br/></li>
+                        <li class="buttons"><input type="checkbox" id="public_health-N" name="public_healthN"
+                        />Negative<br/></li> </ul> </li>                                    
+                    <li class="buttons"><input type="checkbox" id="religion" name="religion"
+                    /><b>Religion</b><br/></li>
+                    <li class="buttons"><input type="checkbox" id="race" name="race"
+                    /><b>Race</b><br/></li>
+                    <li class="buttons"><input type="checkbox" id="infrastructure" name="infrastructure"
+                    /><b>Infrastructure</b><br/></li>
+                    <li class="buttons"><input type="checkbox" id="regulation" name="regulation"
+                    /><b>Regulation</b><br/></li>
+                    <li class="buttons"><input type="checkbox" id="trade" name="trade"
+                    /><b>Trade</b><br/></li>
+                    <li class="buttons"><input type="checkbox" id="congress" name="congress"
+                    /><b>Congress</b><br/></li>
+                    <li class="buttons"><input type="checkbox" id="diplomacy" name="diplomacy"
+                    /><b>Diplomacy</b><br/></li>
+                    <li class="buttons"><input type="checkbox" id="democracy" name="democracy"
+                    /><b>Democracy</b><br/></li>
+                    <li class="buttons"><input type="checkbox" id="tax" name="tax"
+                    /><b>Tax</b><br/></li>                 
+                </ul>
+            </div>
+          </div>
     </xsl:template>
     <xsl:template match="paragraph">
         <p>
