@@ -291,7 +291,7 @@ div.flex-container {
     align-items: stretch;
 }
 div#speech {
-    background: white;
+    background: aliceblue;
     border-top: solid firebrick;
     border-bottom: solid firebrick;
     border-width: thick;
@@ -321,4 +321,34 @@ div#js {
     font-size: 23px;
     font-weight: bold;
     text-decoration: underline;
+}
+.collapsible {
+  background-color: midnightblue;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-radius: 15px;
+  border: solid white;
+  border-width: 3px;
+}
+/*  .collapsible:hover {
+    background-color: white;
+  border: solid midnightblue;
+  color: midnightblue;
+  border-width: 3px; 
+}*/
+.content {
+  display: block;
+  overflow: scroll;
+  background-color: white;
+  padding: 18px;
+  border: solid midnightblue;
+  border-width: 3px;
+  border-radius: 15px;
+  height: 400px;
+  margin-bottom: 20px
 }
