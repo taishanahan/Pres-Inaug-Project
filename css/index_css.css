@@ -322,7 +322,7 @@ div#js {
     font-weight: bold;
     text-decoration: underline;
 }
-.collapsible {
+.collapsible1, .collapsible2 {
   background-color: midnightblue;
   color: white;
   cursor: pointer;
@@ -334,21 +334,20 @@ div#js {
   border-radius: 15px;
   border: solid white;
   border-width: 3px;
+  margin-top: 10px;
 }
-/*  .collapsible:hover {
-    background-color: white;
-  border: solid midnightblue;
-  color: midnightblue;
-  border-width: 3px; 
-}*/
+button.active, .collapsible1:hover, 
+.collapsible2:hover {
+  background-color: #000A44;
+  color: white;
+}
 .content {
-  display: block;
+  display: none;
   overflow: scroll;
   background-color: white;
   padding: 18px;
   border: solid midnightblue;
   border-width: 3px;
   border-radius: 15px;
-  height: 400px;
-  margin-bottom: 20px
+  height: 500px;
 }

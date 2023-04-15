@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <title>Presidential Inaugural Speeches</title>
-      <link rel="stylesheet" type="text/css" href="../../css/index_css.css"/><script type="text/javascript" src="../../js/presidents.js"></script>
-         <script type="text/javascript" src="../../js/dropdown.js"></script></head>
+      <link rel="stylesheet" type="text/css" href="../../css/index_css.css"/>
+         <script type="text/javascript" src="../../js/presidents.js"></script>
+         <!--<script type="text/javascript" src="../../js/dropdown.js"></script>-->
+   </head>
    <body id="text"><!--#include virtual="../includes/menu_text_active.xhtml" -->
       
       <h2>Barack H. Obama (2009-2017)</h2>
@@ -10,7 +12,7 @@
       <div class="tog-text">
          <div id="speech" class="flex-container">
            
-            <button type="button" class="collapsible">First Inaugural Address: Tuesday, January 20, 2009</button>
+            <button type="button" class="collapsible1">First Inaugural Address: Tuesday, January 20, 2009</button>
             <div class="content">
                <p>My fellow citizens:</p>
             
@@ -305,8 +307,8 @@
                   generations.</span></p>
                </div>
 
-                 <button type="button" class="collapsible">Second Inaugural Address: Monday, January 21, 2013</button>
-               <div class="content">
+            <button type="button" class="collapsible2">Second Inaugural Address: Monday, January 21, 2013</button>
+            <div class="content">
                <p>Thank you. Thank you so much. Vice President BIDEN, Mr. Chief Justice, Members of the
                            U.S. Congress, distinguished guests, and fellow citizens, <span class="democracy"
                                  >each time we gather to inaugurate a President, we bear witness to the
@@ -498,7 +500,7 @@
                      <p>Thank you. God bless you, and may He forever bless these United States of
                            America.</p>
                </div>
-            </div>
+         </div>
          <div class="flex-container" id="js">
             <h4>Themes:</h4>
             <ul>
@@ -566,5 +568,31 @@
                <li><a href="trump_1.xhtml">Donald Trump</a></li>
          </ul>
       </div>
+         <script>
+        var btn = document.getElementsByClassName("collapsible1");
+          
+        btn[0].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });  
+    </script>
+         <script>
+        var btn = document.getElementsByClassName("collapsible2");
+          
+        btn[0].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });  
+    </script>
    </body>
 </html>
