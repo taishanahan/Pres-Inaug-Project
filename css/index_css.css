@@ -351,3 +351,118 @@ button.active, .collapsible1:hover,
   border-radius: 15px;
   height: 500px;
 }
+.democracy.highlighted{
+   background-color:#ddfa00; 
+    
+}
+.unity-N.highlighted{
+   background-color:#940000; 
+    
+}
+
+
+
+.unity-P.highlighted{
+   background-color:#ff6161; 
+    
+}
+
+.economy-N.highlighted{
+   background-color:#b35900; 
+    
+}
+
+.economy-P.highlighted{
+   background-color:#ff9933; 
+    
+}
+.war-P.highlighted{
+   background-color:#ffda33; 
+    
+}
+.war-N.highlighted{
+   background-color:#a88900; 
+    
+}
+.jobs-P.highlighted{
+   background-color:#91c200; 
+    
+}
+.jobs-N.highlighted{
+   background-color:#c7ff1f; 
+    
+}
+.immigration-P.highlighted{
+   background-color:#00e0bb; 
+    
+}
+.immigration-N.highlighted{
+   background-color:#94ffed; 
+    
+}
+.education-P.highlighted{
+   background-color:#0056f5; 
+    
+}
+.education-N.highlighted{
+   background-color:#7aa9ff; 
+    
+}
+.pred-P.highlighted{
+   background-color:#2e00b8; 
+    
+}
+.pred-N.highlighted{
+   background-color:#906bff; 
+    
+}
+.criminal_justice-P.highlighted{
+   background-color:#8e00e6; 
+    
+}
+.criminal_justice-N.highlighted{
+   background-color:#da9eff; 
+    
+}
+.tax.highlighted{
+   background-color:#c8f000; 
+    
+}
+.tax.highlighted{
+   background-color:#c8f000; 
+    
+}
+.public_health-P.highlighted{
+   background-color:#d1008f; 
+    
+}
+.public_health-N.highlighted{
+   background-color:#ff8ada; 
+    
+}
+.religion.highlighted{
+   background-color:#ff8a8a; 
+    
+}
+.race.highlighted{
+   background-color:#ff0a0a; 
+    
+}
+.infrastructure.highlighted{
+   background-color:#70ffd9; 
+    
+}
+.regulation.highlighted{
+   background-color:#f3ffc7; 
+    
+}
+.trade.highlighted{
+   background-color:#ffb24d; 
+    
+}
+.congress.highlighted{
+   background-color:#0ab1ff; 
+    
+}
+
+

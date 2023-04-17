@@ -5,10 +5,28 @@ window.addEventListener('DOMContentLoaded', init);
 function init() {
     const checkboxes = document.getElementsByTagName("input");
     for (let i = 0, len = checkboxes.length; i < len; i++) {
-        checkboxes[i].addEventListener('click', changeContent, false)
+        checkboxes[i].addEventListener('click', toggleHighlight, false)
     }
 }
-function changeContent(e) {
+
+function toggleHighlight() {
+    var device = this.id;
+    var thingstotoggle = document.querySelectorAll('.' + device);
+    console.log('.' + device);
+    console.log(thingstotoggle);
+    for (var i = 0, len = thingstotoggle.length; i < len; i++) { 
+        thingstotoggle[i].classList.toggle("highlighted");
+    }
+
+
+
+
+
+
+
+
+
+   /*  function changeContent(e) {
     const thingToToggle = this.id; //thingToToggle = the id of the checkbox being clicked
     switch (thingToToggle) {
         case 'diplomacy': { //matching with that id value
@@ -477,10 +495,10 @@ function changeContent(e) {
        
        }
     }
+*/
 
 
 
 
 
-
-
+}
