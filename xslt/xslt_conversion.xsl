@@ -13,6 +13,7 @@
                 <title>Presidential Inaugural Speeches</title>
                 <link rel="stylesheet" type="text/css" href="../../css/index_css.css"/> 
                 <script type="text/javascript" src="../../js/presidents.js"/>
+                <script type="text/javascript" src="../../js/dropdown.js"/>
             </head>
             <body id="text">
                 <xsl:comment>#include virtual="../includes/menu_text_active.xhtml" </xsl:comment>
@@ -34,7 +35,12 @@
     <xsl:template match="speech">
         <div class="tog-text">
         <div id="speech" class="flex-container">
-            <xsl:apply-templates/>
+            <button type="button" class="collapsible">
+                <xsl:apply-templates select="preceding-sibling::introduction" mode="speech"/>
+            </button>
+            <div class="content">
+                <xsl:apply-templates/>
+            </div>
         </div>
             <div class="flex-container" id="js">
                 <h4>Themes:</h4>

@@ -296,6 +296,7 @@ div#speech {
     border-bottom: solid firebrick;
     border-width: thick;
     padding: 20px;
+    width: 100%;
 }
 div#js {
     background: firebrick;
@@ -322,7 +323,7 @@ div#js {
     font-weight: bold;
     text-decoration: underline;
 }
-.collapsible1, .collapsible2 {
+.collapsible {
   background-color: midnightblue;
   color: white;
   cursor: pointer;
@@ -335,9 +336,9 @@ div#js {
   border: solid white;
   border-width: 3px;
   margin-top: 10px;
+  width: 100%;
 }
-button.active, .collapsible1:hover, 
-.collapsible2:hover {
+button.active, .collapsible:hover {
   background-color: #000A44;
   color: white;
 }
