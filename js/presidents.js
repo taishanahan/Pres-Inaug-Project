@@ -63,7 +63,7 @@ function changeContent(e) {
          }
          break;
         case 'unity-P': { //matching with that id value
-            const unityP = document.getElementsByClassName('unity-P'); //find the classname of the spans
+            const unityP = document.getElementsByClassName('unity-P'); //find the classname of the spans #ff6161
             //if the background color is already transparent, make it a color
             if (unityP[0].style.backgroundColor != "#ff6161") { 
                 for (let i = 0; i < unityP.length; i++) {
