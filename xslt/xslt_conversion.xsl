@@ -18,14 +18,12 @@
             <body id="text">
                 <xsl:comment>#include virtual="../includes/menu_text_active.xhtml" </xsl:comment>
                 <xsl:apply-templates/>
-                
                 <div id="buttons">
                     <ul class="textButtons">
-                        <li><a href="mckinley_2.xhtml">William McKinley</a></li>
-                        <li><a href="taft_1.xhtml">William Taft</a></li>
+                        <li><a href="wilson_1.xhtml">Woodrow Wilson</a></li>
+                        <li><a href="coolidge_2.xhtml">Calvin Coolidge</a></li>
                     </ul>
                 </div>
-                
             </body>
         </html>
     </xsl:template>
