@@ -20,8 +20,8 @@
                 <xsl:apply-templates/>
                 <div id="buttons">
                     <ul class="textButtons">
-                        <li><a href="wilson_1.xhtml">Woodrow Wilson</a></li>
-                        <li><a href="coolidge_2.xhtml">Calvin Coolidge</a></li>
+                        <li><a href="harding_1.xhtml">Warren Harding</a></li>
+                        <li><a href="hoover_1.xhtml">Herbert Hoover</a></li>
                     </ul>
                 </div>
             </body>

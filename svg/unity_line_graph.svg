@@ -216,7 +216,7 @@
          text-anchor="middle"
          font-size="15px">1989</text>
    <circle r="2" cx="960" cy="-225" fill="red"/>
-   <line x1="960" x2="1000" y1="-225" y2="-275" stroke="black"/>/&gt;
+   <line x1="960" x2="1000" y1="-225" y2="-275" stroke="black"/>
             <text x="960"
          y="25"
          stroke="black"
