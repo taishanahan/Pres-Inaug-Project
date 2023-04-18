@@ -169,9 +169,7 @@ a {
 table, th, td {
   border:1px solid black;
 }
-span.economy-P {
-    background-color: aliceblue;
-}
+
 button.next, button.prev {
     display: block;
     margin-left: auto;
