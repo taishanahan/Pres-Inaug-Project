@@ -348,7 +348,7 @@ button.active, .collapsible:hover {
   border: solid midnightblue;
   border-width: 3px;
   border-radius: 15px;
-  height: 500px;
+  height: 450px;
 }
 .democracy.highlighted{
    background-color:#ddfa00; 
