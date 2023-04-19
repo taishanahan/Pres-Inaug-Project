@@ -336,7 +336,7 @@ div#js {
   margin-top: 10px;
   width: 100%;
 }
-button.active, .collapsible:hover {
+.collapsible:hover {
   background-color: #000A44;
   color: white;
 }
@@ -358,8 +358,6 @@ button.active, .collapsible:hover {
    background-color:#940000; 
     
 }
-
-
 
 .unity-P.highlighted{
    background-color:#ff6161; 
