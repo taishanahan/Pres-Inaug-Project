@@ -19,10 +19,10 @@
                 <xsl:comment>#include virtual="../includes/menu_text_active.xhtml" </xsl:comment>
                 <xsl:apply-templates/>
                 <div id="buttons">
-                    <ul class="textButtons">
-                        <li><a href="taft_1.xhtml">William Taft</a></li>
-                        <li><a href="harding_1.xhtml">Warren Harding</a></li>
-                    </ul>
+                  <ul class="textButtons">
+                    <li><a href="clinton_1.xhtml">Bill Clinton</a></li>
+                    <li><a href="obama_1.xhtml">Barack Obama</a></li>
+                  </ul>
                 </div>
             </body>
         </html>
