@@ -5,16 +5,16 @@
     version="3.0">
     <xsl:output method="xml" indent="yes"/>
     
-    <xsl:variable name="dem_docs" select="collection('.?select=*.xml')"/>
-    <xsl:variable name="REL" as="xs:integer" select="count($dem_docs//religion)"/>
-    <xsl:variable name="DEM" as="xs:integer" select="count($dem_docs//democracy)"/>
-    <xsl:variable name="RACE" as="xs:integer" select="count($dem_docs//race)"/>
-    <xsl:variable name="CONG" as="xs:integer" select="count($dem_docs//congress)"/>
-    <xsl:variable name="DIPLO" as="xs:integer" select="count($dem_docs//diplomacy)"/>
-    <xsl:variable name="INFRA" as="xs:integer" select="count($dem_docs//infrastructure)"/>
-    <xsl:variable name="REG" as="xs:integer" select="count($dem_docs//regulation)"/>
-    <xsl:variable name="TRADE" as="xs:integer" select="count($dem_docs//trade)"/>  
-    <xsl:variable name="TAX" as="xs:integer" select="count($dem_docs//tax)"/> 
+    <xsl:variable name="rep_docs" select="collection('../data/Republican_Presidents?select=*.xml')"/>
+    <xsl:variable name="REL" as="xs:integer" select="count($rep_docs//religion)"/>
+    <xsl:variable name="DEM" as="xs:integer" select="count($rep_docs//democracy)"/>
+    <xsl:variable name="RACE" as="xs:integer" select="count($rep_docs//race)"/>
+    <xsl:variable name="CONG" as="xs:integer" select="count($rep_docs//congress)"/>
+    <xsl:variable name="DIPLO" as="xs:integer" select="count($rep_docs//diplomacy)"/>
+    <xsl:variable name="INFRA" as="xs:integer" select="count($rep_docs//infrastructure)"/>
+    <xsl:variable name="REG" as="xs:integer" select="count($rep_docs//regulation)"/>
+    <xsl:variable name="TRADE" as="xs:integer" select="count($rep_docs//trade)"/>  
+    <xsl:variable name="TAX" as="xs:integer" select="count($rep_docs//tax)"/>  
     
     <xsl:variable name="x1" as="xs:integer" select="0"/>
     <xsl:variable name="x2" as="xs:integer" select="820"/>
@@ -23,7 +23,7 @@
     <xsl:variable name="bar_width" as="xs:integer" select="50"/>
     <xsl:variable name="bar_spacing" as="xs:integer" select="40"/>
     <xsl:variable name="multiple" as="xs:integer" select="5"/>
-    <xsl:variable name="color" select="'blue'"/>
+    <xsl:variable name="color" select="'red'"/>
     
     <xsl:template match="/">
         <svg height="1500" width="1500" viewBox="-100, -650, 1500, 1500">
@@ -42,7 +42,7 @@
                 Theme
             </text>
             <text x="{($x1 + $x2) div 2}" y="-550" stroke="black" font-weight="bold" font-size="large" text-anchor="middle">
-                Democratic Presidents Other Themes Bar Graphs
+                Republican Presidents Other Themes Bar Graphs
             </text>
             
             <rect height="{$REL * $multiple}" width="{$bar_width}" x="25" y="-{$REL * $multiple}" fill="{$color}"/>

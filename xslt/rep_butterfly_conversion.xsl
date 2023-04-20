@@ -4,25 +4,25 @@
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     version="3.0">
     <xsl:output method="xml" indent="yes"/>
-    <xsl:variable name="dem_docs" select="collection('.?select=*.xml')"/>
-    <xsl:variable name="EP" as="xs:integer" select="count($dem_docs//economy[@tone = 'P'])"/>
-    <xsl:variable name="EN" as="xs:integer" select="count($dem_docs//economy[@tone = 'N'])"/>
-    <xsl:variable name="WP" as="xs:integer" select="count($dem_docs//war[@tone = 'P'])"/>
-    <xsl:variable name="WN" as="xs:integer" select="count($dem_docs//war[@tone = 'N'])"/>
-    <xsl:variable name="JP" as="xs:integer" select="count($dem_docs//jobs[@tone = 'P'])"/>
-    <xsl:variable name="JN" as="xs:integer" select="count($dem_docs//jobs[@tone = 'N'])"/>
-    <xsl:variable name="IP" as="xs:integer" select="count($dem_docs//immigration[@tone = 'P'])"/>
-    <xsl:variable name="IN" as="xs:integer" select="count($dem_docs//immigration[@tone = 'N'])"/>
-    <xsl:variable name="UP" as="xs:integer" select="count($dem_docs//unity[@tone = 'P'])"/>
-    <xsl:variable name="UN" as="xs:integer" select="count($dem_docs//unity[@tone = 'N'])"/>
-    <xsl:variable name="EDP" as="xs:integer" select="count($dem_docs//education[@tone = 'P'])"/>
-    <xsl:variable name="EDN" as="xs:integer" select="count($dem_docs//education[@tone = 'N'])"/>
-    <xsl:variable name="PHP" as="xs:integer" select="count($dem_docs//public_health[@tone = 'P'])"/>
-    <xsl:variable name="PHN" as="xs:integer" select="count($dem_docs//public_health[@tone = 'N'])"/>
-    <xsl:variable name="PREDP" as="xs:integer" select="count($dem_docs//pred[@tone = 'P'])"/>
-    <xsl:variable name="PREDN" as="xs:integer" select="count($dem_docs//pred[@tone = 'N'])"/>
-    <xsl:variable name="CJP" as="xs:integer" select="count($dem_docs//criminal_justice[@tone = 'P'])"/>
-    <xsl:variable name="CJN" as="xs:integer" select="count($dem_docs//criminal_justice[@tone = 'N'])"/>
+    <xsl:variable name="rep_docs" select="collection('../data/Republican_Presidents?select=*.xml')"/>
+    <xsl:variable name="EP" as="xs:integer" select="count($rep_docs//economy[@tone = 'P'])"/>
+    <xsl:variable name="EN" as="xs:integer" select="count($rep_docs//economy[@tone = 'N'])"/>
+    <xsl:variable name="WP" as="xs:integer" select="count($rep_docs//war[@tone = 'P'])"/>
+    <xsl:variable name="WN" as="xs:integer" select="count($rep_docs//war[@tone = 'N'])"/>
+    <xsl:variable name="JP" as="xs:integer" select="count($rep_docs//jobs[@tone = 'P'])"/>
+    <xsl:variable name="JN" as="xs:integer" select="count($rep_docs//jobs[@tone = 'N'])"/>
+    <xsl:variable name="IP" as="xs:integer" select="count($rep_docs//immigration[@tone = 'P'])"/>
+    <xsl:variable name="IN" as="xs:integer" select="count($rep_docs//immigration[@tone = 'N'])"/>
+    <xsl:variable name="UP" as="xs:integer" select="count($rep_docs//unity[@tone = 'P'])"/>
+    <xsl:variable name="UN" as="xs:integer" select="count($rep_docs//unity[@tone = 'N'])"/>
+    <xsl:variable name="EDP" as="xs:integer" select="count($rep_docs//education[@tone = 'P'])"/>
+    <xsl:variable name="EDN" as="xs:integer" select="count($rep_docs//education[@tone = 'N'])"/>
+    <xsl:variable name="PHP" as="xs:integer" select="count($rep_docs//public_health[@tone = 'P'])"/>
+    <xsl:variable name="PHN" as="xs:integer" select="count($rep_docs//public_health[@tone = 'N'])"/>
+    <xsl:variable name="PREDP" as="xs:integer" select="count($rep_docs//pred[@tone = 'P'])"/>
+    <xsl:variable name="PREDN" as="xs:integer" select="count($rep_docs//pred[@tone = 'N'])"/>
+    <xsl:variable name="CJP" as="xs:integer" select="count($rep_docs//criminal_justice[@tone = 'P'])"/>
+    <xsl:variable name="CJN" as="xs:integer" select="count($rep_docs//criminal_justice[@tone = 'N'])"/>
     
     <xsl:variable name="x" as="xs:integer" select="400"/>
     <xsl:variable name="y1" as="xs:integer" select="-600"/>
@@ -34,7 +34,7 @@
     <xsl:template match="/">
         <svg height="1500" width="1500" viewBox="-100, -650, 1500, 1500">
             <text x="{$x}" y="{$y1 - 25}" text-anchor="middle" font-weight="bold" font-size="large" stroke="black">
-                Democratic Presidents Positive and Negative Butterfly Graph
+                Republican Presidents Positive and Negative Butterfly Graph
             </text>
             <line x1="{$x}" x2="{$x}" y1="{$y1}" y2="{$y2}" stroke="black"/>
             <rect x="{$x}" y="-575" width="{$EP*$multiple}" height="{$bar_height}" fill="{$positive_color}"/>
