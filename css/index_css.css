@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background: aliceblue;
     border: solid firebrick;
     border-width: thick;
     border-radius: 20px;
@@ -75,8 +75,8 @@ h2 {
     border-bottom: solid firebrick;
     border-width: 5px;
 }
-.item {
-    display: inline-block;
+div.item {
+    display: block;
     background: white;
     padding: 15px;
     margin: 30px;
@@ -85,14 +85,25 @@ h2 {
     border-width: 3px;
 }
 .container {
+    display: block;
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: aliceblue;
 }
 .row {
     display: inline-block;
     width: 30%;
     padding: 10px;
+}
+.license {
+    color: dimgray;
+    background: white;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+    border-top: solid firebrick;
+    text-align: center;
+    border-width: 3px;
 }
 .bioR {
     display: inline-block;
